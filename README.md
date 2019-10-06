@@ -2,7 +2,7 @@
     
 ## App Outlet  | [![Build Status](https://travis-ci.org/app-outlet/app-outlet.svg?branch=master)](https://travis-ci.org/app-outlet/app-outlet)
 
-App Outlet is a Universal application store inspired on the Linux App Store online service. It easily allows you to search and download [W.I.P] applications that runs on most Linux distributions. It currently works with AppImages, Flatpaks and Snaps.
+App Outlet is a Universal application store inspired by the Linux App Store online service. It allows you to easily search and download [W.I.P] applications that run on most Linux distributions. It currently works with AppImages, Flatpaks and Snaps.
 
 ![Screenshot](https://github.com/app-outlet/app-outlet/raw/master/src/assets/screenshot.png)
 
@@ -60,8 +60,8 @@ npm run electron:linux
 ```
 This command will generate:
 - An AppImage file 
-- An .deb file
-- An .snap file
+- A .deb file
+- A .snap file
 - A folder `linux-unpacked` folder with the unpacked app
 
 ***PS: In the future we also will have a Flatpak version***
