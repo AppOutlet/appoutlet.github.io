@@ -1,5 +1,5 @@
 ![Banner](https://github.com/app-outlet/app-outlet/raw/master/src/assets/banner.png)
-    
+
 ## App Outlet  | [![Build Status](https://travis-ci.org/app-outlet/app-outlet.svg?branch=master)](https://travis-ci.org/app-outlet/app-outlet)
 
 App Outlet is a Universal application store inspired by the Linux App Store online service. It allows you to easily search and download [W.I.P] applications that run on most Linux distributions. It currently works with AppImages, Flatpaks and Snaps.
@@ -18,7 +18,7 @@ You can also get the unpacked version here:
 
 [![Get unpacked version](https://github.com/app-outlet/app-outlet/raw/master/src/assets/unpacked.png)](https://appoutlet.herokuapp.com/download/unpacked)
 
-If your distro doesn't support the available packages you can dowload and compile the source code following the instructions below. 
+If your distro doesn't support the available packages you can dowload and compile the source code following the instructions below.
 
 ## Who is talking about us?
 - [Diolinux (in portuguese)](https://www.diolinux.com.br/2019/10/app-outlet-o-sucessor-do-linux-app-store-loja-snap-appimage-flatpak.html)
@@ -28,7 +28,7 @@ If your distro doesn't support the available packages you can dowload and compil
 
 
 ## Runing and building the app
-You can run or build App Outlet by yourself. You can build in Linux, Windows or Mac OS but the software install features will work only in linux systems. 
+You can run or build App Outlet by yourself. You can build in Linux, Windows or Mac OS but the software install features will work only in linux systems.
 
 ### Setting up the project
 #### Step 1: Installing system dependencies
@@ -59,7 +59,7 @@ npm run start
 npm run electron:linux
 ```
 This command will generate:
-- An AppImage file 
+- An AppImage file
 - A .deb file
 - A .snap file
 - A folder `linux-unpacked` folder with the unpacked app
@@ -71,4 +71,3 @@ This command will generate:
 ## Third part stuff:
 - Icon made by [martz90](https://www.deviantart.com/martz90) from [deviantart.com](https://www.deviantart.com/martz90/art/Light-Icons-Pack-379943080)
 - Initial project started using [angular-electron boilerplate](https://github.com/maximegris/angular-electron)
-
