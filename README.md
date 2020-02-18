@@ -30,6 +30,10 @@ If your distro doesn't support the available packages you can dowload and compil
 ## Runing and building the app
 You can run or build App Outlet by yourself. You can build in Linux, Windows or Mac OS but the software install features will work only in linux systems.
 
+### App source code
+#### Step 0: viewing source code
+Feel free to view the github repo here: [https://github.com/app-outlet/app-outlet](https://github.com/app-outlet/app-outlet)
+
 ### Setting up the project
 #### Step 1: Installing system dependencies
 You will need the following tools:
