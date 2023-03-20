@@ -3,7 +3,7 @@
     <title>AppOutlet</title>
     <link href="https://appoutlet.github.io/feed.xml" rel="self" />
     <link href="https://appoutlet.github.io" />
-    <updated>2022-07-28T17:22:30+01:00</updated>
+    <updated>2023-03-20T17:16:44+00:00</updated>
     <author>
         <name>messiaslima</name>
     </author>
@@ -20,7 +20,7 @@
             <category term="Release"/>
             <category term="Karavel"/>
 
-        <updated>2022-07-28T17:22:30+01:00</updated>
+        <updated>2023-03-20T17:16:44+00:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://appoutlet.github.io/media/posts/5/pexels-miguel-a-padrinan-19678.jpg" alt="A paper boat" />
@@ -35,7 +35,7 @@
 <p>The first version of Karavel was available only over Jitpack package registry. The version 1.0.2 (and the next ones) can be downloaded direcly from maven central repository.</p>
 <h2 id="other-improvements">Other improvements</h2>
 <p>Besides that the new release also has new versions of Kotlin and Compose dependencies.</p>
-<p>You can checkout karavel documentation an code on <a href="https://github.com/app-outlet/karavel">Karavel github repository</a></p>
+<p>You can checkout karavel documentation an code on <a href="https://github.com/appoutlet/karavel">Karavel github repository</a></p>
 <p>If you are developing desktop applications with compose, please consider using Karavel to navigate between your composables!</p>
 <p>See you next time! ⛵️</p>
 <h3 id="some-useful-links">Some useful links</h3>
@@ -97,7 +97,7 @@
             <category term="Article"/>
             <category term="App Outlet"/>
 
-        <updated>2022-07-28T17:00:45+01:00</updated>
+        <updated>2023-03-20T17:14:43+00:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://appoutlet.github.io/media/posts/3/1_-XfMtgzZS34QxPgYXTNLXw-2.png" alt="" />
@@ -131,16 +131,16 @@
 </div>
 <div class="ie if ig ih ii">
 <p id="015e" class="pw-post-body-paragraph jw jx il jy b jz ka kb kc kd ke kf kg kh ki kj kk kl km kn ko kp kq kr ks kt ie gm" data-selectable-paragraph="">Feel free to download it, test it and give you feedback to us.</p>
-<p id="8b60" class="pw-post-body-paragraph jw jx il jy b jz ka kb kc kd ke kf kg kh ki kj kk kl km kn ko kp kq kr ks kt ie gm" data-selectable-paragraph="">If you are interested to contribute to the project, you can see the source code and a lot of other stuff on the <a class="au mc" href="https://github.com/app-outlet/app-outlet/" rel="noopener ugc nofollow" target="_blank">Github repository</a>.</p>
+<p id="8b60" class="pw-post-body-paragraph jw jx il jy b jz ka kb kc kd ke kf kg kh ki kj kk kl km kn ko kp kq kr ks kt ie gm" data-selectable-paragraph="">If you are interested to contribute to the project, you can see the source code and a lot of other stuff on the <a href="https://github.com/appoutlet/appoutlet/" target="_blank" rel="nofollow ugc noopener noreferrer">Github repository</a>.</p>
 <h1 id="4898" class="ku kv il bo kw kx mp kz la lb mq ld le lf mr lh li lj ms ll lm ln mt lp lq lr gm" data-selectable-paragraph="">References</h1>
 <ul class="">
 <li id="2fb5" class="mu mv il jy b jz ls kd lt kh mw kl mx kp my kt mz na nb nc gm" data-selectable-paragraph=""><a class="au mc" href="https://docs.flatpak.org/en/latest/introduction.html#reasons-to-use-flatpak" rel="noopener ugc nofollow" target="_blank">https://docs.flatpak.org/en/latest/introduction.html#reasons-to-use-flatpak</a></li>
 <li id="4cf5" class="mu mv il jy b jz nd kd ne kh nf kl ng kp nh kt mz na nb nc gm" data-selectable-paragraph=""><a class="au mc" href="https://snapcraft.io/store" rel="noopener ugc nofollow" target="_blank">https://snapcraft.io/store</a></li>
 <li id="e11e" class="mu mv il jy b jz nd kd ne kh nf kl ng kp nh kt mz na nb nc gm" data-selectable-paragraph=""><a class="au mc" href="https://flathub.org/home" rel="noopener ugc nofollow" target="_blank">https://flathub.org/home</a></li>
-<li id="1c96" class="mu mv il jy b jz nd kd ne kh nf kl ng kp nh kt mz na nb nc gm" data-selectable-paragraph=""><a class="au mc" href="https://app-outlet.github.io/" rel="noopener ugc nofollow" target="_blank">https://app-outlet.github.io/</a></li>
+<li id="1c96" class="mu mv il jy b jz nd kd ne kh nf kl ng kp nh kt mz na nb nc gm" data-selectable-paragraph=""><a href="https://appoutlet.github.io/" target="_blank" rel="nofollow ugc noopener noreferrer">https://appoutlet.github.io/</a></li>
 <li id="0b62" class="mu mv il jy b jz nd kd ne kh nf kl ng kp nh kt mz na nb nc gm" data-selectable-paragraph=""><a class="au mc" href="https://www.appimagehub.com/" rel="noopener ugc nofollow" target="_blank">https://www.appimagehub.com/</a></li>
 <li id="04f1" class="mu mv il jy b jz nd kd ne kh nf kl ng kp nh kt mz na nb nc gm" data-selectable-paragraph=""><a class="au mc" href="https://appimage.github.io/apps/" rel="noopener ugc nofollow" target="_blank">https://appimage.github.io/apps/</a></li>
-<li id="c21f" class="mu mv il jy b jz nd kd ne kh nf kl ng kp nh kt mz na nb nc gm" data-selectable-paragraph=""><a class="au mc" href="https://github.com/app-outlet/app-outlet/" rel="noopener ugc nofollow" target="_blank">https://github.com/app-outlet/app-outlet/</a></li>
+<li id="c21f" class="mu mv il jy b jz nd kd ne kh nf kl ng kp nh kt mz na nb nc gm" data-selectable-paragraph=""><a href="https://github.com/appoutlet/appoutlet/" target="_blank" rel="nofollow ugc noopener noreferrer">https://github.com/appoutlet/appoutlet/</a></li>
 </ul>
 </div>
             ]]>
@@ -188,7 +188,7 @@
             <category term="Release"/>
             <category term="App Outlet"/>
 
-        <updated>2022-07-28T16:55:48+01:00</updated>
+        <updated>2023-03-20T17:12:30+00:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://appoutlet.github.io/media/posts/1/Screenshot-2022-02-28-at-20.51.16.png" alt="" />
@@ -210,9 +210,9 @@
 <p>We updated the Angular and other dependencies. Angular was updated to version 13.</p>
 <h4 id="snaps-removal">Snaps removal</h4>
 <p>Due to an update on snapcraft API, we had to remove the snaps from the store. We are already working on a solution</p>
-<p>the detailed change log can be found <a href="https://github.com/app-outlet/app-outlet/releases/tag/v2.0.3">here</a></p>
+<p>the detailed change log can be found <a href="https://github.com/appoutlet/appoutlet/releases/tag/v2.0.3">here</a></p>
 <h3 id="are-you-curious-to-try-out-the-version-203">Are you curious to try out the version 2.0.3?</h3>
-<p>Dowload it <a href="https://github.com/app-outlet/app-outlet/releases/tag/v2.0.3">here</a>! </p>
+<p>Dowload it <a href="https://github.com/appoutlet/appoutlet/releases/tag/v2.0.3">here</a>! </p>
 
             ]]>
         </content>
