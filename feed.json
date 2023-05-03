@@ -10,6 +10,21 @@
     },
     "items": [
         {
+            "id": "https://appoutlet.github.io/gameoutlet-101/",
+            "url": "https://appoutlet.github.io/gameoutlet-101/",
+            "title": "GameOutlet 1.0.1",
+            "summary": "The AppOutlet team is proud to announce that we have released the first version of the GameOutlet. GameOutlet is a&hellip;",
+            "content_html": "<p>The AppOutlet team is proud to announce that we have released the first version of the GameOutlet.</p>\n<p>GameOutlet is a application that works like an aggregator of the best prices from the most popular PC games online stores.</p>\n<h2>Features</h2>\n<p>In this version you can</p>\n<ul>\n<li>See the latests deals</li>\n<li>See the deals from a game and be taken to the store page</li>\n<li>Search by your favourite game</li>\n</ul>\n<h2>Future</h2>\n<p>In the future, we are planning to add more features like:</p>\n<ul>\n<li>Wishlist</li>\n<li>Alerts</li>\n<li>Deals sharing</li>\n</ul>\n<p>as well as an Windows version.</p>\n<p>For more information, please see the <a href=\"https://github.com/AppOutlet/GameOutlet\" target=\"_blank\" rel=\"noopener noreferrer\">project page in Github</a></p>\n<p>Thank you!</p>\n<p> </p>",
+            "image": "https://appoutlet.github.io/media/posts/6/232879665-a5344791-aaac-43ef-ae29-3f5c32f7f06b.png",
+            "author": {
+                "name": "messiaslima"
+            },
+            "tags": [
+            ],
+            "date_published": "2023-05-02T19:54:48+01:00",
+            "date_modified": "2023-05-03T10:25:49+01:00"
+        },
+        {
             "id": "https://appoutlet.github.io/karavel-102-was-released/",
             "url": "https://appoutlet.github.io/karavel-102-was-released/",
             "title": "🎊️ Karavel 1.0.2 was released!",
