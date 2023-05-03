@@ -20,9 +20,11 @@
                 "name": "messiaslima"
             },
             "tags": [
+                   "GameOutlet",
+                   "Announcement"
             ],
             "date_published": "2023-05-02T19:54:48+01:00",
-            "date_modified": "2023-05-03T10:25:49+01:00"
+            "date_modified": "2023-05-03T10:26:45+01:00"
         },
         {
             "id": "https://appoutlet.github.io/karavel-102-was-released/",
@@ -53,7 +55,7 @@
             },
             "tags": [
                    "Release",
-                   "App Outlet"
+                   "AppOutlet"
             ],
             "date_published": "2022-05-16T11:53:22+01:00",
             "date_modified": "2022-07-28T16:54:57+01:00"
@@ -70,7 +72,7 @@
             },
             "tags": [
                    "Article",
-                   "App Outlet"
+                   "AppOutlet"
             ],
             "date_published": "2022-03-31T14:48:51+01:00",
             "date_modified": "2023-03-20T17:14:43+00:00"
@@ -103,7 +105,7 @@
             },
             "tags": [
                    "Release",
-                   "App Outlet"
+                   "AppOutlet"
             ],
             "date_published": "2022-02-28T20:26:40+00:00",
             "date_modified": "2023-03-20T17:12:30+00:00"

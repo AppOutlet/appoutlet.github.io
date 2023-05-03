@@ -3,7 +3,7 @@
     <title>AppOutlet</title>
     <link href="https://appoutlet.github.io/feed.xml" rel="self" />
     <link href="https://appoutlet.github.io" />
-    <updated>2023-05-03T10:25:49+01:00</updated>
+    <updated>2023-05-03T10:26:45+01:00</updated>
     <author>
         <name>messiaslima</name>
     </author>
@@ -17,8 +17,10 @@
         <link href="https://appoutlet.github.io/gameoutlet-101/"/>
         <id>https://appoutlet.github.io/gameoutlet-101/</id>
         <media:content url="https://appoutlet.github.io/media/posts/6/232879665-a5344791-aaac-43ef-ae29-3f5c32f7f06b.png" medium="image" />
+            <category term="GameOutlet"/>
+            <category term="Announcement"/>
 
-        <updated>2023-05-03T10:25:49+01:00</updated>
+        <updated>2023-05-03T10:26:45+01:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://appoutlet.github.io/media/posts/6/232879665-a5344791-aaac-43ef-ae29-3f5c32f7f06b.png" alt="GameOutlet Latest deals" />
@@ -98,7 +100,7 @@
         <id>https://appoutlet.github.io/the-version-210-was-released/</id>
         <media:content url="https://appoutlet.github.io/media/posts/4/Screenshot-2022-05-16-at-11.08.36-2.png" medium="image" />
             <category term="Release"/>
-            <category term="App Outlet"/>
+            <category term="AppOutlet"/>
 
         <updated>2022-07-28T16:54:57+01:00</updated>
             <summary>
@@ -137,7 +139,7 @@
         <id>https://appoutlet.github.io/app-outlet-a-universal-linux-app-store/</id>
         <media:content url="https://appoutlet.github.io/media/posts/3/1_-XfMtgzZS34QxPgYXTNLXw-2.png" medium="image" />
             <category term="Article"/>
-            <category term="App Outlet"/>
+            <category term="AppOutlet"/>
 
         <updated>2023-03-20T17:14:43+00:00</updated>
             <summary>
@@ -228,7 +230,7 @@
         <id>https://appoutlet.github.io/the-version-203-was-released/</id>
         <media:content url="https://appoutlet.github.io/media/posts/1/Screenshot-2022-02-28-at-20.51.16.png" medium="image" />
             <category term="Release"/>
-            <category term="App Outlet"/>
+            <category term="AppOutlet"/>
 
         <updated>2023-03-20T17:12:30+00:00</updated>
             <summary>
