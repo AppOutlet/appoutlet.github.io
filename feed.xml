@@ -3,12 +3,55 @@
     <title>AppOutlet</title>
     <link href="https://appoutlet.github.io/feed.xml" rel="self" />
     <link href="https://appoutlet.github.io" />
-    <updated>2023-05-03T10:26:45+01:00</updated>
+    <updated>2023-05-29T10:18:57+01:00</updated>
     <author>
         <name>messiaslima</name>
     </author>
     <id>https://appoutlet.github.io</id>
 
+    <entry>
+        <title>GameOutlet 1.1.3</title>
+        <author>
+            <name>messiaslima</name>
+        </author>
+        <link href="https://appoutlet.github.io/gameoutlet-113/"/>
+        <id>https://appoutlet.github.io/gameoutlet-113/</id>
+        <media:content url="https://appoutlet.github.io/media/posts/7/Design-sem-nome.png" medium="image" />
+            <category term="Release"/>
+            <category term="GameOutlet"/>
+
+        <updated>2023-05-29T10:18:57+01:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://appoutlet.github.io/media/posts/7/Design-sem-nome.png" alt="" />
+                    This week we released version 1.1.3 with improvements in the game screen and a new feature "Wishlist". There is some&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://appoutlet.github.io/media/posts/7/Design-sem-nome.png" class="type:primaryImage" alt="" /></p>
+                <p>This week we released version 1.1.3 with improvements in the game screen and a new feature "Wishlist".</p>
+<h2>The game details screen</h2>
+<figure class="post__image"><img loading="lazy"  src="https://appoutlet.github.io/media/posts/7/Screenshot-2023-05-29-at-10.04.16.png" alt="" width="968" height="802" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://appoutlet.github.io/media/posts/7/responsive/Screenshot-2023-05-29-at-10.04.16-xs.png 300w ,https://appoutlet.github.io/media/posts/7/responsive/Screenshot-2023-05-29-at-10.04.16-sm.png 480w ,https://appoutlet.github.io/media/posts/7/responsive/Screenshot-2023-05-29-at-10.04.16-md.png 768w"></figure>
+<p>There is some visual changes:</p>
+<ul>
+<li class="align-left">Now we have a toolbar with the "navigation back" icon, the game title and a option to add this game to de favories. This last part works with the new feature. "Wishlist"</li>
+<li class="align-left">The deals list is more clean and shows the "FREE" label when the game is free</li>
+</ul>
+<h2>Wishlist</h2>
+<figure class="post__image"><img loading="lazy"  src="https://appoutlet.github.io/media/posts/7/Screenshot-2023-05-29-at-10.07.58.png" alt="" width="968" height="802" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://appoutlet.github.io/media/posts/7/responsive/Screenshot-2023-05-29-at-10.07.58-xs.png 300w ,https://appoutlet.github.io/media/posts/7/responsive/Screenshot-2023-05-29-at-10.07.58-sm.png 480w ,https://appoutlet.github.io/media/posts/7/responsive/Screenshot-2023-05-29-at-10.07.58-md.png 768w"></figure>
+<p>We are introducing the wishlist in this release. A screen where the user can see its favorite games. </p>
+<h2>Windows support</h2>
+<p>After some time of investigation, I finally was able to find the problem that prevents us from running a release version of GameOutlet in Windows hosts. The issues were already solved and we have a usable Windows version.</p>
+<p>We also applied a change to make the Windows title bar integrated into the application background.</p>
+<figure class="post__image"><img loading="lazy"  src="https://appoutlet.github.io/media/posts/7/wind.png" alt="" width="986" height="683" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://appoutlet.github.io/media/posts/7/responsive/wind-xs.png 300w ,https://appoutlet.github.io/media/posts/7/responsive/wind-sm.png 480w ,https://appoutlet.github.io/media/posts/7/responsive/wind-md.png 768w"></figure>
+<p>These were the updates for this version.</p>
+<p>You can download the current version of GameOutlet in the link below </p>
+<p><button>Download GameOutlet</button></p>
+<p>Thank you! See you next time 👋</p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>GameOutlet 1.0.1</title>
         <author>
