@@ -10,6 +10,23 @@
     },
     "items": [
         {
+            "id": "https://appoutlet.github.io/karavel-discontinuation/",
+            "url": "https://appoutlet.github.io/karavel-discontinuation/",
+            "title": "Karavel discontinuation",
+            "summary": "📢 Dear Karavel users, I hope this message finds you well. Today, I have an important announcement to share with&hellip;",
+            "content_html": "<p>📢 Dear Karavel users,</p>\n<p>I hope this message finds you well. Today, I have an important announcement to share with you regarding the future of Karavel, the navigation library for Jetpack Compose applications.</p>\n<p>After careful consideration, we have made the difficult decision to discontinue the development and maintenance of Karavel. Our team consists of only one person, and with the increasing demands of managing our other applications, AppOutlet and GameOutlet, it has become challenging to allocate the necessary resources to maintain Karavel effectively.</p>\n<p>We understand that this news may come as a disappointment to many of you who have come to rely on Karavel for your Jetpack Compose projects. However, we believe it's crucial to prioritize the quality and sustainability of our existing applications.</p>\n<p>But fret not! We have some excellent alternatives to recommend, which are well-maintained and more mature: Voyager (<a href=\"https://voyager.adriel.cafe/\" target=\"_new\">https://voyager.adriel.cafe/</a>) and Decompose (<a href=\"https://arkivanov.github.io/Decompose/\" target=\"_new\">https://arkivanov.github.io/Decompose/</a>). These libraries offer robust navigation solutions for Jetpack Compose applications and are backed by dedicated teams committed to their continued development.</p>\n<p>Thank you for your understanding and for being a part of our journey. We remain dedicated to delivering exceptional experiences with our other applications, and we are excited to see what you will create with Voyager or Decompose. Should you have any questions or need assistance during the transition, please don't hesitate to reach out.</p>\n<p>Wishing you continued success and happy coding!</p>\n<p>Best regards, Messias Junior from AppOutlet team</p>",
+            "image": "https://appoutlet.github.io/media/posts/8/bUWaX6oVIgXJ8t9HltRJ-1-ayi38.jpg",
+            "author": {
+                "name": "messiaslima"
+            },
+            "tags": [
+                   "Karavel",
+                   "Announcement"
+            ],
+            "date_published": "2023-05-29T11:19:04+01:00",
+            "date_modified": "2023-05-29T11:19:38+01:00"
+        },
+        {
             "id": "https://appoutlet.github.io/gameoutlet-113/",
             "url": "https://appoutlet.github.io/gameoutlet-113/",
             "title": "GameOutlet 1.1.3",

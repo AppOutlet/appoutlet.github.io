@@ -3,12 +3,44 @@
     <title>AppOutlet</title>
     <link href="https://appoutlet.github.io/feed.xml" rel="self" />
     <link href="https://appoutlet.github.io" />
-    <updated>2023-05-29T10:18:57+01:00</updated>
+    <updated>2023-05-29T11:19:38+01:00</updated>
     <author>
         <name>messiaslima</name>
     </author>
     <id>https://appoutlet.github.io</id>
 
+    <entry>
+        <title>Karavel discontinuation</title>
+        <author>
+            <name>messiaslima</name>
+        </author>
+        <link href="https://appoutlet.github.io/karavel-discontinuation/"/>
+        <id>https://appoutlet.github.io/karavel-discontinuation/</id>
+        <media:content url="https://appoutlet.github.io/media/posts/8/bUWaX6oVIgXJ8t9HltRJ-1-ayi38.jpg" medium="image" />
+            <category term="Karavel"/>
+            <category term="Announcement"/>
+
+        <updated>2023-05-29T11:19:38+01:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://appoutlet.github.io/media/posts/8/bUWaX6oVIgXJ8t9HltRJ-1-ayi38.jpg" alt="" />
+                    📢 Dear Karavel users, I hope this message finds you well. Today, I have an important announcement to share with&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://appoutlet.github.io/media/posts/8/bUWaX6oVIgXJ8t9HltRJ-1-ayi38.jpg" class="type:primaryImage" alt="" /></p>
+                <p>📢 Dear Karavel users,</p>
+<p>I hope this message finds you well. Today, I have an important announcement to share with you regarding the future of Karavel, the navigation library for Jetpack Compose applications.</p>
+<p>After careful consideration, we have made the difficult decision to discontinue the development and maintenance of Karavel. Our team consists of only one person, and with the increasing demands of managing our other applications, AppOutlet and GameOutlet, it has become challenging to allocate the necessary resources to maintain Karavel effectively.</p>
+<p>We understand that this news may come as a disappointment to many of you who have come to rely on Karavel for your Jetpack Compose projects. However, we believe it's crucial to prioritize the quality and sustainability of our existing applications.</p>
+<p>But fret not! We have some excellent alternatives to recommend, which are well-maintained and more mature: Voyager (<a href="https://voyager.adriel.cafe/" target="_new">https://voyager.adriel.cafe/</a>) and Decompose (<a href="https://arkivanov.github.io/Decompose/" target="_new">https://arkivanov.github.io/Decompose/</a>). These libraries offer robust navigation solutions for Jetpack Compose applications and are backed by dedicated teams committed to their continued development.</p>
+<p>Thank you for your understanding and for being a part of our journey. We remain dedicated to delivering exceptional experiences with our other applications, and we are excited to see what you will create with Voyager or Decompose. Should you have any questions or need assistance during the transition, please don't hesitate to reach out.</p>
+<p>Wishing you continued success and happy coding!</p>
+<p>Best regards, Messias Junior from AppOutlet team</p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>GameOutlet 1.1.3</title>
         <author>
