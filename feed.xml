@@ -3,12 +3,58 @@
     <title>AppOutlet</title>
     <link href="https://appoutlet.github.io/feed.xml" rel="self" />
     <link href="https://appoutlet.github.io" />
-    <updated>2023-05-29T11:19:38+01:00</updated>
+    <updated>2023-06-20T19:18:47+01:00</updated>
     <author>
         <name>messiaslima</name>
     </author>
     <id>https://appoutlet.github.io</id>
 
+    <entry>
+        <title>Introducing GameOutlet 1.3.1: More Themes, Enhanced About Screen, and Flathub Availability!</title>
+        <author>
+            <name>messiaslima</name>
+        </author>
+        <link href="https://appoutlet.github.io/introducing-gameoutlet-131-more-themes-enhanced-about-screen-and-flathub-availability/"/>
+        <id>https://appoutlet.github.io/introducing-gameoutlet-131-more-themes-enhanced-about-screen-and-flathub-availability/</id>
+        <media:content url="https://appoutlet.github.io/media/posts/9/carl-raw-m3hn2Kn5Bns-unsplash.jpg" medium="image" />
+
+        <updated>2023-06-20T19:18:47+01:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://appoutlet.github.io/media/posts/9/carl-raw-m3hn2Kn5Bns-unsplash.jpg" alt="" />
+                    We’re excited to announce the release of GameOutlet version 1.3.1, packed with new features and improvements to enhance your gaming&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://appoutlet.github.io/media/posts/9/carl-raw-m3hn2Kn5Bns-unsplash.jpg" class="type:primaryImage" alt="" /></p>
+                <p>We’re excited to announce the release of GameOutlet version 1.3.1, packed with new features and improvements to enhance your gaming experience! Download and install GameOutlet now to take advantage of these exciting updates.</p>
+<p><strong>New Features:</strong></p>
+<ol>
+<li><strong>Theme Selection</strong>: We believe personalization is key, so we’re introducing theme selection in GameOutlet! Choose between Light, Dark, or System Default themes to match your preferences and create a personalized gaming environment.</li>
+</ol>
+<p><figure class="post__image"><img loading="lazy" src="https://appoutlet.github.io/media/posts/9/Screenshot-2023-06-20-at-18.50.33.png" alt="Theme selection" width="1055" height="802"  sizes="(max-width: 48em) 100vw, 100vw" srcset="https://appoutlet.github.io/media/posts/9/responsive/Screenshot-2023-06-20-at-18.50.33-xs.png 300w ,https://appoutlet.github.io/media/posts/9/responsive/Screenshot-2023-06-20-at-18.50.33-sm.png 480w ,https://appoutlet.github.io/media/posts/9/responsive/Screenshot-2023-06-20-at-18.50.33-md.png 768w"></figure></p>
+<ol start="2">
+<li><strong>About Screen</strong>: Get to know GameOutlet better with our new About screen. Access information about the application, including the version, authors, and social media channels. We also provide convenient links to our donation channels for those who want to support the project.</li>
+</ol>
+<p><figure class="post__image"><img loading="lazy" src="https://appoutlet.github.io/media/posts/9/Screenshot-2023-06-20-at-18.54.31.png" alt="About screen" width="1112" height="802"  sizes="(max-width: 48em) 100vw, 100vw" srcset="https://appoutlet.github.io/media/posts/9/responsive/Screenshot-2023-06-20-at-18.54.31-xs.png 300w ,https://appoutlet.github.io/media/posts/9/responsive/Screenshot-2023-06-20-at-18.54.31-sm.png 480w ,https://appoutlet.github.io/media/posts/9/responsive/Screenshot-2023-06-20-at-18.54.31-md.png 768w"></figure></p>
+<p><strong>Available on Flathub:</strong></p>
+<p>We’re thrilled to announce that GameOutlet is now available on Flathub! Flathub is a popular platform for discovering and installing applications on various Linux distributions. Find GameOutlet on Flathub and enjoy seamless installation and updates for your favorite gaming deals app.</p>
+<p><strong>Other Improvements:</strong></p>
+<p>We’ve listened to your feedback and made some enhancements in GameOutlet 1.3.1:</p>
+<ul>
+<li><strong>Improved Translation</strong>: We’ve worked hard to improve the translation for Russian and Portuguese, ensuring a smoother and more localized experience for our users.</li>
+</ul>
+<p>We invite you to join our growing community of gamers and start exploring the world of fantastic gaming deals with GameOutlet. Don’t miss out on the latest promotions and discounts across multiple game stores!</p>
+<p>Download and install GameOutlet 1.3.1 today. </p>
+<p><a href='https://flathub.org/en-GB/apps/io.github.appoutlet.GameOutlet'><img loading="lazy" width='240' alt='Download on Flathub' src='https://dl.flathub.org/assets/badges/flathub-badge-en.png'</a</p>
+<p><a href="https://github.com/AppOutlet/GameOutlet/releases/latest"><figure class="post__image"><img loading="lazy" src="https://img.shields.io/github/v/tag/AppOutlet/GameOutlet?style=for-the-badge&logo=github&label=Download%20from%20Github%20releases&link=https%3A%2F%2Fgithub.com%2FAppOutlet%2FGameOutlet%2Freleases%2Ftag%2Flatest" alt="GitHub tag (latest SemVer pre-release)" /> data-is-external-image="true"></figure></a></p>
+<p>If you have any questions or feedback, feel free to reach out to us through our support channels.</p>
+<p>Let the gaming journey begin with GameOutlet!</p>
+
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Karavel discontinuation</title>
         <author>
@@ -52,7 +98,7 @@
             <category term="Release"/>
             <category term="GameOutlet"/>
 
-        <updated>2023-05-29T10:18:57+01:00</updated>
+        <updated>2023-06-20T19:02:17+01:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://appoutlet.github.io/media/posts/7/Design-sem-nome.png" alt="" />
@@ -79,7 +125,7 @@
 <figure class="post__image"><img loading="lazy"  src="https://appoutlet.github.io/media/posts/7/wind.png" alt="" width="986" height="683" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://appoutlet.github.io/media/posts/7/responsive/wind-xs.png 300w ,https://appoutlet.github.io/media/posts/7/responsive/wind-sm.png 480w ,https://appoutlet.github.io/media/posts/7/responsive/wind-md.png 768w"></figure>
 <p>These were the updates for this version.</p>
 <p>You can download the current version of GameOutlet in the link below </p>
-<p><button>Download GameOutlet</button></p>
+<p><a href="https://github.com/AppOutlet/GameOutlet/releases" target="_blank" rel="noopener noreferrer">Download GameOutlet</a></p>
 <p>Thank you! See you next time 👋</p>
             ]]>
         </content>
