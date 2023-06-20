@@ -3,7 +3,7 @@
     <title>AppOutlet</title>
     <link href="https://appoutlet.github.io/feed.xml" rel="self" />
     <link href="https://appoutlet.github.io" />
-    <updated>2023-06-20T19:18:47+01:00</updated>
+    <updated>2023-06-20T19:25:19+01:00</updated>
     <author>
         <name>messiaslima</name>
     </author>
@@ -17,8 +17,11 @@
         <link href="https://appoutlet.github.io/introducing-gameoutlet-131-more-themes-enhanced-about-screen-and-flathub-availability/"/>
         <id>https://appoutlet.github.io/introducing-gameoutlet-131-more-themes-enhanced-about-screen-and-flathub-availability/</id>
         <media:content url="https://appoutlet.github.io/media/posts/9/carl-raw-m3hn2Kn5Bns-unsplash.jpg" medium="image" />
+            <category term="Release"/>
+            <category term="GameOutlet"/>
+            <category term="Announcement"/>
 
-        <updated>2023-06-20T19:18:47+01:00</updated>
+        <updated>2023-06-20T19:25:19+01:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://appoutlet.github.io/media/posts/9/carl-raw-m3hn2Kn5Bns-unsplash.jpg" alt="" />
