@@ -3,14 +3,105 @@
     <title>AppOutlet</title>
     <link href="https://appoutlet.github.io/feed.xml" rel="self" />
     <link href="https://appoutlet.github.io" />
-    <updated>2023-06-20T19:25:19+01:00</updated>
+    <updated>2023-07-25T13:55:18+01:00</updated>
     <author>
         <name>messiaslima</name>
     </author>
     <id>https://appoutlet.github.io</id>
 
     <entry>
-        <title>Introducing GameOutlet 1.3.1: More Themes, Enhanced About Screen, and Flathub Availability!</title>
+        <title>Comment Policy: Promoting Respect and Inclusion at AppOutlet</title>
+        <author>
+            <name>messiaslima</name>
+        </author>
+        <link href="https://appoutlet.github.io/comment-policy-promoting-respect-and-inclusion-at-appoutlet/"/>
+        <id>https://appoutlet.github.io/comment-policy-promoting-respect-and-inclusion-at-appoutlet/</id>
+
+        <updated>2023-07-25T13:55:18+01:00</updated>
+            <summary>
+                <![CDATA[
+                    At AppOutlet, we believe in fostering a welcoming and inclusive community where everyone can engage in thoughtful discussions about technology.
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>At AppOutlet, we believe in fostering a welcoming and inclusive community where everyone can engage in thoughtful discussions about technology. We encourage our users to express their ideas, opinions, and expertise while maintaining a respectful and courteous environment. To achieve this goal, we have implemented the following comment policy:</p>
+<ol>
+<li>
+<p><strong>Be Kind and Respectful:</strong> Treat others with respect and empathy. Refrain from using offensive language, personal attacks, or any form of discrimination based on race, ethnicity, gender, sexual orientation, religion, or any other characteristic. Disagreements are natural, but express your opinions in a constructive manner.</p>
+</li>
+<li>
+<p><strong>Stay On Topic:</strong> We value relevant discussions related to technology and the topics covered in our articles. Please keep your comments focused and avoid straying into unrelated or divisive subjects.</p>
+</li>
+<li>
+<p><strong>No Spam or Self-Promotion:</strong> Avoid posting promotional content or spammy links. Our comment section is meant for meaningful contributions and discussions.</p>
+</li>
+<li>
+<p><strong>Cite Sources and Provide Evidence:</strong> When referencing facts, statistics, or information, cite credible sources to support your claims. Evidence-based discussions contribute to a more informed community.</p>
+</li>
+<li>
+<p><strong>Respect Privacy and Copyrights:</strong> Do not share personal information about others, and refrain from posting content that violates copyright or intellectual property rights.</p>
+</li>
+<li>
+<p><strong>Encourage Diversity of Thought:</strong> Embrace diverse perspectives and engage in discussions with an open mind. Different viewpoints enrich our community and lead to deeper insights.</p>
+</li>
+<li>
+<p><strong>Flag Inappropriate Content:</strong> Help us maintain a respectful environment by flagging comments that violate our policies. Our moderation team will review flagged content promptly.</p>
+</li>
+<li>
+<p><strong>Moderation Process:</strong> Our moderators will review comments to ensure they adhere to our guidelines. We reserve the right to remove comments that violate our policies. In cases of repeated violations, we may take further action, including warning users or disabling commenting privileges.</p>
+</li>
+<li>
+<p><strong>Contribute to a Safe Space:</strong> Be mindful that the internet is a global platform, and not everyone shares the same cultural background or experiences. Strive to create a safe and inclusive space for all participants.</p>
+</li>
+<li>
+<p><strong>Empower Each Other:</strong> If you witness disrespectful behaviour or notice someone feeling unwelcome, consider stepping in with a gentle reminder of our community guidelines. Encouraging each other to abide by the rules helps strengthen our community.</p>
+</li>
+</ol>
+<p>By participating in discussions on AppOutlet, you agree to adhere to this comment policy. We value your contributions and commitment to maintaining a respectful and inclusive atmosphere. Let's work together to make AppOutlet a place where everyone can feel comfortable sharing their ideas and learning from one another. Thank you for being a part of our community!</p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>🎮 Introducing GameOutlet v1.3.3 🚀</title>
+        <author>
+            <name>messiaslima</name>
+        </author>
+        <link href="https://appoutlet.github.io/introducing-gameoutlet-v133/"/>
+        <id>https://appoutlet.github.io/introducing-gameoutlet-v133/</id>
+        <media:content url="https://appoutlet.github.io/media/posts/10/Screenshot-2023-07-25-at-13.25.08-2.png" medium="image" />
+            <category term="Release"/>
+            <category term="GameOutlet"/>
+
+        <updated>2023-07-25T13:43:27+01:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://appoutlet.github.io/media/posts/10/Screenshot-2023-07-25-at-13.25.08-2.png" alt="" />
+                    We're thrilled to unveil the latest version of GameOutlet - your one-stop destination for unbeatable gaming deals and promotions! With&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://appoutlet.github.io/media/posts/10/Screenshot-2023-07-25-at-13.25.08-2.png" class="type:primaryImage" alt="" /></p>
+                <p>We're thrilled to unveil the latest version of GameOutlet - your one-stop destination for unbeatable gaming deals and promotions! With GameOutlet v1.3.3, we've raised the bar to make your gaming experience more thrilling, personalized, and convenient than ever before. Let's dive into the exciting updates that await you:</p>
+<h2><strong>1. Unleash Your</strong> Savings <strong>Power! 💰</strong></h2>
+<p>Ever wondered how much you're saving with each deal? Wonder no more! With GameOutlet v1.3.3, we're introducing a revolutionary feature that displays the percentage of savings you enjoy with every game purchase. Say goodbye to second-guessing and embrace gaming with confidence, knowing you're making the most of every discount!</p>
+<figure class="post__image"><img loading="lazy"  src="https://appoutlet.github.io/media/posts/10/Screenshot-2023-07-25-at-13.25.08.png" alt="" width="2694" height="1716" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://appoutlet.github.io/media/posts/10/responsive/Screenshot-2023-07-25-at-13.25.08-xs.png 300w ,https://appoutlet.github.io/media/posts/10/responsive/Screenshot-2023-07-25-at-13.25.08-sm.png 480w ,https://appoutlet.github.io/media/posts/10/responsive/Screenshot-2023-07-25-at-13.25.08-md.png 768w"><figcaption>Saving percentage</figcaption></figure>
+<p> </p>
+<h2><strong>2. Seamless Theme Adaptation 🎨</strong></h2>
+<p>Personalisation is the key to creating your perfect gaming environment. GameOutlet v1.3.3 now includes a listener to your system theme, allowing the application to dynamically adjust its theme to match yours. Whether you prefer a sleek Dark theme for late-night gaming or a bright Light theme to keep things fresh, GameOutlet adapts to your preferences in real-time!</p>
+<figure class="post__video"><iframe loading="lazy" width="560" height="314" src="https://www.youtube.com/embed/uH5OI0JXFG4" allowfullscreen="allowfullscreen" data-mce-fragment="1"></iframe></figure>
+<h2><strong>3. Enhanced Language Support 🌍</strong></h2>
+<p>We value diversity and inclusivity in our gaming community. That's why, with GameOutlet v1.3.3, we've doubled down on language support. Our improved Italian and Dutch language enhancements ensure a seamless and engaging experience for our Italian and Dutch-speaking users. Embrace the power of language and enjoy GameOutlet in your native tongue!</p>
+<h2><strong>Update Now &amp; Unleash the Power of GameOutlet!</strong></h2>
+<p>Get ready to immerse yourself in a world of gaming delights with GameOutlet v1.3.3. Download it now and share the excitement with your gaming community. Remember to leave your feedback, suggestions, and experiences; your input helps us to deliver the best.</p>
+<p><a href="https://github.com/AppOutlet/GameOutlet#download" target="_blank" rel="noopener noreferrer">Download GameOutlet</a></p>
+<p>GameOutlet v1.3.3 - Your gaming adventure awaits. Let's play together! 🎮✨</p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Introducing GameOutlet 1.3.1: Enhanced About Screen and Flathub Availability!</title>
         <author>
             <name>messiaslima</name>
         </author>
@@ -21,7 +112,7 @@
             <category term="GameOutlet"/>
             <category term="Announcement"/>
 
-        <updated>2023-06-20T19:25:19+01:00</updated>
+        <updated>2023-07-25T13:44:56+01:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://appoutlet.github.io/media/posts/9/carl-raw-m3hn2Kn5Bns-unsplash.jpg" alt="" />
@@ -341,46 +432,6 @@
 <p>Before creating this new account, we had an Patreon and an OpenCollective account. We decided to close it because we think that it does not fit our need like Ko-fi does.</p>
 <p>Feel free to give us some feedback! I would love to hear what you are thinking about it!</p>
 <p>Thank you for the support that you already give to us!</p>
-
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>🎉 The App Outlet v2.0.3 was released!</title>
-        <author>
-            <name>messiaslima</name>
-        </author>
-        <link href="https://appoutlet.github.io/the-version-203-was-released/"/>
-        <id>https://appoutlet.github.io/the-version-203-was-released/</id>
-        <media:content url="https://appoutlet.github.io/media/posts/1/Screenshot-2022-02-28-at-20.51.16.png" medium="image" />
-            <category term="Release"/>
-            <category term="AppOutlet"/>
-
-        <updated>2023-03-20T17:12:30+00:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://appoutlet.github.io/media/posts/1/Screenshot-2022-02-28-at-20.51.16.png" alt="" />
-                    On the version 2.0.3, we have some improvements, dependency updates and some temporary changes regarding snap packages. Now, on side&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://appoutlet.github.io/media/posts/1/Screenshot-2022-02-28-at-20.51.16.png" class="type:primaryImage" alt="" /></p>
-                <p>On the version 2.0.3, we have some improvements, dependency updates and some temporary changes regarding snap packages.</p>
-<h3 id="features">Features</h3>
-<h4 id="🏡-home-menu-item">🏡 Home menu item</h4>
-<p>Now, on side menu we have an option to take us to the application home
-<figure class="post__image"><img loading="lazy" src="https://appoutlet.github.io/media/posts/1/Screenshot-2022-02-28-at-20.39.43.png" alt="Image description" width="610" height="642"  sizes="(max-width: 48em) 100vw, 100vw" srcset="https://appoutlet.github.io/media/posts/1/responsive/Screenshot-2022-02-28-at-20.39.43-xs.png 300w ,https://appoutlet.github.io/media/posts/1/responsive/Screenshot-2022-02-28-at-20.39.43-sm.png 480w ,https://appoutlet.github.io/media/posts/1/responsive/Screenshot-2022-02-28-at-20.39.43-md.png 768w"></figure></p>
-<h4 id="🇨🇱-improving-support-to-latin-america-spanish">🇨🇱 Improving support to latin america spanish</h4>
-<p>Due to a collaboration of a supporter on the transifex, we improved the support to es-CL and es-419</p>
-<h3 id="other">Other</h3>
-<h4 id="update-version-of-angular-and-other-dependencies">Update version of Angular and other dependencies</h4>
-<p>We updated the Angular and other dependencies. Angular was updated to version 13.</p>
-<h4 id="snaps-removal">Snaps removal</h4>
-<p>Due to an update on snapcraft API, we had to remove the snaps from the store. We are already working on a solution</p>
-<p>the detailed change log can be found <a href="https://github.com/appoutlet/appoutlet/releases/tag/v2.0.3">here</a></p>
-<h3 id="are-you-curious-to-try-out-the-version-203">Are you curious to try out the version 2.0.3?</h3>
-<p>Dowload it <a href="https://github.com/appoutlet/appoutlet/releases/tag/v2.0.3">here</a>! </p>
 
             ]]>
         </content>
