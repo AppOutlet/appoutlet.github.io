@@ -3,12 +3,46 @@
     <title>AppOutlet</title>
     <link href="https://appoutlet.github.io/feed.xml" rel="self" />
     <link href="https://appoutlet.github.io" />
-    <updated>2023-07-25T14:05:49+01:00</updated>
+    <updated>2023-10-25T11:58:35+01:00</updated>
     <author>
         <name>messiaslima</name>
     </author>
     <id>https://appoutlet.github.io</id>
 
+    <entry>
+        <title>Saying Goodbye to AppOutlet: A New Chapter Begins</title>
+        <author>
+            <name>messiaslima</name>
+        </author>
+        <link href="https://appoutlet.github.io/saying-goodbye-to-appoutlet-a-new-chapter-begins/"/>
+        <id>https://appoutlet.github.io/saying-goodbye-to-appoutlet-a-new-chapter-begins/</id>
+        <media:content url="https://appoutlet.github.io/media/posts/12/_551c3cd4-9a93-40e5-9373-5a81a0360ad0.jpg" medium="image" />
+            <category term="GameOutlet"/>
+            <category term="Announcement"/>
+
+        <updated>2023-10-25T11:58:35+01:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://appoutlet.github.io/media/posts/12/_551c3cd4-9a93-40e5-9373-5a81a0360ad0.jpg" alt="" />
+                    We began our journey with a vision - to provide a platform that simplifies app discovery, making it easier for&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://appoutlet.github.io/media/posts/12/_551c3cd4-9a93-40e5-9373-5a81a0360ad0.jpg" class="type:primaryImage" alt="" /></p>
+                <p>We began our journey with a vision - to provide a platform that simplifies app discovery, making it easier for users to find and enjoy the software they love. AppOutlet was our labor of love, and it has been our pleasure to have you, our incredible community, along for the ride. Today, with mixed emotions, we have an important announcement to share.</p>
+<p>After careful consideration, we regret to inform you that we have made the challenging decision to discontinue the AppOutlet application. This wasn't an easy choice, and it's one we made with a heavy heart. We have cherished the support and enthusiasm you've shown for AppOutlet, and your feedback has been invaluable.</p>
+<p>We extend our heartfelt gratitude to each and every one of you. Your belief in our project, your passion for finding great software, and your dedication to the AppOutlet community have been our driving force. Your support has meant the world to us, and it's what makes this announcement so bittersweet.</p>
+<p>While we say goodbye to the AppOutlet application, we want to make it clear that the AppOutlet organization is not bidding farewell. We remain committed to our mission of creating innovative software solutions that enhance the digital experience.</p>
+<p>We're excited about the new opportunities that lie ahead. As we step into this next chapter, we will continue to develop and deliver software solutions that are engaging, user-friendly, and tailored to your needs. We're dedicated to building products that make a positive impact, and we can't wait to share our future projects with you.</p>
+<p>We invite you to stay connected with us. Please visit our website, where you'll find updates about our latest projects and endeavors. We value your ongoing support and look forward to sharing new, exciting developments with you. Together, we'll continue to explore the ever-evolving world of software and technology.</p>
+<p>In parting, we'd like to express our deepest gratitude to you - our users, our supporters, and our community. The journey doesn't end here; it evolves, and we're thrilled to have you with us on this new adventure.</p>
+<p>Thank you for being a part of the AppOutlet family. Farewell, but not goodbye.</p>
+<p>Sincerely,</p>
+<p>Messias Junior<br>Project lead @ AppOutlet</p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Comment Policy: Promoting Respect and Inclusion at AppOutlet</title>
         <author>
@@ -402,37 +436,6 @@
 <li id="c21f" class="mu mv il jy b jz nd kd ne kh nf kl ng kp nh kt mz na nb nc gm" data-selectable-paragraph=""><a href="https://github.com/appoutlet/appoutlet/" target="_blank" rel="nofollow ugc noopener noreferrer">https://github.com/appoutlet/appoutlet/</a></li>
 </ul>
 </div>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>☕️  Now you can buy me a coffee </title>
-        <author>
-            <name>messiaslima</name>
-        </author>
-        <link href="https://appoutlet.github.io/now-you-can-buy-me-a-coffee/"/>
-        <id>https://appoutlet.github.io/now-you-can-buy-me-a-coffee/</id>
-        <media:content url="https://appoutlet.github.io/media/posts/2/pexels-jason-villanueva-851555.jpeg" medium="image" />
-            <category term="Announcement"/>
-
-        <updated>2022-03-02T21:56:11+00:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://appoutlet.github.io/media/posts/2/pexels-jason-villanueva-851555.jpeg" alt="" />
-                    Aiming to make things easier and provide another way to the users support the App Outlet development, we created an&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://appoutlet.github.io/media/posts/2/pexels-jason-villanueva-851555.jpeg" class="type:primaryImage" alt="" /></p>
-                <p>Aiming to make things easier and provide another way to the users support the App Outlet development, we created an account on <a href="https://ko-fi/appoutlet">Ko-fi!</a></p>
-<p>We will use the Ko-fi platform to receive donations but also to share smaller and quick updates with the community. We will post the official anouncements here on this site.</p>
-<p><a href="https://ko-fi.com/E1E4BDSE7"><figure class="post__image"><img loading="lazy" src="https://ko-fi.com/img/githubbutton_sm.svg" alt="ko-fi"  data-is-external-image="true"></figure></a></p>
-<h3 id="what-happens-with-the-other-sponsoring-platforms">What happens with the other sponsoring platforms?</h3>
-<p>Before creating this new account, we had an Patreon and an OpenCollective account. We decided to close it because we think that it does not fit our need like Ko-fi does.</p>
-<p>Feel free to give us some feedback! I would love to hear what you are thinking about it!</p>
-<p>Thank you for the support that you already give to us!</p>
-
             ]]>
         </content>
     </entry>
