@@ -1816,10 +1816,10 @@ textarea {
   font-size: 0.7901234568rem;
   font-weight: var(--font-weight-bold);
 }
-.post__comments a {
+.post__comments > a {
   display: block;
 }
-.post__comments a svg {
+.post__comments > a svg {
   fill: currentColor;
   height: 16px;
   margin-right: 0.2rem;
@@ -2055,7 +2055,7 @@ textarea {
   margin-top: calc(2rem + 1vw);
   padding: 2.25rem;
 }
-.author__avatar {
+.bio__avatar {
   border-radius: var(--border-radius);
   -ms-flex-negative: 0;
       flex-shrink: 0;
@@ -2063,11 +2063,14 @@ textarea {
   margin-right: 1.75rem;
   width: 5rem;
 }
-.author__name {
+.bio__name {
   margin: 0;
 }
-.author__desc {
+.bio__desc {
   margin-top: 0.75rem;
+}
+.bio__desc > :nth-child(1) {
+  margin-top: 0;
 }
 
 .post__related {
