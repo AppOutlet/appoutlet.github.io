@@ -542,6 +542,13 @@
           
             <div class="pcb__buttons">
                 
+                <button 
+                    type="button" 
+                    class="pcb__btn pcb__btn--link pcb__btn--configure" 
+                    aria-haspopup="dialog">
+                    Manage preferences
+                </button>
+                
                 
                 <button 
                     type="button" 
@@ -553,6 +560,85 @@
     </div>
     <!-- End of Banner -->
 
+    
+    <!-- Start Popup -->
+    <div 
+        class="pcb__popup" 
+        role="dialog" 
+        aria-modal="true" 
+        aria-hidden="true" 
+        aria-labelledby="pcb-popup-title">
+        <div class="pcb__popup__wrapper">
+            <div class="pcb__inner pcb__popup__inner">
+                <div class="pcb__popup__heading">
+                    <div 
+                        id="pcb-popup-title" 
+                        role="heading" 
+                        aria-level="2"
+                        class="pcb__title">
+                        Cookie settings
+                    </div>
+                    <button class="pcb__popup__close" aria-label="Close"></button>
+                </div>
+             
+                <div class="pcb__popup__content">
+                    <div class="pcb__txt pcb__popup__txt">
+                        We use cookies to enhance your browsing experience, serve personalized ads or content, and analyze our traffic. By clicking "Accept All", you consent to our use of cookies.
+
+                        
+                        <a href="#not-specified">More details...</a>
+                        
+                    </div>
+                
+                    <ul class="pcb__groups">
+                        <li class="pcb__group">
+                    <details>
+                        <summary class="pcb__group__title no-desc">
+                            Required
+                        </summary>
+                        
+                    </details>
+                    <div class="pcb__popup__switch is-checked">
+                        <input 
+                            type="checkbox" 
+                            data-group-name=""
+                            id="pcb-group-0" 
+                            checked />
+                        <label for="pcb-group-0">Required</label>
+                    </div>
+                </li>
+            <li class="pcb__group">
+                <details>
+                    <summary class="pcb__group__title no-desc">
+                        Analytical
+                    </summary>
+                    
+                </details>
+                <div class="pcb__popup__switch">
+                    <input 
+                        type="checkbox"
+                        data-group-name="analytics"
+                        id="analytics-cookies" />
+                    <label for="analytics-cookies">
+                        Analytical
+                    </label>
+                </div>
+            </li>
+                    </ul>
+                </div>
+
+                <div class="pcb__buttons pcb__popup__buttons">
+                    <button type="button" class="pcb__btn pcb__btn--solid pcb__btn--accept">Accept all</button>
+                    <button type="button" class="pcb__btn pcb__btn--reject">Reject all</button>
+                    <button type="button" class="pcb__btn pcb__btn--save">Save settings</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End of Popup -->
+    <!-- Overlay -->
+    <div class="pcb__overlay" aria-hidden="true"></div>
+    <!-- End of Overlay -->
     
 
     
@@ -578,6 +664,14 @@
 <!-- End of main cookie container -->
 
         <script>
+            
+                window.dataLayer = window.dataLayer || [];
+                function gtag() { dataLayer.push(arguments); }
+
+                window.publiiCBGCM = {
+                    defaultState: {"ad_storage":true,"ad_personalization":true,"ad_user_data":true,"analytics_storage":true,"personalization_storage":true,"functionality_storage":true,"security_storage":true},
+                    groups: []
+                };
             
             (function(win) {
     if (!document.querySelector('.pcb')) {
