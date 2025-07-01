@@ -4,8 +4,9 @@ import { RouterOutlet } from '@angular/router';
 @Component({
   selector: 'app-root',
   imports: [RouterOutlet],
-  templateUrl: './app.html',
-  styleUrl: './app.scss'
+  templateUrl: './app.component.html',
+  styleUrl: './app.component.scss'
 })
-export class App {
+export class AppComponent {
+  title = 'appoutlet.github.io';
 }
