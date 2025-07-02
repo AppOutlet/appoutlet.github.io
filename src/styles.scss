@@ -18,6 +18,14 @@
   );
 }
 
+.brand-gradient-light {
+  background: linear-gradient(
+    to right,
+    hsla(var(--bulma-primary-h), var(--bulma-primary-s), var(--bulma-primary-l), .15),
+    hsla(var(--bulma-link-h), var(--bulma-link-s), var(--bulma-link-l), .15)
+  );
+}
+
 .brand-gradient-text {
   background: linear-gradient(
     to right,
