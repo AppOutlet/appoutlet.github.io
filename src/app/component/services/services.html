@@ -1,0 +1,33 @@
+<section id="services" class="py-6">
+  <div class="container px-4">
+
+    <h2 class="title is-2 px-3 has-text-centered">Our services</h2>
+    <p class="subtitle px-3 pt-2 has-text-centered">We offer complete solutions from initial concept to final launch,
+      ensuring your application
+      stands out and succeeds in today's competitive market.</p>
+
+    <div class="columns">
+      @for (item of services; track $index) {
+        <div class="column">
+
+          <div class="card">
+            <div class="card-content content">
+              <span class="rounded-icon">
+                <i class="ph {{ item.icon }}"></i>
+              </span>
+              <p class="title is-5">{{ item.title }}</p>
+              <p class="block">{{ item.description }}</p>
+              <ul class="block">
+                @for (feature of item.features; track $index) {
+                  <li>{{ feature }}</li>
+                }
+              </ul>
+            </div>
+          </div>
+
+        </div>
+      }
+    </div>
+
+  </div>
+</section>

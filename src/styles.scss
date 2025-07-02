@@ -24,6 +24,24 @@
     hsl(var(--bulma-primary-h), var(--bulma-primary-s), var(--bulma-primary-l)),
     hsl(var(--bulma-link-h), var(--bulma-link-s), var(--bulma-link-l))
   );
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+.rounded-icon {
+  width: 64px;
+  height: 64px;
+  display: block;
+  border-radius: 50%;
+  padding: 1rem;
+  background: linear-gradient(
+    to right,
+    hsla(var(--bulma-primary-h), var(--bulma-primary-s), var(--bulma-primary-l), .3),
+    hsla(var(--bulma-link-h), var(--bulma-link-s), var(--bulma-link-l), .3)
+  );
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  align-content: center;
+  font-size: 36px;
+}
+
