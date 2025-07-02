@@ -1,0 +1,32 @@
+<nav class="navbar">
+  <div class="navbar-brand">
+    <a class="navbar-item" href="/">
+      <img src="image/nav/logo.png" alt="AppOutlet Logo">
+      <span class="title is-4">AppOutlet</span>
+    </a>
+
+    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="main-menu" [class.is-active]="isActive" (click)="toogleActive()">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+
+  <div id="main-menu" class="navbar-menu" [class.is-active]="isActive">
+    <div class="navbar-end">
+      <a href="/" class="navbar-item">Home</a>
+      <a href="#services" class="navbar-item">Services</a>
+      <a href="#technology" class="navbar-item">Technology</a>
+      <a href="#portifolio" class="navbar-item">Portifolio</a>
+
+      <div class="navbar-item">
+        <div class="buttons">
+          <a class="button is-primary" href="#contact">
+            <strong class="has-text-white">Start your project</strong>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>

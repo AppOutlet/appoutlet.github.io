@@ -1,2 +1,13 @@
-/* You can add global styles to this file, and also import other style files */
-@use 'bulma';
+@use "bulma";
+
+:root {
+  --bulma-primary-h: 226deg;
+  --bulma-primary-s: 65%;
+  --bulma-primary-l: 53%;
+  --bulma-link-h: 251deg;
+  --bulma-link-s: 41%;
+  --bulma-link-l: 56%;
+  --bulma-scheme-h: 261;
+}
+
+

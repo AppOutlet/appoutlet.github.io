@@ -1,0 +1,9 @@
+@use "bulma/sass";
+
+nav {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  border-bottom: 1px solid var(--bulma-border-weak);
+  background: var(--bulma-background, #fff);
+}
