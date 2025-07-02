@@ -10,4 +10,20 @@
   --bulma-scheme-h: 261;
 }
 
+.brand-gradient {
+  background: linear-gradient(
+    to right,
+    hsl(var(--bulma-primary-h), var(--bulma-primary-s), var(--bulma-primary-l)),
+    hsl(var(--bulma-link-h), var(--bulma-link-s), var(--bulma-link-l))
+  );
+}
 
+.brand-gradient-text {
+  background: linear-gradient(
+    to right,
+    hsl(var(--bulma-primary-h), var(--bulma-primary-s), var(--bulma-primary-l)),
+    hsl(var(--bulma-link-h), var(--bulma-link-s), var(--bulma-link-l))
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
