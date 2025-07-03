@@ -1,1 +1,38 @@
-<p>portifolio works!</p>
+<section id="portifolio" class="py-6">
+  <div class="container py-6 ">
+    <h2 class="title is-2 mt-6 has-text-centered">Our applications</h2>
+    <p class="subtitle mt-3 has-text-centered ">Explore our published applications that showcase our ability to create
+      high-quality solutions that work beautifully on any device.</p>
+
+    <div class="columns pt-6">
+
+      @for (project of projects; track $index) {
+      <div class="column mx-4">
+
+        <div class="card">
+          <div class="card-header brand-gradient py-3 px-5">
+            <p class="title white">{{ project.title }}</p>
+          </div>
+
+          <div class="card-content">
+            <div class="content">
+              <p>{{ project.description }}</p>
+
+              <a [href]="project.link" target="_blank" class="button">
+                <i class="ph {{ project.linkIcon }} mr-2"></i>
+                {{ project.linkText }}
+              </a>
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+      }
+
+    </div>
+
+
+  </div>
+</section>
