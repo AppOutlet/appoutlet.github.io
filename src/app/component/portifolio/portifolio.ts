@@ -12,8 +12,8 @@ export class Portifolio {
     {
       title: 'DisCorkie',
       description:
-        'All-in-one client for managing multiple Discourse forums. Enjoy seamless access and real-time updates across Android, desktop, and soon, iOS, keeping all your communities connected in one intuitive app.',
-      tech: ['Cross-platform', 'Modern Design', 'Community engagement'],
+        'All-in-one client for managing multiple Discourse forums. Enjoy seamless access and real-time updates on Android, desktop, and iOS, keeping all your communities connected in one app',
+      tech: ['Cross-platform', 'Modern Design', 'Community'],
       link: 'https://discorkie.appoutlet.dev',
       linkText: 'Visit DisCorkie',
       linkIcon: 'ph-globe',
@@ -24,7 +24,7 @@ export class Portifolio {
       title: 'GameOutlet',
       description:
         'Find the best prices on PC games. It aggregates deals from popular online stores, featuring latest deals and a wishlist.Discover cross-platform availability for Windows, Linux, and macOS.',
-      tech: ['Gaming Platform', 'Open Source', 'Multi-device'],
+      tech: ['Gaming', 'Open Source', 'Cross-platform'],
       link: 'https://github.com/AppOutlet/GameOutlet#readme',
       linkText: 'View on GitHub',
       linkIcon: 'ph-github-logo',
