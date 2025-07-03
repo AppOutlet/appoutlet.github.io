@@ -36,7 +36,7 @@ export class Portifolio {
   libraries = [
     {
       name: 'umami-kotlin',
-      description:'umami-kotlin is an open-source Kotlin Multiplatform SDK for Umami web analytics. It offers type-safe, asynchronous event processing via Kotlin Channels for efficient integration. Use it to add privacy-centric analytics to your Android, iOS, and JVM applications.',
+      description:'umami-kotlin is an open-source Kotlin Multiplatform SDK for Umami web analytics. It offers type-safe, asynchronous event processing for efficient integration. Use it to add privacy-centric analytics to your applications',
       link: 'https://umami-kotlin.appoutlet.dev'
     }
   ]
