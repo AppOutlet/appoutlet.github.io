@@ -11,12 +11,25 @@
 
         <div class="card">
           <div class="card-header brand-gradient py-3 px-5">
-            <p class="title white">{{ project.title }}</p>
+            <img [src]="project.logo" alt="{{ project.title }} logo" height="128" width="128">
+            <div class="pl-3 mt-5">
+              <p class="title white">{{ project.title }}</p>
+              <div class="subtitle pt-2">
+                <p class="tag is-primary is-light">{{ project.status }}</p>
+              </div>
+            </div>
           </div>
 
           <div class="card-content">
             <div class="content">
+
               <p>{{ project.description }}</p>
+
+              <div class="block tags">
+                @for (tech of project.tech; track $index) {
+                <span class="tag is-primary is-link is-light ">{{ tech }}</span>
+                }
+              </div>
 
               <a [href]="project.link" target="_blank" class="button">
                 <i class="ph {{ project.linkIcon }} mr-2"></i>
@@ -30,7 +43,38 @@
 
       </div>
       }
+    </div>
 
+    <p class="title mt-6">Our open-source libraries</p>
+
+    <div class="columns px-3 is-multiline is-mobile">
+      @for (library of libraries; track $index) {
+      <div class="column is-4">
+        <div class="card">
+          <div class="card-header">
+
+            <p class="card-header-title title is-4">
+              <i class="ph ph-github-logo mr-2"></i>
+              {{ library.name}}
+            </p>
+
+          </div>
+
+          <div class="card-content">
+            <div class="content">
+              {{ library.description }}
+            </div>
+          </div>
+
+          <footer class="card-footer">
+            <a [href]="library.link" target="_blank" class="card-footer-item">
+              <i class="ph ph-globe mr-2"></i>
+              Read more
+            </a>
+          </footer>
+        </div>
+      </div>
+      }
     </div>
 
 

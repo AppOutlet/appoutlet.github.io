@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { link } from 'fs';
 
 @Component({
   selector: 'app-portifolio',
@@ -11,22 +12,32 @@ export class Portifolio {
     {
       title: 'DisCorkie',
       description:
-        'A modern communication application that enhances your chat experience with improved features and a clean, user-friendly interface that works seamlessly across all devices.',
-      tech: ['Cross-platform', 'Modern Design', 'Real-time Chat'],
+        'All-in-one client for managing multiple Discourse forums. Enjoy seamless access and real-time updates across Android, desktop, and soon, iOS, keeping all your communities connected in one intuitive app.',
+      tech: ['Cross-platform', 'Modern Design', 'Community engagement'],
       link: 'https://discorkie.appoutlet.dev',
       linkText: 'Visit DisCorkie',
       linkIcon: 'ph-globe',
       status: 'Published',
+      logo: 'image/portifolio/discorkie.png',
     },
     {
       title: 'GameOutlet',
       description:
-        'An open-source gaming platform that demonstrates our expertise in creating engaging applications with shared functionality across mobile and desktop platforms.',
+        'Find the best prices on PC games. It aggregates deals from popular online stores, featuring latest deals and a wishlist.Discover cross-platform availability for Windows, Linux, and macOS.',
       tech: ['Gaming Platform', 'Open Source', 'Multi-device'],
       link: 'https://github.com/AppOutlet/GameOutlet#readme',
       linkText: 'View on GitHub',
       linkIcon: 'ph-github-logo',
       status: 'Open Source',
+      logo: 'image/portifolio/gameoutlet.png',
     },
   ];
+
+  libraries = [
+    {
+      name: 'umami-kotlin',
+      description:'umami-kotlin is an open-source Kotlin Multiplatform SDK for Umami web analytics. It offers type-safe, asynchronous event processing via Kotlin Channels for efficient integration. Use it to add privacy-centric analytics to your Android, iOS, and JVM applications.',
+      link: 'https://umami-kotlin.appoutlet.dev'
+    }
+  ]
 }
