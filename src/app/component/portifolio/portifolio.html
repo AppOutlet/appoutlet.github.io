@@ -1,5 +1,5 @@
 <section id="portifolio" class="py-6">
-  <div class="container py-6 ">
+  <div class="container py-6 px-4">
     <h2 class="title is-2 mt-6 has-text-centered">Our applications</h2>
     <p class="subtitle mt-3 has-text-centered ">Explore our published applications that showcase our ability to create
       high-quality solutions that work beautifully on any device.</p>
@@ -47,9 +47,16 @@
 
     <p class="title mt-6">Our open-source libraries</p>
 
-    <div class="columns px-3 is-multiline is-mobile">
+    <div class="columns px-2 is-multiline is-mobile">
       @for (library of libraries; track $index) {
-      <div class="column is-4">
+      <div class="
+          column
+          is-full-mobile
+          is-half-tablet
+          is-half-desktop
+          is-one-third-widescreen
+          is-one-quarter-fullhd
+      ">
         <div class="card">
           <div class="card-header">
 
@@ -64,19 +71,17 @@
             <div class="content">
               {{ library.description }}
             </div>
-          </div>
 
-          <footer class="card-footer">
-            <a [href]="library.link" target="_blank" class="card-footer-item">
+            <a [href]="library.link" target="_blank" class="button is-fullwidth">
               <i class="ph ph-globe mr-2"></i>
               Read more
             </a>
-          </footer>
+          </div>
         </div>
       </div>
       }
     </div>
 
-      <p class="subtitle has-text-centered">... and much more comming!</p>
+    <p class="subtitle has-text-centered">... and much more comming!</p>
   </div>
 </section>
