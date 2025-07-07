@@ -1,1 +1,77 @@
-<p>contact works!</p>
+<section id="contact" class="py-6">
+  <div class="container px-4">
+
+    <h3 class="title is-2 has-text-centered mt-6">Ready to Build Something <span
+        class="brand-gradient-text">Extraordinary?</span></h3>
+
+    <p class="subtitle mt-2 has-text-centered">Let's turn your vision into a digital reality. From concept to launch,
+      we're here to
+      build the perfect solution for your business.</p>
+
+    <div class="columns is-multiline mt-6">
+
+      <div class="column">
+        <div class="box mx-4">
+          <h4 class="title is-4">Let's start your project!</h4>
+          <p class="subtitle is-6">Ready to bring your idea to life? Get in touch with us today</p>
+
+          <div class="box brand-gradient-light is-flex is-flex-direction-column is-align-items-center">
+
+            <i class="ph ph-envelope-open title is-1 brand-gradient-text block"></i>
+
+            <div class="block">
+              <h4 class="title is-4 has-text-centered">Email Us Directly</h4>
+              <p class="subtitle is-6 has-text-centered">Send us your project details and we'll get back to you within
+                24 hours.</p>
+            </div>
+
+            <a href="mailto:contact@appoutlet.dev" class="button brand-gradient block has-text-centered white">
+              <i class="ph ph-envelope mr-2"></i>
+              contact&#64;appoutlet.dev
+            </a>
+          </div>
+
+          <h5 class="title is-6 has-text-centered mt-6">Or Connect With Us</h5>
+
+          <div class="is-flex is-align-items-center block is-justify-content-center">
+
+            @for (link of socialLinks; track $index) {
+            <a [href]="link.url" target="_blank">
+              <div class="social-icon mr-4" [title]="link.title">
+                <i class="ph {{ link.icon }}"></i>
+              </div>
+            </a>
+            }
+
+          </div>
+        </div>
+      </div>
+
+      <div class="
+          column
+          is-full-mobile
+          is-full-tablet
+          is-one-third-desktop
+          is-one-third-widescreen
+          is-one-third-fullhd
+      ">
+        <h4 class="title is-4 mt-6">How we work together?</h4>
+
+        @for (step of processSteps; track $index) {
+        <div class="is-flex is-align-items-center">
+
+          <div class="rounded-icon brand-gradient mx-3 my-3">{{ $index + 1 }}</div>
+
+          <div>
+            <div class="title is-5">{{ step.title }}</div>
+            <div class="subtitle is-6 mt-2">{{ step.description }}</div>
+          </div>
+        </div>
+        }
+
+      </div>
+
+    </div>
+
+  </div>
+</section>
