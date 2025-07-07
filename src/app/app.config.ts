@@ -21,7 +21,7 @@ export const appConfig: ApplicationConfig = {
     provideBrowserGlobalErrorListeners(),
     provideZonelessChangeDetection(),
     provideRouter(routes),
-     provideHttpClient(withFetch()),
+    provideHttpClient(withFetch()),
     provideClientHydration(withEventReplay()),
     provideApollo(() => {
       const httpLink = inject(HttpLink);
