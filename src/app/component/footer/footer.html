@@ -1,5 +1,40 @@
-<section id="footer" class="has-background-dark has-text-light py-6">
+<footer id="footer" class="footer has-background-dark has-text-light py-6">
+
   <div class="container">
-    Footer
+    <div class="columns is-multiline pt-4 pb-6">
+
+      <div class="column is-12-tablet is-8-desktop is-6-widescreen is-6-fullhd">
+        <div class="is-flex is-align-items-center block">
+          <img src="image/nav/logo.png" alt="AppOutlet logo" height="40" width="40" class="mr-3">
+          <h4 class="title has-text-light">AppOutlet</h4>
+        </div>
+        <p class="app-description">We craft exceptional digital experiences that work beautifully across all platforms. From mobile apps to
+          desktop applications, we turn your vision into reality.</p>
+
+        <div class="is-flex block mt-5 mb-6">
+          @for (link of socialLinks; track $index) {
+          <a [href]="link.url" target="_blank">
+            <div class="social-icon mr-4" [title]="link.title">
+              <i class="ph {{ link.icon }} has-text-light"></i>
+            </div>
+          </a>
+          }
+        </div>
+
+      </div>
+
+      <div class="column is-4-desktop">
+        <h4 class="title is-4 has-text-light">Our applications</h4>
+      </div>
+
+      <div class="column">
+        <h4 class="title is-4  has-text-light">Quick links</h4>
+      </div>
+
+    </div>
   </div>
-</section>
+
+  <div id="copyright" class="container has-text-centered pt-5">
+    <p>© {{ year }} AppOutlet. Made with ❤️ for creating amazing apps</p>
+  </div>
+</footer>
