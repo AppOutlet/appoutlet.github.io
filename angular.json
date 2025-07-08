@@ -99,6 +99,17 @@
             ]
           }
         }
+      },
+      "i18n": {
+        "sourceLocale": {
+          "code": "en",
+          "subPath": ""
+        },
+        "locales": {
+          "pt-BR": {
+            "translation": "src/locale/messages.pt-BR.xlf"
+          }
+        }
       }
     }
   }
