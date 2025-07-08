@@ -107,7 +107,7 @@
         },
         "locales": {
           "pt": {
-            "translation": "src/locale/messages.pt.xlf"
+            "translation": "src/locale/messages.pt.json"
           }
         }
       }
