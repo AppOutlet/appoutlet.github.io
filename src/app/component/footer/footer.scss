@@ -1,5 +1,5 @@
 #copyright {
-  border-top: .01em solid rgba(255, 255, 255, .2) ;
+  border-top: 0.01em solid rgba(255, 255, 255, 0.2);
 }
 
 .app-description {
@@ -14,5 +14,15 @@
 
   &:hover {
     background-color: var(--bulma-primary-dark);
+  }
+}
+
+.link-button {
+  border-radius: 1rem;
+  padding: .5rem;
+  color: white;
+  transition: color 0.2s;
+  &:hover {
+    color: var(--bulma-primary);
   }
 }
