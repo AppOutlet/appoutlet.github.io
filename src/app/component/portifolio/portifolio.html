@@ -1,7 +1,7 @@
 <section id="portifolio" class="py-6">
   <div class="container py-6 px-4">
-    <h2 class="title is-2 mt-6 has-text-centered">Our applications</h2>
-    <p class="subtitle mt-3 has-text-centered ">Explore our published applications that showcase our ability to create
+    <h2 class="title is-2 mt-6 has-text-centered" i18n>Our applications</h2>
+    <p class="subtitle mt-3 has-text-centered " i18n>Explore our published applications that showcase our ability to create
       high-quality solutions that work beautifully on any device.</p>
 
     <div class="columns pt-6">
@@ -23,7 +23,7 @@
           <div class="card-content">
             <div class="content">
 
-              <p>{{ project.description }}</p>
+              <p  i18n>{{ project.description }}</p>
 
               <div class="block tags">
                 @for (tech of project.tech; track $index) {
@@ -45,10 +45,10 @@
       }
     </div>
 
-    <p class="subtitle has-text-centered mt-6">... and much more comming!</p>
+    <p class="subtitle has-text-centered mt-6"  i18n>... and much more comming!</p>
 
     <div class="has-text-centered">
-      <a href="https://github.com/AppOutlet" class="button brand-gradient-light">
+      <a href="https://github.com/AppOutlet" class="button brand-gradient-light"  i18n>
         <i class="ph ph-github-logo mr-2"></i>
         Checkout our GitHub for more projects
       </a>

@@ -16,19 +16,19 @@
 
   <div id="main-menu" class="navbar-menu" [class.is-active]="isActive">
     <div class="navbar-end">
-      <a href="#hero" class="navbar-item">Home</a>
-      <a href="#services" class="navbar-item">Services</a>
-      <a href="#technology" class="navbar-item">Technology</a>
-      <a href="#portifolio" class="navbar-item">Portifolio</a>
-      <a href="#blog" class="navbar-item">News</a>
-      <a href="#contact" class="navbar-item">Contact</a>
+      <a href="#hero" class="navbar-item" i18n>Home</a>
+      <a href="#services" class="navbar-item" i18n>Services</a>
+      <a href="#technology" class="navbar-item" i18n>Technology</a>
+      <a href="#portifolio" class="navbar-item" i18n>Portifolio</a>
+      <a href="#blog" class="navbar-item" i18n>News</a>
+      <a href="#contact" class="navbar-item" i18n>Contact</a>
 
 
 
       <div class="navbar-item">
         <div class="buttons">
           <a class="button brand-gradient" href="#contact">
-            <span class="has-text-white">
+            <span class="has-text-white" i18n>
               <i class="ph ph-rocket-launch mr-1"></i>
               Start your project
             </span>
@@ -43,7 +43,7 @@
         </a>
 
         <div class="navbar-dropdown">
-          <a class="navbar-item">{{ defaultLanguage.name }}</a>
+          <p class="navbar-item" (click)="onLanguageClick(defaultLanguage)">{{ defaultLanguage.name }}</p>
 
           @for (translation of availableTranslation; track $index) {
           <p class="navbar-item" (click)="onLanguageClick(translation)">{{ translation.name }}</p>

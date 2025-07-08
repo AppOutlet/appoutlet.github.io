@@ -8,7 +8,7 @@
           <img src="image/nav/logo.png" alt="AppOutlet logo" height="40" width="40" class="mr-3">
           <h4 class="title has-text-light">AppOutlet</h4>
         </div>
-        <p class="app-description">We craft exceptional digital experiences that work beautifully across all platforms.
+        <p class="app-description" i18n>We craft exceptional digital experiences that work beautifully across all platforms.
           From mobile apps to
           desktop applications, we turn your vision into reality.</p>
 
@@ -25,14 +25,14 @@
       </div>
 
       <div class="column is-4-desktop">
-        <h4 class="title is-4 has-text-light">Our applications</h4>
+        <h4 class="title is-4 has-text-light" i18n>Our applications</h4>
         @for (app of apps; track $index) {
         <a [href]="app.link" target="_blank" class="has-text-light">
           <div class="app is-flex is-align-items-center app-button">
             <img [src]="app.logo" alt="{{ app.title }}" class="app-image m-3" height="48" width="48">
             <div>
               <p class="title is-5 has-text-light">{{ app.title }}</p>
-              <p class="subtitle is-6 has-text-light mt-1">{{ app.summary }}</p>
+              <p class="subtitle is-6 has-text-light mt-1"  i18n>{{ app.summary }}</p>
             </div>
           </div>
         </a>
@@ -40,7 +40,7 @@
       </div>
 
       <div class="column">
-        <h4 class="title is-4  has-text-light">Quick links</h4>
+        <h4 class="title is-4  has-text-light" i18n>Quick links</h4>
         @for (link of links; track $index) {
         <a [href]="link.url">
           <div class="is-flex is-align-items-center has-text-light link-button">
@@ -55,6 +55,6 @@
   </div>
 
   <div id="copyright" class="container has-text-centered pt-5">
-    <p>© {{ year }} AppOutlet. Made with ❤️ for creating amazing apps</p>
+    <p  i18n>© {{ year }} AppOutlet. Made with ❤️ for creating amazing apps</p>
   </div>
 </footer>

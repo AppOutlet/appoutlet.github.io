@@ -2,8 +2,8 @@
   <div class="container px-4">
 
 
-    <h2 class="title is-2 px-3 has-text-centered mt-6">Our services</h2>
-    <p class="subtitle px-3 pt-2 has-text-centered">We offer complete solutions from initial concept to final launch,
+    <h2 class="title is-2 px-3 has-text-centered mt-6"  i18n>Our services</h2>
+    <p class="subtitle px-3 pt-2 has-text-centered"  i18n>We offer complete solutions from initial concept to final launch,
       ensuring your application
       stands out and succeeds in today's competitive market.</p>
 
@@ -20,11 +20,11 @@
               <i class="ph {{ item.icon }}"></i>
             </span>
 
-            <p class="title is-5">{{ item.title }}</p>
-            <p class="block">{{ item.description }}</p>
+            <p class="title is-5" i18n>{{ item.title }}</p>
+            <p class="block" i18n>{{ item.description }}</p>
             <ul class="block">
               @for (feature of item.features; track $index) {
-              <li>{{ feature }}</li>
+              <li i18n>{{ feature }}</li>
               }
             </ul>
           </div>
