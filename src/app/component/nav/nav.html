@@ -23,6 +23,8 @@
       <a href="#blog" class="navbar-item">News</a>
       <a href="#contact" class="navbar-item">Contact</a>
 
+
+
       <div class="navbar-item">
         <div class="buttons">
           <a class="button brand-gradient" href="#contact">
@@ -31,6 +33,20 @@
               Start your project
             </span>
           </a>
+        </div>
+      </div>
+
+        <div class="navbar-item has-dropdown is-hoverable">
+        <a class="navbar-link">
+          {{ selectedLanguage.name }}
+        </a>
+
+        <div class="navbar-dropdown">
+          <a class="navbar-item">{{ defaultLanguage.name }}</a>
+
+          @for (translation of availableTranslation; track $index) {
+            <a class="navbar-item">{{ translation.name }}</a>
+          }
         </div>
       </div>
     </div>
