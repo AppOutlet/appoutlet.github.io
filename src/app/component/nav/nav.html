@@ -35,23 +35,6 @@
           </a>
         </div>
       </div>
-
-      @defer () {
-      <div class="navbar-item has-dropdown is-hoverable">
-        <a class="navbar-link" href="#">
-          {{ selectedLanguage.name }}
-        </a>
-
-        <div class="navbar-dropdown">
-          <p class="navbar-item" (click)="onLanguageClick(defaultLanguage)">{{ defaultLanguage.name }}</p>
-
-          @for (translation of availableTranslation; track $index) {
-          <p class="navbar-item" (click)="onLanguageClick(translation)">{{ translation.name }}</p>
-          }
-        </div>
-      </div>
-      }
-
     </div>
   </div>
 </nav>
