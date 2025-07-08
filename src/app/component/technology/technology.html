@@ -1,0 +1,40 @@
+<section id="technology" class="brand-gradient-light py-6">
+
+  <div class="container">
+    <div class="block has-text-centered pt-6">
+      <h2 class="title is-3">Built with Modern Technology</h2>
+      <p class="subtitle pt-2">We use the latest, most reliable technologies to ensure your application is fast, secure,
+        and ready for the future.</p>
+    </div>
+
+    <div class="columns is-multiline px-3 my-6">
+      @for (tech of technologies; track $index) {
+      <div class="column is-half-fullhd is-half-widescreen is-half-desktop is-half-tablet is-full-mobile">
+        <div class="card">
+          <div class="card-content">
+
+            <div class="is-flex is-align-items-center ">
+              <div class="rounded-icon mr-5">
+                <i class="ph {{ tech.icon}}"></i>
+              </div>
+              <div>
+                <span class="tag">{{ tech.name }}</span>
+                <p class="title is-5 pt-2">{{ tech.title }}</p>
+              </div>
+            </div>
+
+            <p class="block mt-5">{{ tech.description }}</p>
+
+            <span class="block tag is-primary is-light is-medium">⊙ {{ tech.benefit}} </span>
+
+          </div>
+        </div>
+      </div>
+      }
+    </div>
+
+    <div class="has-text-centered ">
+      <p class="tag is-large is-light is-info">⊙⊙⊙ Powered by Kotlin Multiplatform, Ktor, SpringBoot & more cutting-edge tools</p>
+    </div>
+  </div>
+</section>

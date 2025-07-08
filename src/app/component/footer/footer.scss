@@ -1,0 +1,28 @@
+#copyright {
+  border-top: 0.01em solid rgba(255, 255, 255, 0.2);
+}
+
+.app-description {
+  width: 65%;
+}
+
+.app-button {
+  background-color: var(--bulma-background-dark);
+  border-radius: 1rem;
+
+  transition: background-color 0.2s;
+
+  &:hover {
+    background-color: var(--bulma-primary-dark);
+  }
+}
+
+.link-button {
+  border-radius: 1rem;
+  padding: .5rem;
+  color: white;
+  transition: color 0.2s;
+  &:hover {
+    color: var(--bulma-primary);
+  }
+}
