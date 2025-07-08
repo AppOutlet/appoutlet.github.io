@@ -45,43 +45,13 @@
       }
     </div>
 
-    <p class="title mt-6">Our open-source libraries</p>
+    <p class="subtitle has-text-centered mt-6">... and much more comming!</p>
 
-    <div class="columns px-2 is-multiline is-mobile">
-      @for (library of libraries; track $index) {
-      <div class="
-          column
-          is-full-mobile
-          is-half-tablet
-          is-half-desktop
-          is-one-third-widescreen
-          is-one-quarter-fullhd
-      ">
-        <div class="card">
-          <div class="card-header">
-
-            <p class="card-header-title title is-4">
-              <i class="ph ph-github-logo mr-2"></i>
-              {{ library.name}}
-            </p>
-
-          </div>
-
-          <div class="card-content">
-            <div class="content">
-              {{ library.description }}
-            </div>
-
-            <a [href]="library.link" target="_blank" class="button is-fullwidth">
-              <i class="ph ph-scroll mr-2"></i>
-              Read the docs
-            </a>
-          </div>
-        </div>
-      </div>
-      }
+    <div class="has-text-centered">
+      <a href="https://github.com/AppOutlet" class="button brand-gradient-light">
+        <i class="ph ph-github-logo mr-2"></i>
+        Checkout our GitHub for more projects
+      </a>
     </div>
-
-    <p class="subtitle has-text-centered">... and much more comming!</p>
   </div>
 </section>
