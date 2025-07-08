@@ -1,5 +1,4 @@
-import { AfterViewInit, Component, OnInit } from '@angular/core';
-declare var window: any; // To avoid TypeScript errors for window usage
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-nav',
@@ -7,27 +6,16 @@ declare var window: any; // To avoid TypeScript errors for window usage
   templateUrl: './nav.html',
   styleUrl: './nav.scss',
 })
-export class Nav implements AfterViewInit {
+export class Nav {
   isActive = false;
 
   toogleActive() {
     this.isActive = !this.isActive;
   }
 
-  defaultLanguage: Language = { name: '🇬🇧 Eng', baseHref: '' };
-  availableTranslation: Language[] = [{ name: '🇧🇷 Por', baseHref: '/pt/' }];
+  defaultLanguage: Language = { name: '🇬🇧 En', baseHref: '' };
+  availableTranslation: Language[] = [{ name: '🇧🇷 Pt', baseHref: '/pt/' }];
   selectedLanguage: Language = this.defaultLanguage;
-
-  ngAfterViewInit() {
-    this.selectedLanguage = this.updateSelectedLanguage();
-  }
-
-  private updateSelectedLanguage(): Language {
-    const match = this.availableTranslation.find((lang) =>
-      window.location.href.includes(lang.baseHref)
-    );
-    return match || this.defaultLanguage;
-  }
 }
 
 interface Language {

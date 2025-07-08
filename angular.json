@@ -106,8 +106,8 @@
           "subPath": ""
         },
         "locales": {
-          "pt-BR": {
-            "translation": "src/locale/messages.pt-BR.xlf"
+          "pt": {
+            "translation": "src/locale/messages.pt.xlf"
           }
         }
       }
