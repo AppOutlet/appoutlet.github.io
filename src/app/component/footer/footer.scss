@@ -5,3 +5,14 @@
 .app-description {
   width: 65%;
 }
+
+.app-button {
+  background-color: var(--bulma-background-dark);
+  border-radius: 1rem;
+
+  transition: background-color 0.2s;
+
+  &:hover {
+    background-color: var(--bulma-primary-dark);
+  }
+}

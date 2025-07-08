@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { apps } from '../../data/apps';
 
 @Component({
   selector: 'app-footer',
@@ -40,4 +41,6 @@ export class Footer {
       icon: 'ph-youtube-logo',
     },
   ];
+
+  apps = apps
 }

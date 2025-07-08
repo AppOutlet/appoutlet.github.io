@@ -8,7 +8,8 @@
           <img src="image/nav/logo.png" alt="AppOutlet logo" height="40" width="40" class="mr-3">
           <h4 class="title has-text-light">AppOutlet</h4>
         </div>
-        <p class="app-description">We craft exceptional digital experiences that work beautifully across all platforms. From mobile apps to
+        <p class="app-description">We craft exceptional digital experiences that work beautifully across all platforms.
+          From mobile apps to
           desktop applications, we turn your vision into reality.</p>
 
         <div class="is-flex block mt-5 mb-6">
@@ -25,6 +26,17 @@
 
       <div class="column is-4-desktop">
         <h4 class="title is-4 has-text-light">Our applications</h4>
+        @for (app of apps; track $index) {
+          <a [href]="app.link" target="_blank" class="has-text-light">
+            <div class="app is-flex is-align-items-center app-button">
+              <img [src]="app.logo" alt="{{ app.title }}" class="app-image m-3" height="48" width="48">
+              <div>
+                <p class="title is-5 has-text-light">{{ app.title }}</p>
+                <p class="subtitle is-6 has-text-light mt-1">{{ app.summary }}</p>
+              </div>
+            </div>
+          </a>
+        }
       </div>
 
       <div class="column">
