@@ -36,8 +36,9 @@
         </div>
       </div>
 
-        <div class="navbar-item has-dropdown is-hoverable">
-        <a class="navbar-link">
+      @defer () {
+      <div class="navbar-item has-dropdown is-hoverable">
+        <a class="navbar-link" href="#">
           {{ selectedLanguage.name }}
         </a>
 
@@ -45,10 +46,12 @@
           <a class="navbar-item">{{ defaultLanguage.name }}</a>
 
           @for (translation of availableTranslation; track $index) {
-            <a class="navbar-item">{{ translation.name }}</a>
+          <p class="navbar-item" (click)="onLanguageClick(translation)">{{ translation.name }}</p>
           }
         </div>
       </div>
+      }
+
     </div>
   </div>
 </nav>

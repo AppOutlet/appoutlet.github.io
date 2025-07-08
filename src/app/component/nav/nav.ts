@@ -15,7 +15,19 @@ export class Nav {
 
   defaultLanguage: Language = { name: '🇬🇧 En', baseHref: '' };
   availableTranslation: Language[] = [{ name: '🇧🇷 Pt', baseHref: '/pt/' }];
-  selectedLanguage: Language = this.defaultLanguage;
+
+  get selectedLanguage(): Language {
+    const currentHref = window.location.href;
+    const found = this.availableTranslation.find(lang => currentHref.includes(lang.baseHref) && lang.baseHref);
+    return found || this.defaultLanguage;
+  }
+
+  onLanguageClick(language: Language) {
+    const { origin } = window.location;
+    const targetDestination = origin + language.baseHref;
+    console.log('Navigating to:', targetDestination);
+    window.location.href = targetDestination
+  }
 }
 
 interface Language {
