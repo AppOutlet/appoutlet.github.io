@@ -10,20 +10,20 @@ import { title } from 'node:process';
 export class Contact {
   processSteps = [
     {
-      title: 'Initial Contact',
-      description: 'Reach out via email or social media',
+      title: $localize`Initial Contact`,
+      description: $localize`Reach out via email or social media`,
     },
     {
-      title: 'Discovery Call',
-      description: 'We discuss your vision and requirements',
+      title: $localize`Discovery Call`,
+      description: $localize`We discuss your vision and requirements`,
     },
     {
-      title: 'Project Proposal',
-      description: 'Detailed timeline, scope, and pricing',
+      title: $localize`Project Proposal`,
+      description: $localize`Detailed timeline, scope, and pricing`,
     },
     {
-      title: 'Development & Launch',
-      description: 'Agile development with regular updates',
+      title: $localize`Development & Launch`,
+      description: $localize`Agile development with regular updates`,
     },
   ];
 

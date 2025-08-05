@@ -45,10 +45,10 @@ export class Footer {
   apps = apps
 
   links = [
-    { icon: 'ph-briefcase', name: 'Our services', url: '#services' },
-    { icon: 'ph-folder-open', name: 'Portifolio', url: '#portifolio' },
-    { icon: 'ph-note', name: 'Blog', url: '#blog' },
-    { icon: 'ph-envelope', name: 'Contact', url: '#contact' },
-    { icon: 'ph-github-logo', name: 'GitHub', url: 'https://github.com/AppOutlet' }
+    { icon: 'ph-briefcase', name: $localize`Our services`, url: '#services' },
+    { icon: 'ph-folder-open', name: $localize`Portifolio`, url: '#portifolio' },
+    { icon: 'ph-note', name: $localize`Blog`, url: '#blog' },
+    { icon: 'ph-envelope', name: $localize`Contact`, url: '#contact' },
+    { icon: 'ph-github-logo', name: $localize`GitHub`, url: 'https://github.com/AppOutlet' }
   ]
 }
