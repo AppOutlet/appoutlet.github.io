@@ -33,7 +33,7 @@
     "@angular/platform-server": "^20.1.4",
     "@angular/router": "^20.1.4",
     "@angular/ssr": "^20.1.4",
-    "@apollo/client": "^3.0.0",
+    "@apollo/client": "^3.13.9",
     "@phosphor-icons/web": "^2.1.2",
     "apollo-angular": "^11.0.0",
     "bulma": "^1.0.4",
