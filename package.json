@@ -8,10 +8,10 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "serve:ssr:appoutlet.github.io": "node dist/appoutlet.github.io/server/server.mjs",
-    "translation:extract": "ng extract-i18n --format=json --output-path src/locale ",
-    "translation:replace-en": "rm src/locale/messages.en.json && cp src/locale/messages.json src/locale/messages.en.json",
-    "translation:process": "npx lingo.dev@latest i18n",
-    "translation": "translation:extract && translation:replace-en && translation:process"
+    "translate:extract": "ng extract-i18n --format=json --output-path src/locale ",
+    "translate:replace-en": "rm src/locale/messages.en.json && cp src/locale/messages.json src/locale/messages.en.json",
+    "translate:process": "npx lingo.dev@latest i18n -y",
+    "translate": "npm run translate:extract && npm run translate:replace-en && npm run translate:process"
   },
   "prettier": {
     "overrides": [
