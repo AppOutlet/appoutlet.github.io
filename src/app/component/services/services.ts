@@ -10,38 +10,38 @@ export class Services {
   services = [
     {
       icon: 'ph-code',
-      title: 'Custom App Development',
+      title: $localize`Custom App Development`,
       description:
-        "We build tailored mobile and desktop applications that work perfectly on all devices, ensuring your users get the same great experience whether they're on iPhone, Android, or computer.",
+        $localize`We build tailored mobile and desktop applications that work perfectly on all devices, ensuring your users get the same great experience whether they're on iPhone, Android, or computer.`,
       features: [
-        'Works on all devices',
-        'Fast and reliable',
-        'Easy to maintain',
-        'Future-proof technology',
+        $localize`Works on all devices`,
+        $localize`Fast and reliable`,
+        $localize`Easy to maintain`,
+        $localize`Future-proof technology`,
       ],
     },
     {
       icon: 'ph-palette',
-      title: 'UI/UX Design',
+      title: $localize`UI/UX Design`,
       description:
-        'Creating beautiful and intuitive user interfaces that your customers will love to use, while ensuring everything works smoothly across all platforms and devices.',
+        $localize`Creating beautiful and intuitive user interfaces that your customers will love to use, while ensuring everything works smoothly across all platforms and devices.`,
       features: [
-        'User-friendly design',
-        'Modern and clean look',
-        'Works on any screen size',
-        'Accessible for everyone',
+        $localize`User-friendly design`,
+        $localize`Modern and clean look`,
+        $localize`Works on any screen size`,
+        $localize`Accessible for everyone`,
       ],
     },
     {
       icon: 'ph-trend-up',
-      title: 'App Store Marketing',
+      title: $localize`App Store Marketing`,
       description:
-        "Professional screenshot design and marketing materials that showcase your app's best features and help increase downloads from app stores.",
+        $localize`Professional screenshot design and marketing materials that showcase your app's best features and help increase downloads from app stores.`,
       features: [
-        'Eye-catching screenshots',
-        'Higher download rates',
-        'Professional presentation',
-        'Consistent branding',
+        $localize`Eye-catching screenshots`,
+        $localize`Higher download rates`,
+        $localize`Professional presentation`,
+        $localize`Consistent branding`,
       ],
     },
   ];
