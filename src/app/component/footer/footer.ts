@@ -49,6 +49,6 @@ export class Footer {
     { icon: 'ph-folder-open', name: 'Portifolio', url: '#portifolio' },
     { icon: 'ph-note', name: 'Blog', url: '#blog' },
     { icon: 'ph-envelope', name: 'Contact', url: '#contact' },
-    { icon: 'ph-github-logo', name: 'GitHub', url: 'https://github.com/app-outlet' }
-  ];
+    { icon: 'ph-github-logo', name: 'GitHub', url: 'https://github.com/AppOutlet' }
+  ]
 }

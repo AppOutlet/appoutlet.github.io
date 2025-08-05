@@ -42,7 +42,7 @@
       <div class="column">
         <h4 class="title is-4  has-text-light" i18n>Quick links</h4>
         @for (link of links; track $index) {
-        <a [href]="link.url">
+        <a [href]="link.url" target="_blank">
           <div class="is-flex is-align-items-center has-text-light link-button">
             <i class="ph {{ link.icon }} mr-2"></i>
             <span class="subtitle is-6 has-text-light white">{{ link.name }}</span>
