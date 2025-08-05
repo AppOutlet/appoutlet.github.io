@@ -35,11 +35,6 @@ export class Footer {
       url: 'https://www.instagram.com/app.outlet/',
       icon: 'ph-instagram-logo',
     },
-    {
-      title: 'YouTube',
-      url: 'https://www.youtube.com/@AppOutletTeam',
-      icon: 'ph-youtube-logo',
-    },
   ];
 
   apps = apps
