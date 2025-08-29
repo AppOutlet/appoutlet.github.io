@@ -1,3 +1,5 @@
+@use "../../../styles/variables" as var;
+
 .spacer {
   flex: 1 1 auto;
 }
@@ -5,4 +7,16 @@
 img {
   height: 2.5rem;
   margin-right: 1rem;
+}
+
+.hamburger-menu {
+  @media screen and (min-width: var.$tablet) {
+    display: none;
+  }
+}
+
+.menu-item {
+  @media screen and (max-width: var.$tablet) {
+    display: none;
+  }
 }
