@@ -2,12 +2,33 @@
   <img src="image/nav/logo.png" alt="AppOutlet Logo" class="logo">
   <span>AppOutlet</span>
   <span class="spacer"></span>
-  <button matIconButton class="hamburger-menu">
+  <button matIconButton class="hamburger-menu" [matMenuTriggerFor]="main">
     <mat-icon>menu</mat-icon>
   </button>
   <button matButton i18n class="menu-item">Services</button>
   <button matButton i18n class="menu-item">Contact</button>
-  <button matIconButton class="menu-item">
+  <button matIconButton class="menu-item" [matMenuTriggerFor]="languages">
     <mat-icon>language</mat-icon>
   </button>
 </mat-toolbar>
+
+
+<mat-menu #main="matMenu">
+  <button mat-menu-item>
+    <mat-icon>handyman</mat-icon>
+    <span i18n>Services</span>
+  </button>
+  <button mat-menu-item>
+    <mat-icon>mail</mat-icon>
+    <span i18n>Contact</span>
+  </button>
+  <button mat-menu-item [matMenuTriggerFor]="languages">
+    <mat-icon>language</mat-icon>
+    <span i18n>Languages</span>
+  </button>
+</mat-menu>
+
+<mat-menu #languages="matMenu">
+  <button mat-menu-item i18n>🇬🇧 English</button>
+  <button mat-menu-item i18n>🇧🇷 Portuguese</button>
+</mat-menu>
