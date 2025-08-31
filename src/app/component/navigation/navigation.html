@@ -5,8 +5,7 @@
   <button matIconButton class="hamburger-menu" [matMenuTriggerFor]="main">
     <mat-icon>menu</mat-icon>
   </button>
-  <button matButton i18n class="menu-item">Services</button>
-  <button matButton i18n class="menu-item">Contact</button>
+  <a matButton i18n class="menu-item" href="https://blog.appoutlet.dev" target="_blank" rel="noopener">Blog</a>
   <button matIconButton class="menu-item" [matMenuTriggerFor]="languages">
     <mat-icon>language</mat-icon>
   </button>
@@ -14,14 +13,10 @@
 
 
 <mat-menu #main="matMenu">
-  <button mat-menu-item>
-    <mat-icon>handyman</mat-icon>
-    <span i18n>Services</span>
-  </button>
-  <button mat-menu-item>
-    <mat-icon>mail</mat-icon>
-    <span i18n>Contact</span>
-  </button>
+  <a mat-menu-item href="https://blog.appoutlet.dev" target="_blank" rel="noopener">
+    <mat-icon>newspaper</mat-icon>
+    <span i18n>Blog</span>
+  </a>
   <button mat-menu-item [matMenuTriggerFor]="languages">
     <mat-icon>language</mat-icon>
     <span i18n>Languages</span>
@@ -29,6 +24,6 @@
 </mat-menu>
 
 <mat-menu #languages="matMenu">
-  <button mat-menu-item i18n>🇬🇧 English</button>
-  <button mat-menu-item i18n>🇧🇷 Portuguese</button>
+  <a mat-menu-item i18n href="/">🇬🇧 English</a>
+  <a mat-menu-item i18n href="/pt">🇧🇷 Portuguese</a>
 </mat-menu>
