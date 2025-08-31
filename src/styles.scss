@@ -5,6 +5,8 @@
 // Learn more about theming and how to use it for your application's
 // custom components at https://material.angular.dev/guide/theming
 @use '@angular/material' as mat;
+@use "bootstrap/scss/bootstrap-grid.scss";
+@use "./styles/variables" as var;
 
 html {
   @include mat.theme((
@@ -36,3 +38,39 @@ body {
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+h1 {
+  font: var(--mat-sys-display-medium);
+  font-weight: 900;
+}
+
+p {
+  font: var(--mat-sys-body-large);
+}
+
+// .brand-gradient {
+//   background: linear-gradient(
+//     to right,
+//     hsl(var(--bulma-primary-h), var(--bulma-primary-s), var(--bulma-primary-l)),
+//     hsl(var(--bulma-link-h), var(--bulma-link-s), var(--bulma-link-l))
+//   );
+// }
+
+// .brand-gradient-light {
+//   background: linear-gradient(
+//     to right,
+//     hsla(var(--bulma-primary-h), var(--bulma-primary-s), var(--bulma-primary-l), .15),
+//     hsla(var(--bulma-link-h), var(--bulma-link-s), var(--bulma-link-l), .15)
+//   );
+// }
+
+.brand-gradient-text {
+  background: linear-gradient(
+    to right,
+    var.$brandBlue,
+    var.$brandPurple
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
