@@ -6,7 +6,7 @@
     <mat-icon>menu</mat-icon>
   </button>
   <a matButton i18n class="menu-item" href="https://blog.appoutlet.dev" target="_blank" rel="noopener">Blog</a>
-  <button matIconButton class="menu-item" [matMenuTriggerFor]="languages">
+  <button matIconButton class="menu-item" [matMenuTriggerFor]="languages" i18n-aria-label aria-label="Language switcher">
     <mat-icon>language</mat-icon>
   </button>
 </mat-toolbar>
@@ -17,7 +17,7 @@
     <mat-icon>newspaper</mat-icon>
     <span i18n>Blog</span>
   </a>
-  <button mat-menu-item [matMenuTriggerFor]="languages">
+  <button mat-menu-item [matMenuTriggerFor]="languages" i18n-aria-label aria-label="Language switcher">
     <mat-icon>language</mat-icon>
     <span i18n>Languages</span>
   </button>
