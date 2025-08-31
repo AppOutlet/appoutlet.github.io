@@ -1,101 +1,76 @@
-@use "bulma";
 
-:root {
-  --bulma-primary-h: 226deg;
-  --bulma-primary-s: 65%;
-  --bulma-primary-l: 53%;
-  --bulma-link-h: 251deg;
-  --bulma-link-s: 41%;
-  --bulma-link-l: 56%;
-  --bulma-scheme-h: 261;
+// Include theming for Angular Material with `mat.theme()`.
+// This Sass mixin will define CSS variables that are used for styling Angular Material
+// components according to the Material 3 design spec.
+// Learn more about theming and how to use it for your application's
+// custom components at https://material.angular.dev/guide/theming
+@use '@angular/material' as mat;
+@use "bootstrap/scss/bootstrap-grid.scss";
+@use "./styles/variables" as var;
+
+html {
+  @include mat.theme((
+    color: (
+      primary: mat.$azure-palette,
+      tertiary: mat.$blue-palette,
+    ),
+    typography: Roboto,
+    density: 0,
+  ));
 }
 
-.brand-gradient {
-  background: linear-gradient(
-    to right,
-    hsl(var(--bulma-primary-h), var(--bulma-primary-s), var(--bulma-primary-l)),
-    hsl(var(--bulma-link-h), var(--bulma-link-s), var(--bulma-link-l))
-  );
+body {
+  // Default the application to a light color theme. This can be changed to
+  // `dark` to enable the dark color theme, or to `light dark` to defer to the
+  // user's system settings.
+  color-scheme: light;
+
+  // Set a default background, font and text colors for the application using
+  // Angular Material's system-level CSS variables. Learn more about these
+  // variables at https://material.angular.dev/guide/system-variables
+  background-color: var(--mat-sys-surface);
+  color: var(--mat-sys-on-surface);
+  font: var(--mat-sys-body-medium);
+
+  // Reset the user agent margin.
+  margin: 0;
 }
 
-.brand-gradient-light {
-  background: linear-gradient(
-    to right,
-    hsla(var(--bulma-primary-h), var(--bulma-primary-s), var(--bulma-primary-l), .15),
-    hsla(var(--bulma-link-h), var(--bulma-link-s), var(--bulma-link-l), .15)
-  );
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+h1 {
+  font: var(--mat-sys-display-medium);
+  font-weight: 900;
 }
+
+p {
+  font: var(--mat-sys-body-large);
+}
+
+// .brand-gradient {
+//   background: linear-gradient(
+//     to right,
+//     hsl(var(--bulma-primary-h), var(--bulma-primary-s), var(--bulma-primary-l)),
+//     hsl(var(--bulma-link-h), var(--bulma-link-s), var(--bulma-link-l))
+//   );
+// }
+
+// .brand-gradient-light {
+//   background: linear-gradient(
+//     to right,
+//     hsla(var(--bulma-primary-h), var(--bulma-primary-s), var(--bulma-primary-l), .15),
+//     hsla(var(--bulma-link-h), var(--bulma-link-s), var(--bulma-link-l), .15)
+//   );
+// }
 
 .brand-gradient-text {
   background: linear-gradient(
     to right,
-    hsl(var(--bulma-primary-h), var(--bulma-primary-s), var(--bulma-primary-l)),
-    hsl(var(--bulma-link-h), var(--bulma-link-s), var(--bulma-link-l))
+    var.$brandBlue,
+    var.$brandPurple
   );
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-}
-
-.rounded-icon {
-  width: 64px;
-  height: 64px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 50%;
-  padding: 1rem;
-  background: linear-gradient(
-    to right,
-    hsla(
-      var(--bulma-primary-h),
-      var(--bulma-primary-s),
-      var(--bulma-primary-l),
-      0.2
-    ),
-    hsla(var(--bulma-link-h), var(--bulma-link-s), var(--bulma-link-l), 0.2)
-  );
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  font-size: 32px;
-
-  i {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 100%;
-  }
-}
-
-.social-icon {
-  width: 56px;
-  height: 56px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  padding: 1rem;
-  font-size: 20pt;
-
-  border-radius: 50%;
-  border-color: var(--bulma-border);
-  border-width: 0.2rem;
-  border-style: solid;
-  color: var(--bulma-text);
-
-  transition: color 0.2s, border-color 0.2s, transform 0.2s;
-
-  i {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 100%;
-  }
-
-  &:hover {
-    color: var(--bulma-link);
-    border-color: var(--bulma-link);
-    transform: scale(1.1);
-  }
 }

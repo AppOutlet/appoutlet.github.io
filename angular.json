@@ -31,8 +31,7 @@
               }
             ],
             "styles": [
-              "src/styles.scss",
-              "node_modules/@phosphor-icons/web/src/regular/style.css"
+              "src/styles.scss"
             ],
             "scripts": [],
             "server": "src/main.server.ts",

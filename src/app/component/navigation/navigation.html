@@ -1,0 +1,29 @@
+<mat-toolbar>
+  <img src="image/nav/logo.png" alt="AppOutlet Logo" class="logo">
+  <span class="site-name">AppOutlet</span>
+  <span class="spacer"></span>
+  <button matIconButton class="hamburger-menu" [matMenuTriggerFor]="main">
+    <mat-icon>menu</mat-icon>
+  </button>
+  <a matButton i18n class="menu-item" href="https://blog.appoutlet.dev" target="_blank" rel="noopener">Blog</a>
+  <button matIconButton class="menu-item" [matMenuTriggerFor]="languages">
+    <mat-icon>language</mat-icon>
+  </button>
+</mat-toolbar>
+
+
+<mat-menu #main="matMenu">
+  <a mat-menu-item href="https://blog.appoutlet.dev" target="_blank" rel="noopener">
+    <mat-icon>newspaper</mat-icon>
+    <span i18n>Blog</span>
+  </a>
+  <button mat-menu-item [matMenuTriggerFor]="languages">
+    <mat-icon>language</mat-icon>
+    <span i18n>Languages</span>
+  </button>
+</mat-menu>
+
+<mat-menu #languages="matMenu">
+  <a mat-menu-item i18n href="/">🇬🇧 English</a>
+  <a mat-menu-item i18n href="/pt">🇧🇷 Portuguese</a>
+</mat-menu>
