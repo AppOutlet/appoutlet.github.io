@@ -1,0 +1,21 @@
+<section id="services" class="py-5">
+  <div class="container">
+    <div class="text-center mb-5">
+      <h2 i18n class="brand-gradient-text">Our Services</h2>
+      <p i18n class="lead">We offer a wide range of services to bring your ideas to life.</p>
+    </div>
+    <div class="row">
+      <div class="col-lg-4 col-md-6 mb-4" *ngFor="let service of services">
+        <mat-card class="service-card h-100">
+          <mat-card-header>
+            <mat-icon class="service-icon me-3">{{ service.icon }}</mat-icon>
+            <mat-card-title>{{ service.title }}</mat-card-title>
+          </mat-card-header>
+          <mat-card-content>
+            <p>{{ service.description }}</p>
+          </mat-card-content>
+        </mat-card>
+      </div>
+    </div>
+  </div>
+</section>

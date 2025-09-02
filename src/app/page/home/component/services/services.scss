@@ -1,0 +1,36 @@
+@use "../../../../../styles/variables" as var;
+
+#services {
+  background-color: var.$background-secondary;
+}
+
+.service-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 0;
+  background-color: var.$background-primary;
+
+  &:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1), 0 4px 8px rgba(0,0,0,0.05);
+  }
+}
+
+.service-icon {
+  font-size: 2.5rem;
+  height: 2.5rem;
+  width: 2.5rem;
+  color: var.$brand-primary;
+}
+
+mat-card-header {
+  align-items: center;
+}
+
+mat-card-title {
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+mat-card-content p {
+  color: var.$text-secondary;
+}
