@@ -45,7 +45,7 @@ body {
 }
 
 h1 {
-  font: var(--mat-sys-display-medium);
+  font: var(--mat-sys-display-large);
   font-weight: 900;
 }
 
@@ -54,16 +54,23 @@ h2 {
   font-weight: 900;
 }
 
+h3 {
+  font: var(--mat-sys-headline-medium);
+  font-weight: 900;
+}
+
+h4 {
+  font: var(--mat-sys-title-large);
+}
+
 p {
   font: var(--mat-sys-body-large);
 }
 
 .brand-gradient {
-  background: linear-gradient(
-    to right,
+  background: linear-gradient(to right,
       var.$brandBlue,
-      var.$brandPurple
-  );
+      var.$brandPurple );
 }
 
 .brand-gradient-text {
