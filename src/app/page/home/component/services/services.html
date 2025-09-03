@@ -2,15 +2,15 @@
   <div class="container">
     <div class="text-center mb-5">
       <h2 i18n class="section-title brand-gradient-text">Our Services</h2>
-      <p i18n class="lead">We offer a wide range of services to bring your ideas to life.</p>
+      <p i18n>We offer a wide range of services to bring your ideas to life.</p>
     </div>
     <div class="row">
       <div class="col-lg-4 col-md-6 mb-4 d-flex align-items-stretch" *ngFor="let service of services">
         <mat-card class="service-card w-100 text-center">
           <mat-card-content>
-            <mat-icon class="service-icon mb-3" color="primary">{{ service.icon }}</mat-icon>
-            <h3 class="service-title">{{ service.title }}</h3>
-            <p class="service-description">{{ service.description }}</p>
+            <mat-icon class="service-icon mb-3 brand-gradient-text" color="primary">{{ service.icon }}</mat-icon>
+            <h3>{{ service.title }}</h3>
+            <p>{{ service.description }}</p>
           </mat-card-content>
         </mat-card>
       </div>

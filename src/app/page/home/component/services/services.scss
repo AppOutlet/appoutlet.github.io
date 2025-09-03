@@ -14,18 +14,24 @@
   border: 1px solid #eee;
   border-radius: 16px;
   box-shadow: none;
-  padding: 2rem 1.5rem;
+  padding: 1rem;
 
   &:hover {
     transform: translateY(-10px);
-    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.08), 0 4px 8px rgba(0,0,0,0.04);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.08), 0 4px 8px rgba(0, 0, 0, 0.04);
   }
 }
 
+
 .service-icon {
+  background-color: #fafafa;
   font-size: 3rem;
   height: 3rem;
   width: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0;
 }
 
 .service-title {

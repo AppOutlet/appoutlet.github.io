@@ -58,21 +58,13 @@ p {
   font: var(--mat-sys-body-large);
 }
 
-// .brand-gradient {
-//   background: linear-gradient(
-//     to right,
-//     hsl(var(--bulma-primary-h), var(--bulma-primary-s), var(--bulma-primary-l)),
-//     hsl(var(--bulma-link-h), var(--bulma-link-s), var(--bulma-link-l))
-//   );
-// }
-
-// .brand-gradient-light {
-//   background: linear-gradient(
-//     to right,
-//     hsla(var(--bulma-primary-h), var(--bulma-primary-s), var(--bulma-primary-l), .15),
-//     hsla(var(--bulma-link-h), var(--bulma-link-s), var(--bulma-link-l), .15)
-//   );
-// }
+.brand-gradient {
+  background: linear-gradient(
+    to right,
+      var.$brandBlue,
+      var.$brandPurple
+  );
+}
 
 .brand-gradient-text {
   background: linear-gradient(to right,
