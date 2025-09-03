@@ -1,12 +1,33 @@
 {
   "locale": "en",
   "translations": {
+    "7523736260589841950": "© {$INTERPOLATION} AppOutlet. All Rights Reserved.",
     "7751010942038334793": "Blog",
     "6783667173167343542": "Language switcher",
     "1949800099101277248": "Languages",
     "5354174957306388861": "🇬🇧 English",
     "4563974388997738366": "🇧🇷 Portuguese",
-    "293931745663789042": "Crafting Seamless Digital Experiences",
-    "440040275805892195": "AppOutlet is a dynamic software development studio dedicated to turning innovative ideas into high-quality, cross-platform applications."
+    "3772700039457271242": "Innovative Software Solutions",
+    "3910117371158925299": "We build high-quality, cross-platform applications to bring your ideas to life. Let's create something amazing together.",
+    "7784662168721174346": "Our Apps",
+    "9145697385591729587": "A glimpse into some of the solutions we've crafted",
+    "4415628975149077645": "A client for discourse forums.",
+    "1170978257963760063": "Your all-in-one client for managing multiple Discourse forums. Enjoy seamless access and real-time updates across Android, iOS, and desktop, keeping all your communities connected in one beautifully designed, cross-platform app.",
+    "5717574441847929938": "Find the best prices on PC games",
+    "3899429213504202826": "Find the best prices on PC games with ease. This open-source app aggregates deals from popular online stores, featuring the latest discounts and a handy wishlist. Discover cross-platform availability for Windows, Linux, and macOS.",
+    "9063344890262493319": "Our Services",
+    "4487789485754916791": "We offer a wide range of services to bring your ideas to life.",
+    "5157709985878375038": "Custom App Development",
+    "1785799745647495182": "Have an idea? We build custom apps for any device (iPhone, Android, Desktop). We focus on getting your product to market quickly with a high-quality and reliable solution.",
+    "4535993446582154196": "UI/UX Design",
+    "8390202708234339848": "We design beautiful, modern, and easy-to-use interfaces that your users will love, ensuring your app looks professional and engaging on every screen.",
+    "7106050716195810488": "App Store Marketing",
+    "1819431538659075492": "We help your app get discovered. Our team creates eye-catching store assets and compelling descriptions to attract your first users and boost visibility.",
+    "3157249928618815417": "Build Acceleration",
+    "8702158027359265763": "Speed up your development process. We set up solutions that dramatically reduce build times, allowing your team to test and iterate much faster.",
+    "8565298618517928924": "AI-Powered Chatbots",
+    "407402600727440062": "We build smart AI chatbots trained on your company's knowledge. They provide instant, accurate answers to customer questions and support your internal teams.",
+    "1337930064980516400": "Software Quality & QA",
+    "5501057417181921247": "Launch with confidence. We help you set up robust testing processes to ensure your app is reliable and bug-free, building trust with your users from day one."
   }
 }
