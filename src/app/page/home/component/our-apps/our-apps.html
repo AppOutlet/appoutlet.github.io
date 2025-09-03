@@ -1,1 +1,27 @@
-<p>our-apps works!</p>
+<section id="our-apps" class="py-5">
+    <div class="container">
+        <h2 i18n class="brand-gradient-text mb-0">Our Apps</h2>
+        <p i18n class="mb-5">A glimpse into some of the solutions we've crafted</p>
+        <div class="row">
+            @for (app of apps; track $index) {
+            <div class="col-6">
+                <mat-card class="app-card">
+                    <mat-card-header>
+                        <div class="brand-gradient d-flex flex-row" style="border-radius: 16px; width: 100%;">
+                            <div class="">
+                                <img [src]="app.icon" [alt]="app.title + ' icon'" class="app-icon p-2">
+                            </div>
+                            <div class="">
+                                <h3>{{ app.title }}</h3>
+                            </div>
+                        </div>
+                    </mat-card-header>
+                    <mat-card-content>
+                        <p>{{ app.summary }}</p>
+                    </mat-card-content>
+                </mat-card>
+            </div>
+            }
+        </div>
+    </div>
+</section>

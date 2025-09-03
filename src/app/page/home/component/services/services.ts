@@ -1,11 +1,10 @@
 import { Component } from '@angular/core';
 import { MatCardModule } from '@angular/material/card';
 import { MatIconModule } from '@angular/material/icon';
-import { NgFor } from '@angular/common';
 
 @Component({
   selector: 'app-services',
-  imports: [MatCardModule, MatIconModule, NgFor],
+  imports: [MatCardModule, MatIconModule],
   templateUrl: './services.html',
   styleUrl: './services.scss'
 })
