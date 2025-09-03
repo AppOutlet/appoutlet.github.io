@@ -73,6 +73,12 @@ p {
       var.$brandPurple );
 }
 
+.brand-gradient-light {
+  background: linear-gradient(to right,
+      var.$brandBlueLight,
+      var.$brandPurpleLight );
+}
+
 .brand-gradient-text {
   background: linear-gradient(to right,
       var.$brandBlue,

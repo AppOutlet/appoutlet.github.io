@@ -1,21 +1,28 @@
 .app-card {
-  display: flex;
-  flex-direction: column;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  border: 1px solid #eee;
-  border-radius: 16px;
-  box-shadow: none;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid #eee;
+    border-radius: 16px;
+    box-shadow: none;
 
-  &:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.08), 0 4px 8px rgba(0, 0, 0, 0.04);
-  }
+    &:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 12px 24px rgba(0, 0, 0, 0.08), 0 4px 8px rgba(0, 0, 0, 0.04);
+    }
 }
 
 .app-icon {
-  width: 7rem;
+    width: 6.5rem;
 }
 
 mat-card-header {
     padding: 0;
+}
+
+.app-card-header {
+    border-radius: 16px;
+    width: 100%;
+    color: #fafafa;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.08), 0 4px 8px rgba(0, 0, 0, 0.04);
 }

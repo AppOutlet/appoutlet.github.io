@@ -1,23 +1,24 @@
 <section id="our-apps" class="py-5">
     <div class="container">
         <h2 i18n class="brand-gradient-text mb-0">Our Apps</h2>
-        <p i18n class="mb-5">A glimpse into some of the solutions we've crafted</p>
+        <p i18n class="mb-3">A glimpse into some of the solutions we've crafted</p>
         <div class="row">
             @for (app of apps; track $index) {
-            <div class="col-6">
-                <mat-card class="app-card">
+            <div class="col-lg-6 col-sm-12">
+                <mat-card class="app-card mt-3">
                     <mat-card-header>
-                        <div class="brand-gradient d-flex flex-row" style="border-radius: 16px; width: 100%;">
+                        <div class="brand-gradient d-flex flex-row app-card-header">
                             <div class="">
                                 <img [src]="app.icon" [alt]="app.title + ' icon'" class="app-icon p-2">
                             </div>
-                            <div class="">
-                                <h3>{{ app.title }}</h3>
+                            <div>
+                                <h3 class="mb-0">{{ app.title }}</h3>
+                                <p class="mt-1">{{ app.summary }}</p>
                             </div>
                         </div>
                     </mat-card-header>
                     <mat-card-content>
-                        <p>{{ app.summary }}</p>
+                        <p>{{ app.description }}</p>
                     </mat-card-content>
                 </mat-card>
             </div>
