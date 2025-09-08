@@ -33,8 +33,8 @@ dependencies:
     specifier: ^20.2.3
     version: 20.2.3(@angular/common@20.2.3)(@angular/core@20.2.3)(@angular/platform-browser@20.2.3)(rxjs@7.8.2)
   '@angular/ssr':
-    specifier: ^20.2.1
-    version: 20.2.1(@angular/common@20.2.3)(@angular/core@20.2.3)(@angular/platform-server@20.2.3)(@angular/router@20.2.3)
+    specifier: ^20.2.2
+    version: 20.2.2(@angular/common@20.2.3)(@angular/core@20.2.3)(@angular/platform-server@20.2.3)(@angular/router@20.2.3)
   '@apollo/client':
     specifier: ^3.0.0
     version: 3.14.0(graphql@16.11.0)
@@ -63,7 +63,7 @@ dependencies:
 devDependencies:
   '@angular/build':
     specifier: ^20.2.1
-    version: 20.2.1(@angular/compiler-cli@20.2.3)(@angular/compiler@20.2.3)(@angular/core@20.2.3)(@angular/localize@20.2.3)(@angular/platform-browser@20.2.3)(@angular/platform-server@20.2.3)(@angular/ssr@20.2.1)(@types/node@24.3.0)(karma@6.4.4)(tslib@2.8.1)(typescript@5.9.2)
+    version: 20.2.1(@angular/compiler-cli@20.2.3)(@angular/compiler@20.2.3)(@angular/core@20.2.3)(@angular/localize@20.2.3)(@angular/platform-browser@20.2.3)(@angular/platform-server@20.2.3)(@angular/ssr@20.2.2)(@types/node@24.3.0)(karma@6.4.4)(tslib@2.8.1)(typescript@5.9.2)
   '@angular/cli':
     specifier: ^20.2.1
     version: 20.2.1(@types/node@24.3.0)
@@ -280,7 +280,7 @@ packages:
       - chokidar
     dev: true
 
-  /@angular/build@20.2.1(@angular/compiler-cli@20.2.3)(@angular/compiler@20.2.3)(@angular/core@20.2.3)(@angular/localize@20.2.3)(@angular/platform-browser@20.2.3)(@angular/platform-server@20.2.3)(@angular/ssr@20.2.1)(@types/node@24.3.0)(karma@6.4.4)(tslib@2.8.1)(typescript@5.9.2):
+  /@angular/build@20.2.1(@angular/compiler-cli@20.2.3)(@angular/compiler@20.2.3)(@angular/core@20.2.3)(@angular/localize@20.2.3)(@angular/platform-browser@20.2.3)(@angular/platform-server@20.2.3)(@angular/ssr@20.2.2)(@types/node@24.3.0)(karma@6.4.4)(tslib@2.8.1)(typescript@5.9.2):
     resolution: {integrity: sha512-FLiNDUhqCkU7EyODwPl8EZMubWdQG62ynczeLcHGtHOA2/Wiv+CvCP58GbuznZSslEcyyyE7MsEy3ZvsjxZuIA==}
     engines: {node: ^20.19.0 || ^22.12.0 || >=24.0.0, npm: ^6.11.0 || ^7.5.6 || >=8.0.0, yarn: '>= 1.13.0'}
     peerDependencies:
@@ -334,7 +334,7 @@ packages:
       '@angular/localize': 20.2.3(@angular/compiler-cli@20.2.3)(@angular/compiler@20.2.3)
       '@angular/platform-browser': 20.2.3(@angular/common@20.2.3)(@angular/core@20.2.3)
       '@angular/platform-server': 20.2.3(@angular/common@20.2.3)(@angular/compiler@20.2.3)(@angular/core@20.2.3)(@angular/platform-browser@20.2.3)(rxjs@7.8.2)
-      '@angular/ssr': 20.2.1(@angular/common@20.2.3)(@angular/core@20.2.3)(@angular/platform-server@20.2.3)(@angular/router@20.2.3)
+      '@angular/ssr': 20.2.2(@angular/common@20.2.3)(@angular/core@20.2.3)(@angular/platform-server@20.2.3)(@angular/router@20.2.3)
       '@babel/core': 7.28.3
       '@babel/helper-annotate-as-pure': 7.27.3
       '@babel/helper-split-export-declaration': 7.24.7
@@ -582,8 +582,8 @@ packages:
       rxjs: 7.8.2
       tslib: 2.8.1
 
-  /@angular/ssr@20.2.1(@angular/common@20.2.3)(@angular/core@20.2.3)(@angular/platform-server@20.2.3)(@angular/router@20.2.3):
-    resolution: {integrity: sha512-7bCfUwmgQJQPFuNRWd0mofIuwN3BK7JLpPEKYiIHd21Pd60xt+Dv8UnEwyixBL3ixhHsfzekDVaKPm2ar5/SFg==}
+  /@angular/ssr@20.2.2(@angular/common@20.2.3)(@angular/core@20.2.3)(@angular/platform-server@20.2.3)(@angular/router@20.2.3):
+    resolution: {integrity: sha512-zPvleEZr0Kt99EiVPqXrwIYT1Bysfk4qZkBpjVvUm8OSXtzimlM0kS+l6plKZ2kys0P4qvpdOzuh5vMz/tNo4Q==}
     peerDependencies:
       '@angular/common': ^20.0.0
       '@angular/core': ^20.0.0
