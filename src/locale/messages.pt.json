@@ -1,33 +1,8 @@
 {
   "locale": "pt",
   "translations": {
-    "7523736260589841950": "© {$INTERPOLATION} AppOutlet. Todos os direitos reservados.",
-    "7751010942038334793": "Blog",
-    "6783667173167343542": "Seletor de idioma",
-    "1949800099101277248": "Idiomas",
-    "5354174957306388861": "🇬🇧 Inglês",
-    "4563974388997738366": "🇧🇷 Português",
-    "3772700039457271242": "Soluções de software inovadoras",
-    "3910117371158925299": "Desenvolvemos aplicações multiplataforma de alta qualidade para dar vida às suas ideias. Vamos criar algo incrível juntos.",
-    "7784662168721174346": "Nossos aplicativos",
-    "9145697385591729587": "Uma amostra de algumas das soluções que criamos",
-    "4415628975149077645": "Um cliente para fóruns Discourse.",
-    "1170978257963760063": "Seu cliente completo para gerenciar múltiplos fóruns Discourse. Desfrute de acesso contínuo e atualizações em tempo real no Android, iOS e desktop, mantendo todas as suas comunidades conectadas em um aplicativo multiplataforma com design elegante.",
-    "5717574441847929938": "Encontre os melhores preços em jogos para PC",
-    "3899429213504202826": "Encontre os melhores preços em jogos para PC com facilidade. Este aplicativo de código aberto agrega ofertas de lojas online populares, apresentando os descontos mais recentes e uma lista de desejos prática. Descubra disponibilidade multiplataforma para Windows, Linux e macOS.",
-    "9063344890262493319": "Nossos serviços",
-    "4487789485754916791": "Oferecemos uma ampla gama de serviços para dar vida às suas ideias.",
-    "5157709985878375038": "Desenvolvimento de aplicativos personalizados",
-    "1785799745647495182": "Tem uma ideia? Desenvolvemos aplicativos personalizados para qualquer dispositivo (iPhone, Android, Desktop). Focamos em levar seu produto ao mercado rapidamente com uma solução de alta qualidade e confiável.",
-    "4535993446582154196": "Design de UI/UX",
-    "8390202708234339848": "Projetamos interfaces bonitas, modernas e fáceis de usar que seus usuários vão adorar, garantindo que seu aplicativo pareça profissional e atraente em todas as telas.",
-    "7106050716195810488": "Marketing para lojas de aplicativos",
-    "1819431538659075492": "Ajudamos seu aplicativo a ser descoberto. Nossa equipe cria ativos visuais chamativos e descrições convincentes para atrair seus primeiros usuários e aumentar a visibilidade.",
-    "3157249928618815417": "Aceleração de compilação",
-    "8702158027359265763": "Acelere seu processo de desenvolvimento. Configuramos soluções que reduzem drasticamente os tempos de compilação, permitindo que sua equipe teste e itere muito mais rápido.",
-    "8565298618517928924": "Chatbots com IA",
-    "407402600727440062": "Construímos chatbots inteligentes com IA treinados no conhecimento da sua empresa. Eles fornecem respostas instantâneas e precisas às perguntas dos clientes e apoiam suas equipes internas.",
-    "1337930064980516400": "Qualidade de Software & QA",
-    "5501057417181921247": "Lance com confiança. Ajudamos você a configurar processos de teste robustos para garantir que seu aplicativo seja confiável e livre de bugs, construindo confiança com seus usuários desde o primeiro dia."
+    "6192733253817328176": "Bem-vindo ao AppOutlet!",
+    "1912842833334639213": "Página inicial funciona!",
+    "8686476056343645301": "Ícone da página inicial"
   }
 }

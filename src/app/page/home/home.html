@@ -1,3 +1,132 @@
-<app-hero/>
-<app-services/>
-<app-our-apps/>
+<app-navigation></app-navigation>
+
+<main>
+  <!-- Hero Section -->
+  <section class="bg-white py-24 text-center relative overflow-hidden">
+    <div class="container mx-auto px-4 relative z-10">
+      <!-- Multi-platform Illustration -->
+      <div class="mb-12">
+        <img src="https://via.placeholder.com/600x300?text=Multiplatform+Apps+Illustration" alt="Multiplatform Apps Illustration" class="mx-auto w-full max-w-xl h-auto object-contain">
+      </div>
+
+      <h1 class="text-5xl md:text-6xl font-extrabold mb-4 leading-tight bg-gradient-to-r from-blue-600 to-purple-700 text-transparent bg-clip-text" i18n>
+        We craft exceptional digital experiences that work beautifully across all platforms.
+      </h1>
+      <p class="text-xl md:text-2xl mb-8 max-w-3xl mx-auto text-gray-700" i18n>
+        From mobile apps to desktop applications, we turn your vision into reality.
+      </p>
+      <div class="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4">
+        <a href="#" class="inline-block bg-blue-600 text-white hover:bg-blue-700 font-bold py-3 px-8 rounded-full text-lg transition duration-300 ease-in-out" i18n>
+          Start a New Project
+        </a>
+        <a href="#" class="inline-block border border-blue-600 text-blue-600 hover:bg-blue-50 hover:text-blue-700 font-bold py-3 px-8 rounded-full text-lg transition duration-300 ease-in-out" i18n>
+          Know Our Projects
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Our Services / How We Work Section -->
+  <section class="py-20 bg-white">
+    <div class="container mx-auto px-4">
+      <h2 class="text-4xl font-bold text-center text-gray-900 mb-12" i18n>Our Collaborative Process</h2>
+      <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8 text-center">
+        <div class="p-6 bg-gray-50 rounded-lg shadow-sm hover:shadow-md transition duration-300 ease-in-out">
+          <lucide-icon name="mail" class="text-blue-600 w-12 h-12 mx-auto mb-4"></lucide-icon>
+          <h3 class="text-xl font-semibold text-gray-800 mb-2" i18n>1. Initial Contact</h3>
+          <p class="text-gray-600" i18n>Reach out via email or social media to start the conversation.</p>
+        </div>
+        <div class="p-6 bg-gray-50 rounded-lg shadow-sm hover:shadow-md transition duration-300 ease-in-out">
+          <lucide-icon name="phone" class="text-blue-600 w-12 h-12 mx-auto mb-4"></lucide-icon>
+          <h3 class="text-xl font-semibold text-gray-800 mb-2" i18n>2. Discovery Call</h3>
+          <p class="text-gray-600" i18n>We discuss your vision, goals, and detailed requirements.</p>
+        </div>
+        <div class="p-6 bg-gray-50 rounded-lg shadow-sm hover:shadow-md transition duration-300 ease-in-out">
+          <lucide-icon name="clipboard-list" class="text-blue-600 w-12 h-12 mx-auto mb-4"></lucide-icon>
+          <h3 class="text-xl font-semibold text-gray-800 mb-2" i18n>3. Project Proposal</h3>
+          <p class="text-gray-600" i18n>A detailed timeline, scope, and transparent pricing are provided.</p>
+        </div>
+        <div class="p-6 bg-gray-50 rounded-lg shadow-sm hover:shadow-md transition duration-300 ease-in-out">
+          <lucide-icon name="rocket" class="text-blue-600 w-12 h-12 mx-auto mb-4"></lucide-icon>
+          <h3 class="text-xl font-semibold text-gray-800 mb-2" i18n>4. Development & Launch</h3>
+          <p class="text-gray-600" i18n>Agile development with regular updates, leading to a successful launch.</p>
+        </div>
+      </div>
+
+      <div class="mt-16 text-center">
+        <h3 class="text-3xl font-bold text-gray-900 mb-4" i18n>App Store Marketing</h3>
+        <p class="text-lg text-gray-700 max-w-2xl mx-auto" i18n>
+          Beyond development, we specialize in creating compelling app store assets and strategies to boost your application's visibility and downloads.
+        </p>
+        <lucide-icon name="store" class="text-blue-600 w-16 h-16 mx-auto mt-6"></lucide-icon>
+      </div>
+    </div>
+  </section>
+
+  <!-- Published Projects Showcase -->
+  <section class="py-20 bg-gray-50">
+    <div class="container mx-auto px-4">
+      <h2 class="text-4xl font-bold text-center text-gray-900 mb-12" i18n>Our Published Projects</h2>
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <!-- Project Card 1 -->
+        <div class="bg-white p-6 rounded-lg shadow-md text-center hover:shadow-lg transition duration-300 ease-in-out">
+          <img src="https://via.placeholder.com/100x100?text=DisCorkie" alt="DisCorkie Logo" class="mx-auto mb-4 rounded-full">
+          <h3 class="text-2xl font-semibold text-gray-800 mb-2" i18n>DisCorkie</h3>
+          <p class="text-gray-600 mb-4" i18n>Connect and collaborate seamlessly.</p>
+        </div>
+        <!-- Project Card 2 -->
+        <div class="bg-white p-6 rounded-lg shadow-md text-center hover:shadow-lg transition duration-300 ease-in-out">
+          <img src="https://via.placeholder.com/100x100?text=GameOutlet" alt="GameOutlet Logo" class="mx-auto mb-4 rounded-full">
+          <h3 class="text-2xl font-semibold text-gray-800 mb-2" i18n>GameOutlet</h3>
+          <p class="text-gray-600 mb-4" i18n>Your ultimate gaming hub.</p>
+        </div>
+        <!-- Project Card 3 -->
+        <div class="bg-white p-6 rounded-lg shadow-md text-center hover:shadow-lg transition duration-300 ease-in-out">
+          <img src="https://via.placeholder.com/100x100?text=TaskFlow" alt="TaskFlow Logo" class="mx-auto mb-4 rounded-full">
+          <h3 class="text-2xl font-semibold text-gray-800 mb-2" i18n>TaskFlow</h3>
+          <p class="text-gray-600 mb-4" i18n>Streamline your productivity.</p>
+        </div>
+      </div>
+      <div class="text-center mt-12">
+        <a href="#" class="inline-block bg-blue-600 text-white hover:bg-blue-700 font-bold py-3 px-8 rounded-full text-lg transition duration-300 ease-in-out" i18n>
+          View Our Full Portfolio
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Latest from the Blog -->
+  <section class="py-20 bg-white">
+    <div class="container mx-auto px-4">
+      <h2 class="text-4xl font-bold text-center text-gray-900 mb-12" i18n>Latest from the Blog</h2>
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <!-- Blog Post Card 1 -->
+        <div class="bg-gray-50 p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300 ease-in-out">
+          <h3 class="text-xl font-semibold text-gray-800 mb-2" i18n>The Future of Cross-Platform Development</h3>
+          <p class="text-gray-600 mb-4 line-clamp-3" i18n>
+            Explore the exciting advancements and trends shaping the landscape of cross-platform application development.
+          </p>
+          <a href="https://blog.appoutlet.dev" target="_blank" class="text-blue-600 hover:underline font-medium" i18n>Read More</a>
+        </div>
+        <!-- Blog Post Card 2 -->
+        <div class="bg-gray-50 p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300 ease-in-out">
+          <h3 class="text-xl font-semibold text-gray-800 mb-2" i18n>5 Tips for a Successful App Launch</h3>
+          <p class="text-gray-600 mb-4 line-clamp-3" i18n>
+            From pre-launch marketing to post-launch analytics, discover key strategies to ensure your app's success.
+          </p>
+          <a href="https://blog.appoutlet.dev" target="_blank" class="text-blue-600 hover:underline font-medium" i18n>Read More</a>
+        </div>
+        <!-- Blog Post Card 3 -->
+        <div class="bg-gray-50 p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300 ease-in-out">
+          <h3 class="text-xl font-semibold text-gray-800 mb-2" i18n>Designing Intuitive User Interfaces</h3>
+          <p class="text-gray-600 mb-4 line-clamp-3" i18n>
+            Learn the principles of creating user interfaces that are not only beautiful but also incredibly easy to use.
+          </p>
+          <a href="https://blog.appoutlet.dev" target="_blank" class="text-blue-600 hover:underline font-medium" i18n>Read More</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<app-footer></app-footer>

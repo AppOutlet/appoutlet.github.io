@@ -1,32 +1,14 @@
-import {
-  ApplicationConfig,
-  inject,
-  provideZoneChangeDetection,
-} from '@angular/core';
+import { ApplicationConfig, importProvidersFrom, provideBrowserGlobalErrorListeners, provideZoneChangeDetection } from '@angular/core';
 import { provideRouter } from '@angular/router';
-
+import { LucideAngularModule, House, Mail, Phone, ClipboardList, Rocket, Github, Linkedin, BookOpen, Store } from 'lucide-angular';
 import { routes } from './app.routes';
-import {
-  provideClientHydration,
-  withEventReplay,
-} from '@angular/platform-browser';
-import { provideApollo } from 'apollo-angular';
-import { HttpLink } from 'apollo-angular/http';
-import { InMemoryCache } from '@apollo/client/core';
-import { provideHttpClient, withFetch } from '@angular/common/http';
+import { provideClientHydration, withEventReplay } from '@angular/platform-browser';
 
 export const appConfig: ApplicationConfig = {
   providers: [
+    provideBrowserGlobalErrorListeners(),
     provideZoneChangeDetection({ eventCoalescing: true }),
-    provideRouter(routes),
-    provideHttpClient(withFetch()),
-    provideClientHydration(withEventReplay()),
-    provideApollo(() => {
-      const httpLink = inject(HttpLink);
-      return {
-        link: httpLink.create({ uri: 'https://gql.hashnode.com/graphql' }),
-        cache: new InMemoryCache(),
-      };
-    }),
-  ],
+    provideRouter(routes), provideClientHydration(withEventReplay()),
+    importProvidersFrom(LucideAngularModule.pick({ House, Mail, Phone, ClipboardList, Rocket, Github, Linkedin, BookOpen, Store }))
+  ]
 };

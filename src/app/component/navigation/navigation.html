@@ -1,29 +1,9 @@
-<mat-toolbar>
-  <img src="image/nav/logo.png" alt="AppOutlet Logo" class="logo">
-  <span class="site-name">AppOutlet</span>
-  <span class="spacer"></span>
-  <button matIconButton class="hamburger-menu" [matMenuTriggerFor]="main">
-    <mat-icon>menu</mat-icon>
-  </button>
-  <a matButton i18n class="menu-item" href="https://blog.appoutlet.dev" target="_blank" rel="noopener">Blog</a>
-  <button matIconButton class="menu-item" [matMenuTriggerFor]="languages" i18n-aria-label aria-label="Language switcher">
-    <mat-icon>language</mat-icon>
-  </button>
-</mat-toolbar>
-
-
-<mat-menu #main="matMenu">
-  <a mat-menu-item href="https://blog.appoutlet.dev" target="_blank" rel="noopener">
-    <mat-icon>newspaper</mat-icon>
-    <span i18n>Blog</span>
-  </a>
-  <button mat-menu-item [matMenuTriggerFor]="languages" i18n-aria-label aria-label="Language switcher">
-    <mat-icon>language</mat-icon>
-    <span i18n>Languages</span>
-  </button>
-</mat-menu>
-
-<mat-menu #languages="matMenu">
-  <a mat-menu-item i18n href="/">🇬🇧 English</a>
-  <a mat-menu-item i18n href="/pt">🇧🇷 Portuguese</a>
-</mat-menu>
+<nav class="bg-white/80 backdrop-blur-lg shadow-sm py-4 sticky top-0 z-50">
+  <div class="container mx-auto px-4 flex justify-between items-center">
+    <a href="/" class="flex items-center space-x-2">
+      <img src="logo-transparent.png" alt="AppOutlet Logo" class="h-8 w-auto">
+      <span class="text-2xl font-bold text-gray-900" i18n>AppOutlet</span>
+    </a>
+    <!-- Navigation links can be added here if needed, for now, keeping it simple -->
+  </div>
+</nav>

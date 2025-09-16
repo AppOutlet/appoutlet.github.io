@@ -1,5 +1,38 @@
-<footer class="footer text-center py-4">
-  <div class="container">
-    <p i18n class="text-muted mb-0">&copy; {{ currentYear }} AppOutlet. All Rights Reserved.</p>
+<footer class="bg-gray-900 text-gray-300 py-10">
+  <div class="container mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-8">
+    <!-- Quick Links -->
+    <div>
+      <h3 class="text-xl font-semibold text-white mb-4" i18n>Quick Links</h3>
+      <ul class="space-y-2">
+        <li><a href="#" class="hover:text-blue-400 transition duration-300 ease-in-out" i18n>Our Services</a></li>
+        <li><a href="#" class="hover:text-blue-400 transition duration-300 ease-in-out" i18n>Portfolio</a></li>
+        <li><a href="https://blog.appoutlet.dev" target="_blank" class="hover:text-blue-400 transition duration-300 ease-in-out" i18n>Blog</a></li>
+        <li><a href="#" class="hover:text-blue-400 transition duration-300 ease-in-out" i18n>Contact</a></li>
+      </ul>
+    </div>
+
+    <!-- Social Media -->
+    <div>
+      <h3 class="text-xl font-semibold text-white mb-4" i18n>Connect With Us</h3>
+      <div class="flex space-x-4">
+        <a href="https://github.com/appoutlet" target="_blank" class="text-gray-400 hover:text-white transition duration-300 ease-in-out">
+          <lucide-icon name="github" class="w-6 h-6"></lucide-icon>
+        </a>
+        <a href="#" class="text-gray-400 hover:text-white transition duration-300 ease-in-out">
+          <lucide-icon name="linkedin" class="w-6 h-6"></lucide-icon>
+        </a>
+        <!-- Add more social icons as needed -->
+      </div>
+    </div>
+
+    <!-- Contact Information -->
+    <div>
+      <h3 class="text-xl font-semibold text-white mb-4" i18n>Contact Us</h3>
+      <p class="mb-2" i18n>Email: <a href="mailto:contact@appoutlet.dev" class="hover:text-blue-400 transition duration-300 ease-in-out">contact@appoutlet.dev</a></p>
+    </div>
+  </div>
+
+  <div class="border-t border-gray-700 mt-8 pt-8 text-center text-gray-500 text-sm">
+    <p i18n>© 2025 AppOutlet. Made with ❤️ for creating amazing apps.</p>
   </div>
 </footer>

@@ -1,13 +1,14 @@
 import { Component } from '@angular/core';
-import { Hero } from './component/hero/hero';
-import { Services } from './component/services/services';
-import { OurApps } from './component/our-apps/our-apps';
+import { LucideAngularModule } from 'lucide-angular';
+import { Navigation } from '../../component/navigation/navigation';
+import { Footer } from '../../component/footer/footer';
+import { Hero } from '../../component/hero/hero';
 
 @Component({
   selector: 'app-home',
-  imports: [Hero, Services, OurApps],
+  standalone: true,
+  imports: [LucideAngularModule, Navigation, Footer, Hero],
   templateUrl: './home.html',
-  styleUrl: './home.scss'
 })
 export class Home {
 

@@ -1,20 +1,22 @@
 {
-  "name": "appoutlet.github.io",
-  "version": "1.0.0",
+  "name": "appoutlet",
+  "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
     "dev": "ng serve",
+    "start": "ng serve",
     "build": "ng build --localize",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "serve:ssr:appoutlet.github.io": "node dist/appoutlet.github.io/server/server.mjs",
+    "serve:ssr:appoutlet": "node dist/appoutlet/server/server.mjs",
     "translate:extract": "ng extract-i18n --format=json --output-path src/locale ",
     "translate:replace-en": "rm src/locale/messages.en.json && cp src/locale/messages.json src/locale/messages.en.json",
     "translate:process": "npx lingo.dev@latest i18n -y",
     "translate": "npm run translate:extract && npm run translate:replace-en && npm run translate:process"
   },
   "prettier": {
+    "printWidth": 100,
+    "singleQuote": true,
     "overrides": [
       {
         "files": "*.html",
@@ -26,34 +28,32 @@
   },
   "private": true,
   "dependencies": {
-    "@angular/cdk": "^20.2.1",
-    "@angular/common": "^20.2.3",
-    "@angular/compiler": "^20.2.3",
-    "@angular/core": "^20.2.3",
-    "@angular/forms": "^20.2.3",
-    "@angular/material": "^20.2.1",
-    "@angular/platform-browser": "^20.2.3",
-    "@angular/platform-server": "^20.2.3",
-    "@angular/router": "^20.2.3",
-    "@angular/ssr": "^20.2.1",
-    "apollo-angular": "^11.0.0",
-    "bootstrap": "^5.3.8",
+    "@angular/common": "^20.3.0",
+    "@angular/compiler": "^20.3.0",
+    "@angular/core": "^20.3.0",
+    "@angular/forms": "^20.3.0",
+    "@angular/platform-browser": "^20.3.0",
+    "@angular/platform-server": "^20.3.0",
+    "@angular/router": "^20.3.0",
+    "@angular/ssr": "^20.3.1",
+    "@tailwindcss/postcss": "^4.1.13",
     "express": "^5.1.0",
-    "graphql": "^16",
+    "lucide-angular": "^0.544.0",
+    "postcss": "^8.5.6",
     "rxjs": "~7.8.0",
+    "tailwindcss": "^4.1.13",
     "tslib": "^2.3.0",
-    "zone.js": "^0.15.1",
-    "@apollo/client": "^3.0.0"
+    "zone.js": "~0.15.0"
   },
   "devDependencies": {
-    "@angular/build": "^20.2.1",
-    "@angular/cli": "^20.2.1",
-    "@angular/compiler-cli": "^20.2.3",
-    "@angular/localize": "^20.2.3",
+    "@angular/build": "^20.3.1",
+    "@angular/cli": "^20.3.1",
+    "@angular/compiler-cli": "^20.3.0",
+    "@angular/localize": "^20.3.0",
     "@types/express": "^5.0.1",
     "@types/jasmine": "~5.1.0",
-    "@types/node": "^24.3.0",
-    "jasmine-core": "~5.10.0",
+    "@types/node": "^20.17.19",
+    "jasmine-core": "~5.9.0",
     "karma": "~6.4.0",
     "karma-chrome-launcher": "~3.2.0",
     "karma-coverage": "~2.2.0",
@@ -61,5 +61,5 @@
     "karma-jasmine-html-reporter": "~2.1.0",
     "typescript": "~5.9.2"
   },
-  "packageManager": "pnpm@8.15.6+sha1.8105075ad0aa306138be128c017e9c41e28ecffa"
+  "packageManager": "pnpm@10.16.1+sha512.0e155aa2629db8672b49e8475da6226aa4bdea85fdcdfdc15350874946d4f3c91faaf64cbdc4a5d1ab8002f473d5c3fcedcd197989cf0390f9badd3c04678706"
 }
