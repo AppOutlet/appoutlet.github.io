@@ -28,12 +28,13 @@ This document outlines the core technologies and best practices for developing t
 To maintain consistency and efficiency, please adhere to the following guidelines when developing:
 
 *   **Core Framework**: All application logic, components, services, and directives must be implemented using **Angular**.
+*   **Componentization**: Each distinct section of a page should be encapsulated within its own component to improve maintainability and reusability. For example, the hero section of the home page is contained within the `hero` component inside the `src/app/component` folder.
 *   **Styling**: Use **Tailwind CSS** classes exclusively for all styling. Avoid writing custom CSS in `.css` files unless it's for global styles that cannot be achieved with Tailwind utilities. Every component must have a corresponding CSS file, even if it is empty, to adhere to Angular conventions.
 *   **Icons**: For all icon needs, utilize the **Lucide Angular** library. Ensure icons are imported and used consistently across the application.
 *   **Routing**: All navigation and URL management should be handled through the **Angular Router**. Define routes in `src/app/app.routes.ts` and use `router-outlet` and `routerLink` as appropriate.
 *   **State Management**: For component-level or simple shared state, leverage Angular's built-in features like signals, inputs/outputs, and services.
 *   **Forms**: Implement all forms using Angular's **Reactive Forms** or **Template-driven Forms** modules.
 *   **HTTP Requests**: Use Angular's **HttpClient** module for all interactions with backend APIs.
-*   **Internationalization**: All user-facing text that requires translation must use Angular's i18n features, specifically the `$localize` tag.
+*   **Internationalization**: All user-facing text that requires translation must use Angular's i18n features. For text content, use the `$localize` tag. For attributes like `title` or `alt`, add the `i18n-attribute` syntax (e.g., `i18n-alt alt="Multiplatform Apps Illustration"`).
 *   **Code Formatting**: Ensure all code is formatted with Prettier before committing. The configuration is defined in `package.json`.
 *   **Testing**: This is a landing page project, so writing tests is not required. The Angular CLI has been configured to skip test file generation.
