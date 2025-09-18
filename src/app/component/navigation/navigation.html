@@ -1,13 +1,33 @@
 <nav class="bg-white/80 backdrop-blur-lg shadow-sm py-4 sticky top-0 z-50">
   <div class="container mx-auto px-4 flex justify-between items-center">
+    <!-- Logo -->
     <a href="/" class="flex items-center space-x-2">
       <img src="logo-transparent.png" alt="AppOutlet Logo" class="h-8 w-auto">
       <span class="text-2xl font-bold text-gray-900" i18n>AppOutlet</span>
     </a>
-    <div class="flex space-x-6">
+
+    <!-- Desktop Menu -->
+    <div class="hidden md:flex space-x-6">
       <a href="#services" class="text-gray-700 hover:text-indigo-600 text-lg font-medium transition-colors duration-200" i18n>Services</a>
       <a href="#portifolio" class="text-gray-700 hover:text-indigo-600 text-lg font-medium transition-colors duration-200" i18n>Our apps</a>
       <a href="#contact" class="text-gray-700 hover:text-indigo-600 text-lg font-medium transition-colors duration-200" i18n>Contact</a>
+    </div>
+
+    <!-- Hamburger Button -->
+    <div class="md:hidden">
+      <button (click)="toggleMenu()" class="text-gray-700 hover:text-indigo-600 focus:outline-none" aria-label="Toggle menu">
+        <i class="ph ph-list ph-l" *ngIf="!isMenuOpen"></i>
+        <i class="ph ph-x ph-l" *ngIf="isMenuOpen"></i>
+      </button>
+    </div>
+  </div>
+
+  <!-- Mobile Menu -->
+  <div *ngIf="isMenuOpen" class="md:hidden bg-white/95 backdrop-blur-lg absolute w-full shadow-md">
+    <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3 flex flex-col items-center">
+      <a href="#services" (click)="closeMenu()" class="block w-full text-center px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-indigo-600 hover:bg-gray-50" i18n>Services</a>
+      <a href="#portifolio" (click)="closeMenu()" class="block w-full text-center px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-indigo-600 hover:bg-gray-50" i18n>Our apps</a>
+      <a href="#contact" (click)="closeMenu()" class="block w-full text-center px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-indigo-600 hover:bg-gray-50" i18n>Contact</a>
     </div>
   </div>
 </nav>
