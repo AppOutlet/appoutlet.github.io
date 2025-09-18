@@ -23,7 +23,13 @@
   </div>
 
   <!-- Mobile Menu -->
-  <div *ngIf="isMenuOpen" class="md:hidden bg-white/95 backdrop-blur-lg absolute w-full shadow-md">
+  <div 
+    class="md:hidden bg-white/95 backdrop-blur-lg absolute w-full shadow-md overflow-hidden transition-all duration-300 ease-in-out"
+    [ngClass]="{
+      'max-h-0 opacity-0': !isMenuOpen,
+      'max-h-96 opacity-100': isMenuOpen
+    }"
+  >
     <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3 flex flex-col items-center">
       <a href="#services" (click)="closeMenu()" class="block w-full text-center px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-indigo-600 hover:bg-gray-50" i18n>Services</a>
       <a href="#portifolio" (click)="closeMenu()" class="block w-full text-center px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-indigo-600 hover:bg-gray-50" i18n>Our apps</a>
