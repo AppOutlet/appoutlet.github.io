@@ -1,50 +1,9 @@
-<nav class="bg-white shadow-md py-4">
-    <div class="container mx-auto px-4 flex justify-between items-center">
-      <!-- Logo -->
-      <a routerLink="/" class="flex items-center">
-        <img src="assets/logo.svg" alt="Appoutlet Logo" class="h-10 mr-3">
-        <span class="text-2xl font-bold text-gray-800">Appoutlet</span>
-      </a>
-
-      <!-- Desktop Navigation -->
-      <ul class="hidden md:flex space-x-8">
-        <li>
-          <a routerLink="/" class="text-gray-600 hover:text-indigo-600 text-lg font-medium transition-colors duration-300" i18n>Home</a>
-        </li>
-        <li>
-          <a routerLink="/#services" class="text-gray-600 hover:text-indigo-600 text-lg font-medium transition-colors duration-300" i18n>Services</a>
-        </li>
-        <li>
-          <a routerLink="/#portifolio" class="text-gray-600 hover:text-indigo-600 text-lg font-medium transition-colors duration-300" i18n>Our apps</a>
-        </li>
-        <li>
-          <a routerLink="/#contact" class="text-gray-600 hover:text-indigo-600 text-lg font-medium transition-colors duration-300" i18n>Contact</a>
-        </li>
-      </ul>
-
-      <!-- Mobile Navigation Toggle (Hamburger Icon) -->
-      <div class="md:hidden">
-        <button (click)="toggleMobileMenu()" class="text-gray-600 hover:text-indigo-600 focus:outline-none">
-          <i class="ph-bold ph-list ph-l"></i>
-        </button>
-      </div>
-    </div>
-
-    <!-- Mobile Menu (hidden by default) -->
-    <div *ngIf="isMobileMenuOpen" class="md:hidden bg-white shadow-lg py-4">
-      <ul class="flex flex-col items-center space-y-4">
-        <li>
-          <a routerLink="/" (click)="toggleMobileMenu()" class="text-gray-600 hover:text-indigo-600 text-lg font-medium transition-colors duration-300" i18n>Home</a>
-        </li>
-        <li>
-          <a routerLink="/#services" (click)="toggleMobileMenu()" class="text-gray-600 hover:text-indigo-600 text-lg font-medium transition-colors duration-300" i18n>Services</a>
-        </li>
-        <li>
-          <a routerLink="/#portifolio" (click)="toggleMobileMenu()" class="text-gray-600 hover:text-indigo-600 text-lg font-medium transition-colors duration-300" i18n>Our apps</a>
-        </li>
-        <li>
-          <a routerLink="/#contact" (click)="toggleMobileMenu()" class="text-gray-600 hover:text-indigo-600 text-lg font-medium transition-colors duration-300" i18n>Contact</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
+<nav class="bg-white/80 backdrop-blur-lg shadow-sm py-4 sticky top-0 z-50">
+  <div class="container mx-auto px-4 flex justify-between items-center">
+    <a href="/" class="flex items-center space-x-2">
+      <img src="logo-transparent.png" alt="AppOutlet Logo" class="h-8 w-auto">
+      <span class="text-2xl font-bold text-gray-900" i18n>AppOutlet</span>
+    </a>
+    <!-- Navigation links can be added here if needed, for now, keeping it simple -->
+  </div>
+</nav>
