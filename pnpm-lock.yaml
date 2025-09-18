@@ -32,15 +32,15 @@ importers:
       '@angular/ssr':
         specifier: ^20.3.1
         version: 20.3.1(fa4bd4732ee75aab3ff45af7720114cd)
+      '@phosphor-icons/web':
+        specifier: ^2.1.2
+        version: 2.1.2
       '@tailwindcss/postcss':
         specifier: ^4.1.13
         version: 4.1.13
       express:
         specifier: ^5.1.0
         version: 5.1.0
-      lucide-angular:
-        specifier: ^0.544.0
-        version: 0.544.0(@angular/common@20.3.0(@angular/core@20.3.0(@angular/compiler@20.3.0)(rxjs@7.8.2)(zone.js@0.15.1))(rxjs@7.8.2))(@angular/core@20.3.0(@angular/compiler@20.3.0)(rxjs@7.8.2)(zone.js@0.15.1))
       postcss:
         specifier: ^8.5.6
         version: 8.5.6
@@ -1064,6 +1064,9 @@ packages:
   '@parcel/watcher@2.5.1':
     resolution: {integrity: sha512-dfUnCxiN9H4ap84DvD2ubjw+3vUNpstxa0TneY/Paat8a3R4uQZDLSvWjmznAY/DoahqTHl9V46HF/Zs3F29pg==}
     engines: {node: '>= 10.0.0'}
+
+  '@phosphor-icons/web@2.1.2':
+    resolution: {integrity: sha512-rPAR9o/bEcp4Cw4DEeZHXf+nlGCMNGkNDRizYHM47NLxz9vvEHp/Tt6FMK1NcWadzw/pFDPnRBGi/ofRya958A==}
 
   '@pkgjs/parseargs@0.11.0':
     resolution: {integrity: sha512-+1VkjdD0QBLPodGrJUeqarH8VAIvQODIbwh9XpP5Syisf7YoQgsJKPNFoqqLQlu+VQ/tVSshMR6loPMn8U+dPg==}
@@ -2327,12 +2330,6 @@ packages:
 
   lru-cache@5.1.1:
     resolution: {integrity: sha512-KpNARQA3Iwv+jTA0utUVVbrh+Jlrr1Fv0e56GGzAFOXN7dk/FviaDW8LHmK52DlcH4WP2n6gI8vN1aesBFgo9w==}
-
-  lucide-angular@0.544.0:
-    resolution: {integrity: sha512-CA77Jt4CitGYEEUiESnhKfgX3giOoOeYlZ6gm6mSh5hVEG8Z3Un+L3eAkZMg4EKPlXZCKMBsR6AsZg6u03xPHg==}
-    peerDependencies:
-      '@angular/common': 13.x - 20.x
-      '@angular/core': 13.x - 20.x
 
   magic-string@0.30.17:
     resolution: {integrity: sha512-sNPKHvyjVf7gyjwS4xGTaW/mCnF8wnjtifKBEhxfZ7E/S8tQ0rssrwGNn6q8JH/ohItJfSQp9mBtQYuTlH5QnA==}
@@ -4141,6 +4138,8 @@ snapshots:
       '@parcel/watcher-win32-x64': 2.5.1
     optional: true
 
+  '@phosphor-icons/web@2.1.2': {}
+
   '@pkgjs/parseargs@0.11.0':
     optional: true
 
@@ -5444,12 +5443,6 @@ snapshots:
   lru-cache@5.1.1:
     dependencies:
       yallist: 3.1.1
-
-  lucide-angular@0.544.0(@angular/common@20.3.0(@angular/core@20.3.0(@angular/compiler@20.3.0)(rxjs@7.8.2)(zone.js@0.15.1))(rxjs@7.8.2))(@angular/core@20.3.0(@angular/compiler@20.3.0)(rxjs@7.8.2)(zone.js@0.15.1)):
-    dependencies:
-      '@angular/common': 20.3.0(@angular/core@20.3.0(@angular/compiler@20.3.0)(rxjs@7.8.2)(zone.js@0.15.1))(rxjs@7.8.2)
-      '@angular/core': 20.3.0(@angular/compiler@20.3.0)(rxjs@7.8.2)(zone.js@0.15.1)
-      tslib: 2.8.1
 
   magic-string@0.30.17:
     dependencies:

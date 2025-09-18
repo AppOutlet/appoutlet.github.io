@@ -1,1 +1,16 @@
 @import "tailwindcss";
+@import "@phosphor-icons/web/regular";
+@import "@phosphor-icons/web/bold";
+
+
+.ph-s {
+  font-size: 1.0rem;
+}
+
+.ph-m {
+  font-size: 1.2rem;
+}
+
+.ph-l {
+  font-size: 1.8rem;
+}

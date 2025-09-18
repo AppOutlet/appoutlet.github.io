@@ -1,10 +1,9 @@
 import { Component } from '@angular/core';
-import { LucideAngularModule } from 'lucide-angular';
 
 @Component({
   selector: 'app-contact',
   standalone: true,
-  imports: [LucideAngularModule],
+  imports: [],
   templateUrl: './contact.html',
   styleUrl: './contact.css'
 })
