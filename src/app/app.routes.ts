@@ -1,8 +1,6 @@
 import { Routes } from '@angular/router';
+import { Home } from './page/home/home';
 
 export const routes: Routes = [
-    {
-        path: '',
-        loadComponent: () => import('./page/home/home').then(m => m.Home)
-    },
+    { path: '', component: Home }
 ];

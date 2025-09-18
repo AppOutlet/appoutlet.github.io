@@ -7,6 +7,4 @@ import { Component } from '@angular/core';
   templateUrl: './contact.html',
   styleUrl: './contact.css'
 })
-export class Contact {
-  // No component logic needed for this static contact section
-}
+export class Contact {}
