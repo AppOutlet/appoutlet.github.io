@@ -7,10 +7,11 @@
     </a>
 
     <!-- Desktop Menu -->
-    <div class="hidden md:flex space-x-6">
+    <div class="hidden md:flex items-center space-x-6">
       <a href="#services" class="text-gray-700 hover:text-indigo-600 text-lg font-medium transition-colors duration-200" i18n>Services</a>
       <a href="#portifolio" class="text-gray-700 hover:text-indigo-600 text-lg font-medium transition-colors duration-200" i18n>Our apps</a>
       <a href="#contact" class="text-gray-700 hover:text-indigo-600 text-lg font-medium transition-colors duration-200" i18n>Contact</a>
+      <app-language-switcher displayMode="dropdown"></app-language-switcher>
     </div>
 
     <!-- Hamburger Button -->
@@ -34,6 +35,8 @@
       <a href="#services" (click)="closeMenu()" class="block w-full text-center px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-indigo-600 hover:bg-gray-50" i18n>Services</a>
       <a href="#portifolio" (click)="closeMenu()" class="block w-full text-center px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-indigo-600 hover:bg-gray-50" i18n>Our apps</a>
       <a href="#contact" (click)="closeMenu()" class="block w-full text-center px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-indigo-600 hover:bg-gray-50" i18n>Contact</a>
+      <div class="border-t border-gray-200 w-full my-2"></div>
+      <app-language-switcher displayMode="inline"></app-language-switcher>
     </div>
   </div>
 </nav>

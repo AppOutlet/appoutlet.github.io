@@ -1,0 +1,29 @@
+<!-- Dropdown for Desktop -->
+<div *ngIf="displayMode === 'dropdown'" class="relative language-switcher-container">
+  <button (click)="toggleDropdown()" class="flex items-center text-gray-700 hover:text-indigo-600 focus:outline-none transition-colors duration-200" i18n-title title="Select language">
+    <i class="ph ph-globe ph-l"></i>
+  </button>
+
+  <div 
+    *ngIf="isDropdownOpen" 
+    class="absolute right-0 mt-2 w-40 bg-white rounded-md shadow-lg z-20"
+  >
+    <div class="py-1">
+      <a href="/" class="block w-full text-left px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-indigo-600" (click)="closeDropdown()">
+        🇬🇧 English
+      </a>
+      <a href="/pt" class="block w-full text-left px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-indigo-600" (click)="closeDropdown()">
+        🇧🇷 Português
+      </a>
+    </div>
+  </div>
+</div>
+
+<!-- Inline for Mobile -->
+<div *ngIf="displayMode === 'inline'" class="w-full text-center py-2">
+  <div class="flex justify-center items-center space-x-4">
+    <a href="/" class="text-base font-medium text-gray-700 hover:text-indigo-600">English</a>
+    <span class="text-gray-300">|</span>
+    <a href="/pt" class="text-base font-medium text-gray-700 hover:text-indigo-600">Português</a>
+  </div>
+</div>
