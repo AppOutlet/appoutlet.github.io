@@ -6,17 +6,49 @@ updates:
       interval: "weekly"
       day: "monday"
       time: "09:00"
+      timezone: "Etc/UTC"
     open-pull-requests-limit: 10
+    labels:
+      - "dependencies"
+      - "javascript"
     commit-message:
       prefix: "deps"
       prefix-development: "deps-dev"
       include: "scope"
+    ignore:
+      - dependency-name: "@types/node"
+        # Pin Node types to runtime major version; avoid automatic bumps.
+    groups:
+      angular:
+        patterns:
+          - "@angular*"
+      tooling:
+        patterns:
+          - "typescript"
+          - "prettier"
+          - "eslint*"
+      rxjs-and-zone:
+        patterns:
+          - "rxjs"
+          - "zone.js"
+      minor-and-patch-deps:
+        update-types:
+          - "minor"
+          - "patch"
 
-  # Enable version updates for GitHub Actions
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
       interval: "weekly"
       day: "monday"
       time: "09:00"
+      timezone: "Etc/UTC"
     open-pull-requests-limit: 5
+    labels:
+      - "ci"
+      - "dependencies"
+    groups:
+      actions-minor-patch:
+        update-types:
+          - "minor"
+          - "patch"
