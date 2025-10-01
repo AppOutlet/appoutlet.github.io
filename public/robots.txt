@@ -1,0 +1,11 @@
+# robots.txt for https://appoutlet.dev/
+# Allow all crawlers; disallow nothing currently.
+User-agent: *
+Allow: /
+
+# Crawl-delay can be set per bot if rate limiting becomes necessary.
+# Example:
+# User-agent: bingbot
+# Crawl-delay: 5
+
+Sitemap: https://appoutlet.dev/sitemap.xml

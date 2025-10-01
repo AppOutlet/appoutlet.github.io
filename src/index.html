@@ -35,6 +35,137 @@
   <link rel="alternate" hreflang="en" href="https://appoutlet.dev/" />
   <link rel="alternate" hreflang="pt" href="https://appoutlet.dev/pt/" />
   <link rel="alternate" hreflang="x-default" href="https://appoutlet.dev/" />
+
+  <!-- Structured Data: Organization -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "@id": "https://appoutlet.dev/#organization",
+    "name": "AppOutlet",
+    "url": "https://appoutlet.dev/",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://appoutlet.dev/logo-transparent.png"
+    },
+    "image": "https://appoutlet.dev/banner.png",
+    "description": "Your Big Idea made Real",
+    "sameAs": [
+      "https://www.linkedin.com/company/appoutlet/",
+      "https://x.com/AppOutletTeam",
+      "https://mastodon.social/@AppOutlet",
+      "https://www.threads.com/@app.outlet",
+      "https://www.instagram.com/app.outlet/",
+      "https://github.com/appoutlet"
+    ]
+  }
+  </script>
+  <!-- Structured Data: WebSite -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "@id": "https://appoutlet.dev/#website",
+    "url": "https://appoutlet.dev/",
+    "name": "AppOutlet",
+    "publisher": {"@id": "https://appoutlet.dev/#organization"},
+    "inLanguage": "en"
+  }
+  </script>
+  <!-- Structured Data: Services ItemList -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "@id": "https://appoutlet.dev/#services",
+    "name": "AppOutlet Services",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@type": "Service",
+          "@id": "https://appoutlet.dev/#service-app-development",
+          "name": "App Development",
+          "provider": {"@id": "https://appoutlet.dev/#organization"},
+          "description": "We build high-performance mobile and desktop applications that work seamlessly across all devices, delivering fast, reliable, and future-proof solutions.",
+          "areaServed": "Worldwide",
+          "serviceType": "Custom Application Development"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "item": {
+          "@type": "Service",
+          "@id": "https://appoutlet.dev/#service-ui-ux-design",
+          "name": "UI/UX Design",
+          "provider": {"@id": "https://appoutlet.dev/#organization"},
+          "description": "We create beautiful, modern, and intuitive user interfaces that your customers will love, focusing on accessibility and a consistent cross-platform experience.",
+          "areaServed": "Worldwide",
+          "serviceType": "UI and UX Design"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "item": {
+          "@type": "Service",
+          "@id": "https://appoutlet.dev/#service-marketing-for-app-stores",
+          "name": "Marketing for App Stores",
+          "provider": {"@id": "https://appoutlet.dev/#organization"},
+          "description": "We design store-ready assets to boost your app's visibility and conversions, including custom screenshots and a compelling presentation of your features.",
+          "areaServed": "Worldwide",
+          "serviceType": "App Store Marketing Assets"
+        }
+      }
+    ]
+  }
+  </script>
+  <!-- Structured Data: SoftwareApplication (Portfolio) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "@id": "https://appoutlet.dev/#app-discorkie",
+        "name": "DisCorkie",
+        "alternateName": "DisCorkie Forum Client",
+        "operatingSystem": "Android, iOS, Windows, macOS, Linux",
+        "applicationCategory": "CommunicationApplication",
+        "description": "Your all-in-one client for managing multiple Discourse forums. Seamless access and real-time updates across Android, iOS, and desktop.",
+        "url": "https://discorkie.appoutlet.dev/",
+        "image": [
+          "https://appoutlet.dev/component/our-apps/discorkie-screenshot.avif",
+          "https://appoutlet.dev/component/our-apps/discorkie-icon.avif"
+        ],
+        "publisher": {"@id": "https://appoutlet.dev/#organization"},
+        "creator": {"@id": "https://appoutlet.dev/#organization"},
+        "isAccessibleForFree": true,
+        "inLanguage": "en"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "@id": "https://appoutlet.dev/#app-gameoutlet",
+        "name": "GameOutlet",
+        "alternateName": "GameOutlet Deals Aggregator",
+        "operatingSystem": "Windows, macOS, Linux",
+        "applicationCategory": "GameApplication",
+        "description": "Find the best prices on PC games. Aggregates deals from popular stores with wishlist and cross-platform availability.",
+        "url": "https://github.com/AppOutlet/GameOutlet#readme",
+        "image": [
+          "https://appoutlet.dev/component/our-apps/gameoutlet-screenshot.avif",
+          "https://appoutlet.dev/component/our-apps/gameoutlet-icon.avif"
+        ],
+        "publisher": {"@id": "https://appoutlet.dev/#organization"},
+        "creator": {"@id": "https://appoutlet.dev/#organization"},
+        "isAccessibleForFree": true,
+        "inLanguage": "en"
+      }
+    ]
+  }
+  </script>
 </head>
 <body>
   <app-root></app-root>
