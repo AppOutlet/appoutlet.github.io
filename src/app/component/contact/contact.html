@@ -1,68 +1,66 @@
-<section id="contact" class="py-24 bg-gradient-to-br from-gray-900 to-indigo-900 text-white">
+<section id="contact" class="py-24 bg-gray-50 overflow-hidden">
   <div class="container mx-auto px-4">
-    <!-- Glassmorphism Card -->
-    <div
-      class="max-w-4xl mx-auto bg-black/20 backdrop-blur-sm border border-white/10 rounded-2xl shadow-xl text-center p-8 md:p-16">
+    <div class="relative max-w-4xl mx-auto">
+      
+      <!-- Decorative background shapes -->
+      <div class="absolute -top-16 -left-16 w-72 h-72 bg-indigo-100 rounded-full opacity-50 blur-3xl -z-0" aria-hidden="true"></div>
+      <div class="absolute -bottom-16 -right-16 w-72 h-72 bg-purple-100 rounded-full opacity-50 blur-3xl -z-0" aria-hidden="true"></div>
 
-      <!-- Heading -->
-      <h2 class="text-4xl md:text-5xl font-extrabold mb-6 leading-tight text-white" i18n>
-        Let's Build Your Next Big Idea
-      </h2>
+      <!-- Contact Card -->
+      <div class="relative bg-white/70 backdrop-blur-xl rounded-3xl shadow-lg border border-gray-200/80 p-8 md:p-16 text-center">
+        
+        <!-- Heading -->
+        <h2 class="text-4xl md:text-5xl font-extrabold mb-4 bg-gradient-to-r from-indigo-600 to-purple-600 text-transparent bg-clip-text pb-2" i18n>
+          Let's Build Your Next Big Idea
+        </h2>
 
-      <!-- Subheading -->
-      <p class="text-lg md:text-xl text-indigo-50 max-w-3xl mx-auto mb-12" i18n>
-        Have a project in mind? Our team is ready to partner with you to create something modern, elegant, and focused
-        on providing an exceptional user experience.
-      </p>
+        <!-- Subheading -->
+        <p class="text-lg md:text-xl text-gray-600 max-w-2xl mx-auto mb-10" i18n>
+          Have a project in mind? Our team is ready to partner with you to create something modern, elegant, and focused on providing an exceptional user experience.
+        </p>
 
-      <!-- Email CTA Button -->
-      <div class="mb-4">
-        <a href="mailto:contact@appoutlet.dev"
-          class="inline-flex items-center bg-indigo-600 text-white font-semibold py-4 px-10 rounded-xl shadow-lg hover:bg-indigo-700 hover:shadow-xl transform hover:-translate-y-1 transition duration-300 ease-in-out focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 focus:ring-offset-gray-900 text-lg">
-          <i class="ph ph-paper-plane-tilt ph-l pr-4"></i>
-          <span i18n>Get in Touch</span>
-        </a>
-      </div>
-
-      <!-- Direct Email -->
-      <div class="mb-12">
-        <a href="mailto:contact@appoutlet.dev"
-          class="text-lg text-indigo-50 hover:text-white font-medium transition-colors">contact@appoutlet.dev</a>
-      </div>
-
-
-      <!-- Social Media Links -->
-      <div>
-        <p class="text-md text-indigo-50 mb-6" i18n>Or find us on social media:</p>
-        <div class="flex justify-center items-center space-x-4 md:space-x-6">
-          <a href="https://www.linkedin.com/company/appoutlet/" target="_blank" rel="noopener noreferrer"
-            class="w-14 h-14 flex items-center justify-center rounded-full bg-white/5 border border-white/10 text-indigo-50 hover:bg-white/10 hover:border-white/20 hover:text-white transition-all duration-300"
-            i18n-title title="LinkedIn">
-            <i class="ph-fill ph-linkedin-logo text-3xl"></i>
+        <!-- Email CTA Button -->
+        <div class="mb-8">
+          <a href="mailto:contact@appoutlet.dev"
+            class="inline-flex items-center bg-indigo-600 text-white font-semibold py-3 px-8 rounded-full shadow-lg hover:bg-indigo-700 transform hover:-translate-y-0.5 transition-all duration-300 ease-in-out focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 text-lg">
+            <i class="ph ph-paper-plane-tilt ph-m pr-3"></i>
+            <span i18n>Get in Touch</span>
           </a>
-          <a href="https://x.com/AppOutletTeam" target="_blank" rel="noopener noreferrer"
-            class="w-14 h-14 flex items-center justify-center rounded-full bg-white/5 border border-white/10 text-indigo-50 hover:bg-white/10 hover:border-white/20 hover:text-white transition-all duration-300"
-            i18n-title title="X (Twitter)">
-            <i class="ph-fill ph-x-logo text-3xl"></i>
-          </a>
-          <a href="https://mastodon.social/@AppOutlet" target="_blank" rel="noopener noreferrer"
-            class="w-14 h-14 flex items-center justify-center rounded-full bg-white/5 border border-white/10 text-indigo-50 hover:bg-white/10 hover:border-white/20 hover:text-white transition-all duration-300"
-            i18n-title title="Mastodon">
-            <i class="ph-fill ph-mastodon-logo text-3xl"></i>
-          </a>
-          <a href="https://www.threads.com/@app.outlet" target="_blank" rel="noopener noreferrer"
-            class="w-14 h-14 flex items-center justify-center rounded-full bg-white/5 border border-white/10 text-indigo-50 hover:bg-white/10 hover:border-white/20 hover:text-white transition-all duration-300"
-            i18n-title title="Threads">
-            <i class="ph-fill ph-threads-logo text-3xl"></i>
-          </a>
-          <a href="https://www.instagram.com/app.outlet/" target="_blank" rel="noopener noreferrer"
-            class="w-14 h-14 flex items-center justify-center rounded-full bg-white/5 border border-white/10 text-indigo-50 hover:bg-white/10 hover:border-white/20 hover:text-white transition-all duration-300"
-            i18n-title title="Instagram">
-            <i class="ph-fill ph-instagram-logo text-3xl"></i>
-          </a>
+          <p class="mt-4 text-gray-600">contact@appoutlet.dev</p>
+        </div>
+
+        <!-- Social Media Links -->
+        <div>
+          <p class="text-md text-gray-500 mb-6" i18n>Or find us on social media:</p>
+          <div class="flex justify-center items-center space-x-4">
+            <a href="https://www.linkedin.com/company/appoutlet/" target="_blank" rel="noopener noreferrer"
+              class="w-12 h-12 flex items-center justify-center rounded-full bg-gray-100 text-gray-600 hover:bg-indigo-100 hover:text-indigo-600 transition-all duration-300"
+              i18n-title title="LinkedIn">
+              <i class="ph-fill ph-linkedin-logo text-2xl"></i>
+            </a>
+            <a href="https://x.com/AppOutletTeam" target="_blank" rel="noopener noreferrer"
+              class="w-12 h-12 flex items-center justify-center rounded-full bg-gray-100 text-gray-600 hover:bg-indigo-100 hover:text-indigo-600 transition-all duration-300"
+              i18n-title title="X (Twitter)">
+              <i class="ph-fill ph-x-logo text-2xl"></i>
+            </a>
+            <a href="https://mastodon.social/@AppOutlet" target="_blank" rel="noopener noreferrer"
+              class="w-12 h-12 flex items-center justify-center rounded-full bg-gray-100 text-gray-600 hover:bg-indigo-100 hover:text-indigo-600 transition-all duration-300"
+              i18n-title title="Mastodon">
+              <i class="ph-fill ph-mastodon-logo text-2xl"></i>
+            </a>
+            <a href="https://www.threads.com/@app.outlet" target="_blank" rel="noopener noreferrer"
+              class="w-12 h-12 flex items-center justify-center rounded-full bg-gray-100 text-gray-600 hover:bg-indigo-100 hover:text-indigo-600 transition-all duration-300"
+              i18n-title title="Threads">
+              <i class="ph-fill ph-threads-logo text-2xl"></i>
+            </a>
+            <a href="https://www.instagram.com/app.outlet/" target="_blank" rel="noopener noreferrer"
+              class="w-12 h-12 flex items-center justify-center rounded-full bg-gray-100 text-gray-600 hover:bg-indigo-100 hover:text-indigo-600 transition-all duration-300"
+              i18n-title title="Instagram">
+              <i class="ph-fill ph-instagram-logo text-2xl"></i>
+            </a>
+          </div>
         </div>
       </div>
-
     </div>
   </div>
 </section>

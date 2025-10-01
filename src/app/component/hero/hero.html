@@ -1,29 +1,33 @@
-<!-- Hero Section -->
-  <section class="bg-white py-24 relative overflow-hidden">
-    <div class="container mx-auto px-4 relative z-10 flex flex-col md:flex-row md:items-center md:justify-between">
+<section class="relative bg-gray-50 overflow-hidden">
+  <div class="container mx-auto px-4 py-24 md:py-32 relative z-10">
+    <div class="grid md:grid-cols-2 gap-12 items-center">
       <!-- Content Column -->
-      <div class="w-full md:w-3/5 text-center md:text-left mb-12 md:mb-0 md:pr-12">
-        <h1 class="text-5xl md:text-6xl font-bold mb-4 leading-tight bg-gradient-to-r from-indigo-700 to-purple-700 text-transparent bg-clip-text" i18n>
-          Your Big Idea, Made Real
+      <div class="text-center md:text-left">
+        <h1 class="text-4xl md:text-6xl font-extrabold text-gray-900 mb-6 leading-tight" i18n>
+          We Build Exceptional Apps for Your Business
         </h1>
-        <p class="text-xl md:text-2xl mb-8 max-w-3xl mx-auto md:mx-0 text-gray-700" i18n>
-          We handle all the technical details to build a beautiful, reliable app for your business, guiding you every step of the way
+        <p class="text-lg md:text-xl text-gray-600 mb-10 max-w-xl mx-auto md:mx-0" i18n>
+          From concept to launch, we are your dedicated partners in creating beautiful, reliable, and high-performance applications.
         </p>
-        <div class="flex flex-col sm:flex-row justify-center md:justify-start space-y-4 sm:space-y-0 sm:space-x-4">
-          <a href="#contact" class="inline-block bg-indigo-700 text-white font-semibold py-3 px-8 rounded-xl shadow-lg hover:bg-indigo-800 hover:shadow-xl transition duration-300 ease-in-out focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2" i18n>
-            Start your project 🚀
+        <div class="flex flex-col sm:flex-row justify-center md:justify-start gap-4">
+          <a href="#contact" class="inline-flex items-center justify-center bg-indigo-600 text-white font-semibold py-3 px-8 rounded-lg shadow-lg hover:bg-indigo-700 transform hover:-translate-y-0.5 transition-all duration-300 ease-in-out focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2" i18n>
+            Start Your Project <i class="ph ph-rocket-launch ph-m ml-2"></i>
           </a>
-          <a href="#portifolio" class="inline-block border-2 border-indigo-700 text-indigo-700 font-semibold py-3 px-8 rounded-xl shadow-md hover:bg-indigo-50 hover:text-indigo-800 hover:shadow-lg transition duration-300 ease-in-out focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2" i18n>
-            Know our Apps
+          <a href="#portfolio" class="inline-flex items-center justify-center border-2 border-gray-300 text-gray-700 font-semibold py-3 px-8 rounded-lg hover:bg-gray-100 hover:border-gray-400 transition-all duration-300 ease-in-out focus:outline-none focus:ring-2 focus:ring-gray-400 focus:ring-offset-2" i18n>
+            View Our Work
           </a>
         </div>
       </div>
 
       <!-- Illustration Column -->
-      <div class="w-full md:w-2/5 flex justify-center items-center">
-        <div class="relative">
-          <img src="component/hero/illustration.svg" i18n-alt alt="Multiplatform Apps Illustration" class="w-full max-w-lg h-auto object-contain">
+      <div class="flex justify-center items-center">
+        <div class="relative w-full max-w-lg">
+          <img src="component/hero/illustration.svg" i18n-alt alt="Multiplatform Apps Illustration" class="w-full h-auto object-contain relative z-10">
+          <!-- Decorative background shape -->
+          <div class="absolute -top-8 -right-8 w-72 h-72 bg-indigo-100 rounded-full opacity-50 blur-2xl"></div>
+          <div class="absolute -bottom-8 -left-8 w-72 h-72 bg-purple-100 rounded-full opacity-50 blur-2xl"></div>
         </div>
       </div>
     </div>
-  </section>
+  </div>
+</section>

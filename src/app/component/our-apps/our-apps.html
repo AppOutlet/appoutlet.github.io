@@ -1,35 +1,38 @@
-<section id="portifolio" class="py-20 bg-gray-50">
+<section id="portfolio" class="py-24 bg-gray-50">
   <div class="container mx-auto px-4">
-    <h2
-      class="text-4xl md:text-5xl font-bold text-center mb-20 bg-gradient-to-r from-indigo-600 to-purple-600 text-transparent bg-clip-text pt-10"
-      i18n>
-      Our Portfolio
-    </h2>
+    <div class="text-center max-w-3xl mx-auto mb-16">
+      <h2 class="text-4xl md:text-5xl font-extrabold mb-4 bg-gradient-to-r from-indigo-600 to-purple-600 text-transparent bg-clip-text" i18n>
+        Our Portfolio
+      </h2>
+      <p class="text-lg text-gray-600" i18n>
+        We take pride in our work. Here are a couple of projects we've built that showcase our commitment to quality and user-centric design.
+      </p>
+    </div>
 
-    <div class="space-y-24">
+    <div class="space-y-20">
       <!-- Project 1: DisCorkie -->
-      <div class="flex flex-col md:flex-row items-center gap-12">
-        <div class="md:w-1/2 transform transition-transform duration-500 hover:scale-105">
+      <div class="grid md:grid-cols-2 gap-12 items-center">
+        <div class="transform transition-transform duration-500 hover:scale-105">
           <img src="component/our-apps/discorkie-screenshot.avif" i18n-alt alt="DisCorkie App Screenshot"
             class="w-full h-auto object-cover">
         </div>
-        <div class="md:w-1/2">
-          <div class="flex flex-col items-center text-center md:flex-row md:items-center md:text-left gap-6 mb-4">
+        <div>
+          <div class="flex flex-col items-center text-center md:flex-row md:items-start md:text-left gap-6 mb-4">
             <img src="component/our-apps/discorkie-icon.avif" i18n-alt alt="DisCorkie App Icon"
               class="w-20 h-20 flex-shrink-0">
             <div>
-              <h3 class="text-4xl font-bold text-gray-900 mb-1" i18n>DisCorkie</h3>
-              <p class="text-xl font-semibold text-indigo-600" i18n>Navigate on your Discourse forums</p>
+              <h3 class="text-3xl font-bold text-gray-900 mb-1" i18n>DisCorkie</h3>
+              <p class="text-lg font-semibold text-indigo-600" i18n>Navigate on your Discourse forums</p>
             </div>
           </div>
-          <p class="text-lg text-gray-700 leading-relaxed mb-6 text-center md:text-left" i18n>
+          <p class="text-gray-700 leading-relaxed mb-6 text-center md:text-left" i18n>
             Your all-in-one client for managing multiple Discourse forums. Enjoy seamless access and real-time updates
             across Android, iOS, and desktop, keeping all your communities connected in one beautifully designed,
             cross-platform app.
           </p>
           <div class="text-center md:text-left">
             <a href="https://discorkie.appoutlet.dev/" target="_blank"
-              class="inline-flex items-center gap-2 bg-gradient-to-r from-indigo-600 to-purple-600 text-white font-semibold py-3 px-6 rounded-lg shadow-md hover:from-indigo-700 hover:to-purple-700 transition duration-300"
+              class="inline-flex items-center gap-2 bg-indigo-600 text-white font-semibold py-3 px-6 rounded-lg shadow-md hover:bg-indigo-700 transition duration-300"
               i18n>
               Visit Website
               <i class="ph ph-globe-simple ph-m"></i>
@@ -39,28 +42,28 @@
       </div>
 
       <!-- Project 2: GameOutlet -->
-      <div class="flex flex-col md:flex-row-reverse items-center gap-12">
-        <div class="md:w-1/2 transform transition-transform duration-500 hover:scale-105">
+      <div class="grid md:grid-cols-2 gap-12 items-center">
+        <div class="md:order-last transform transition-transform duration-500 hover:scale-105">
           <img src="component/our-apps/gameoutlet-screenshot.avif" i18n-alt alt="GameOutlet App Screenshot"
             class="w-full h-auto object-cover">
         </div>
-        <div class="md:w-1/2">
-          <div class="flex flex-col items-center text-center md:flex-row md:items-center md:text-left gap-6 mb-4">
+        <div>
+          <div class="flex flex-col items-center text-center md:flex-row md:items-start md:text-left gap-6 mb-4">
             <img src="component/our-apps/gameoutlet-icon.avif" i18n-alt alt="GameOutlet App Icon"
               class="w-20 h-20 flex-shrink-0">
             <div>
-              <h3 class="text-4xl font-bold text-gray-900 mb-1" i18n>GameOutlet</h3>
-              <p class="text-xl font-semibold text-indigo-600" i18n>Find the best prices on PC games</p>
+              <h3 class="text-3xl font-bold text-gray-900 mb-1" i18n>GameOutlet</h3>
+              <p class="text-lg font-semibold text-indigo-600" i18n>Find the best prices on PC games</p>
             </div>
           </div>
-          <p class="text-lg text-gray-700 leading-relaxed mb-6 text-center md:text-left" i18n>
+          <p class="text-gray-700 leading-relaxed mb-6 text-center md:text-left" i18n>
             Find the best prices on PC games with ease. This open-source app aggregates deals from popular online
             stores, featuring the latest discounts and a handy wishlist. Discover cross-platform availability for
             Windows, Linux, and macOS.
           </p>
           <div class="text-center md:text-left">
             <a href="https://github.com/AppOutlet/GameOutlet#readme" target="_blank" 
-              class="inline-flex items-center gap-2 bg-gradient-to-r from-indigo-600 to-purple-600 text-white font-semibold py-3 px-6 rounded-lg shadow-md hover:from-indigo-700 hover:to-purple-700 transition duration-300"
+              class="inline-flex items-center gap-2 bg-indigo-600 text-white font-semibold py-3 px-6 rounded-lg shadow-md hover:bg-indigo-700 transition duration-300"
               i18n>
               Visit GitHub
               <i class="ph ph-github-logo ph-m"></i>
