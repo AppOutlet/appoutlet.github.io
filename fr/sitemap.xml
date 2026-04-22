@@ -16,4 +16,36 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://appoutlet.dev/ja/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://appoutlet.dev/"/>
   </url>
+  <url>
+    <loc>https://appoutlet.dev/services</loc>
+    <lastmod>2026-04-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://appoutlet.dev/services"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://appoutlet.dev/pt/services"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://appoutlet.dev/es/services"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://appoutlet.dev/de/services"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://appoutlet.dev/zh/services"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://appoutlet.dev/fr/services"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://appoutlet.dev/it/services"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://appoutlet.dev/ru/services"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://appoutlet.dev/ja/services"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://appoutlet.dev/services"/>
+  </url>
+  <url>
+    <loc>https://appoutlet.dev/about</loc>
+    <lastmod>2026-04-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://appoutlet.dev/about"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://appoutlet.dev/pt/about"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://appoutlet.dev/es/about"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://appoutlet.dev/de/about"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://appoutlet.dev/zh/about"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://appoutlet.dev/fr/about"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://appoutlet.dev/it/about"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://appoutlet.dev/ru/about"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://appoutlet.dev/ja/about"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://appoutlet.dev/about"/>
+  </url>
 </urlset>
