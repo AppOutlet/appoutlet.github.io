@@ -50,7 +50,7 @@
   </url>
   <url>
     <loc>https://appoutlet.dev/services/app-development</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://appoutlet.dev/services/app-development"/>
@@ -63,5 +63,21 @@
     <xhtml:link rel="alternate" hreflang="ru" href="https://appoutlet.dev/ru/services/app-development"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://appoutlet.dev/ja/services/app-development"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://appoutlet.dev/services/app-development"/>
+  </url>
+  <url>
+    <loc>https://appoutlet.dev/services/ui-ux-design</loc>
+    <lastmod>2026-04-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://appoutlet.dev/services/ui-ux-design"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://appoutlet.dev/pt/services/ui-ux-design"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://appoutlet.dev/es/services/ui-ux-design"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://appoutlet.dev/de/services/ui-ux-design"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://appoutlet.dev/zh/services/ui-ux-design"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://appoutlet.dev/fr/services/ui-ux-design"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://appoutlet.dev/it/services/ui-ux-design"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://appoutlet.dev/ru/services/ui-ux-design"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://appoutlet.dev/ja/services/ui-ux-design"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://appoutlet.dev/services/ui-ux-design"/>
   </url>
 </urlset>
