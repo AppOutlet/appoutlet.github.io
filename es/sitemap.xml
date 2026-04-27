@@ -1,83 +1,129 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  <url>
-    <loc>https://appoutlet.dev/</loc>
-    <lastmod>2026-01-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>1.0</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://appoutlet.dev/"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://appoutlet.dev/pt/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://appoutlet.dev/es/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://appoutlet.dev/de/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://appoutlet.dev/zh/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://appoutlet.dev/fr/"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://appoutlet.dev/it/"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://appoutlet.dev/ru/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://appoutlet.dev/ja/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://appoutlet.dev/"/>
-  </url>
-  <url>
-    <loc>https://appoutlet.dev/services</loc>
-    <lastmod>2026-04-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://appoutlet.dev/services"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://appoutlet.dev/pt/services"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://appoutlet.dev/es/services"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://appoutlet.dev/de/services"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://appoutlet.dev/zh/services"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://appoutlet.dev/fr/services"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://appoutlet.dev/it/services"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://appoutlet.dev/ru/services"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://appoutlet.dev/ja/services"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://appoutlet.dev/services"/>
-  </url>
-  <url>
-    <loc>https://appoutlet.dev/about</loc>
-    <lastmod>2026-04-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://appoutlet.dev/about"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://appoutlet.dev/pt/about"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://appoutlet.dev/es/about"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://appoutlet.dev/de/about"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://appoutlet.dev/zh/about"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://appoutlet.dev/fr/about"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://appoutlet.dev/it/about"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://appoutlet.dev/ru/about"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://appoutlet.dev/ja/about"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://appoutlet.dev/about"/>
-  </url>
-  <url>
-    <loc>https://appoutlet.dev/services/app-development</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://appoutlet.dev/services/app-development"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://appoutlet.dev/pt/services/app-development"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://appoutlet.dev/es/services/app-development"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://appoutlet.dev/de/services/app-development"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://appoutlet.dev/zh/services/app-development"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://appoutlet.dev/fr/services/app-development"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://appoutlet.dev/it/services/app-development"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://appoutlet.dev/ru/services/app-development"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://appoutlet.dev/ja/services/app-development"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://appoutlet.dev/services/app-development"/>
-  </url>
-  <url>
-    <loc>https://appoutlet.dev/services/ui-ux-design</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://appoutlet.dev/services/ui-ux-design"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://appoutlet.dev/pt/services/ui-ux-design"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://appoutlet.dev/es/services/ui-ux-design"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://appoutlet.dev/de/services/ui-ux-design"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://appoutlet.dev/zh/services/ui-ux-design"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://appoutlet.dev/fr/services/ui-ux-design"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://appoutlet.dev/it/services/ui-ux-design"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://appoutlet.dev/ru/services/ui-ux-design"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://appoutlet.dev/ja/services/ui-ux-design"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://appoutlet.dev/services/ui-ux-design"/>
-  </url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+    xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <url>
+        <loc>https://appoutlet.dev/</loc>
+        <lastmod>2026-01-09</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://appoutlet.dev/" />
+        <xhtml:link rel="alternate" hreflang="pt" href="https://appoutlet.dev/pt/" />
+        <xhtml:link rel="alternate" hreflang="es" href="https://appoutlet.dev/es/" />
+        <xhtml:link rel="alternate" hreflang="de" href="https://appoutlet.dev/de/" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://appoutlet.dev/zh/" />
+        <xhtml:link rel="alternate" hreflang="fr" href="https://appoutlet.dev/fr/" />
+        <xhtml:link rel="alternate" hreflang="it" href="https://appoutlet.dev/it/" />
+        <xhtml:link rel="alternate" hreflang="ru" href="https://appoutlet.dev/ru/" />
+        <xhtml:link rel="alternate" hreflang="ja" href="https://appoutlet.dev/ja/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://appoutlet.dev/" />
+    </url>
+    <url>
+        <loc>https://appoutlet.dev/services</loc>
+        <lastmod>2026-04-23</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://appoutlet.dev/services" />
+        <xhtml:link rel="alternate" hreflang="pt" href="https://appoutlet.dev/pt/services" />
+        <xhtml:link rel="alternate" hreflang="es" href="https://appoutlet.dev/es/services" />
+        <xhtml:link rel="alternate" hreflang="de" href="https://appoutlet.dev/de/services" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://appoutlet.dev/zh/services" />
+        <xhtml:link rel="alternate" hreflang="fr" href="https://appoutlet.dev/fr/services" />
+        <xhtml:link rel="alternate" hreflang="it" href="https://appoutlet.dev/it/services" />
+        <xhtml:link rel="alternate" hreflang="ru" href="https://appoutlet.dev/ru/services" />
+        <xhtml:link rel="alternate" hreflang="ja" href="https://appoutlet.dev/ja/services" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://appoutlet.dev/services" />
+    </url>
+    <url>
+        <loc>https://appoutlet.dev/about</loc>
+        <lastmod>2026-04-23</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://appoutlet.dev/about" />
+        <xhtml:link rel="alternate" hreflang="pt" href="https://appoutlet.dev/pt/about" />
+        <xhtml:link rel="alternate" hreflang="es" href="https://appoutlet.dev/es/about" />
+        <xhtml:link rel="alternate" hreflang="de" href="https://appoutlet.dev/de/about" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://appoutlet.dev/zh/about" />
+        <xhtml:link rel="alternate" hreflang="fr" href="https://appoutlet.dev/fr/about" />
+        <xhtml:link rel="alternate" hreflang="it" href="https://appoutlet.dev/it/about" />
+        <xhtml:link rel="alternate" hreflang="ru" href="https://appoutlet.dev/ru/about" />
+        <xhtml:link rel="alternate" hreflang="ja" href="https://appoutlet.dev/ja/about" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://appoutlet.dev/about" />
+    </url>
+    <url>
+        <loc>https://appoutlet.dev/services/app-development</loc>
+        <lastmod>2026-04-24</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="en"
+            href="https://appoutlet.dev/services/app-development" />
+        <xhtml:link rel="alternate" hreflang="pt"
+            href="https://appoutlet.dev/pt/services/app-development" />
+        <xhtml:link rel="alternate" hreflang="es"
+            href="https://appoutlet.dev/es/services/app-development" />
+        <xhtml:link rel="alternate" hreflang="de"
+            href="https://appoutlet.dev/de/services/app-development" />
+        <xhtml:link rel="alternate" hreflang="zh"
+            href="https://appoutlet.dev/zh/services/app-development" />
+        <xhtml:link rel="alternate" hreflang="fr"
+            href="https://appoutlet.dev/fr/services/app-development" />
+        <xhtml:link rel="alternate" hreflang="it"
+            href="https://appoutlet.dev/it/services/app-development" />
+        <xhtml:link rel="alternate" hreflang="ru"
+            href="https://appoutlet.dev/ru/services/app-development" />
+        <xhtml:link rel="alternate" hreflang="ja"
+            href="https://appoutlet.dev/ja/services/app-development" />
+        <xhtml:link rel="alternate" hreflang="x-default"
+            href="https://appoutlet.dev/services/app-development" />
+    </url>
+    <url>
+        <loc>https://appoutlet.dev/services/marketing-aso</loc>
+        <lastmod>2026-04-23</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="en"
+            href="https://appoutlet.dev/services/marketing-aso" />
+        <xhtml:link rel="alternate" hreflang="pt"
+            href="https://appoutlet.dev/pt/services/marketing-aso" />
+        <xhtml:link rel="alternate" hreflang="es"
+            href="https://appoutlet.dev/es/services/marketing-aso" />
+        <xhtml:link rel="alternate" hreflang="de"
+            href="https://appoutlet.dev/de/services/marketing-aso" />
+        <xhtml:link rel="alternate" hreflang="zh"
+            href="https://appoutlet.dev/zh/services/marketing-aso" />
+        <xhtml:link rel="alternate" hreflang="fr"
+            href="https://appoutlet.dev/fr/services/marketing-aso" />
+        <xhtml:link rel="alternate" hreflang="it"
+            href="https://appoutlet.dev/it/services/marketing-aso" />
+        <xhtml:link rel="alternate" hreflang="ru"
+            href="https://appoutlet.dev/ru/services/marketing-aso" />
+        <xhtml:link rel="alternate" hreflang="ja"
+            href="https://appoutlet.dev/ja/services/marketing-aso" />
+        <xhtml:link rel="alternate" hreflang="x-default"
+            href="https://appoutlet.dev/services/marketing-aso" />
+    </url>
+    <url>
+        <loc>https://appoutlet.dev/services/ui-ux-design</loc>
+        <lastmod>2026-04-24</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://appoutlet.dev/services/ui-ux-design" />
+        <xhtml:link rel="alternate" hreflang="pt"
+            href="https://appoutlet.dev/pt/services/ui-ux-design" />
+        <xhtml:link rel="alternate" hreflang="es"
+            href="https://appoutlet.dev/es/services/ui-ux-design" />
+        <xhtml:link rel="alternate" hreflang="de"
+            href="https://appoutlet.dev/de/services/ui-ux-design" />
+        <xhtml:link rel="alternate" hreflang="zh"
+            href="https://appoutlet.dev/zh/services/ui-ux-design" />
+        <xhtml:link rel="alternate" hreflang="fr"
+            href="https://appoutlet.dev/fr/services/ui-ux-design" />
+        <xhtml:link rel="alternate" hreflang="it"
+            href="https://appoutlet.dev/it/services/ui-ux-design" />
+        <xhtml:link rel="alternate" hreflang="ru"
+            href="https://appoutlet.dev/ru/services/ui-ux-design" />
+        <xhtml:link rel="alternate" hreflang="ja"
+            href="https://appoutlet.dev/ja/services/ui-ux-design" />
+        <xhtml:link rel="alternate" hreflang="x-default"
+            href="https://appoutlet.dev/services/ui-ux-design" />
+    </url>
 </urlset>
