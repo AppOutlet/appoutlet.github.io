@@ -127,6 +127,32 @@
             href="https://appoutlet.dev/services/ui-ux-design" />
     </url>
     <url>
+        <loc>https://appoutlet.dev/services/usability-testing</loc>
+        <lastmod>2026-04-28</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="en"
+            href="https://appoutlet.dev/services/usability-testing" />
+        <xhtml:link rel="alternate" hreflang="pt"
+            href="https://appoutlet.dev/pt/services/usability-testing" />
+        <xhtml:link rel="alternate" hreflang="es"
+            href="https://appoutlet.dev/es/services/usability-testing" />
+        <xhtml:link rel="alternate" hreflang="de"
+            href="https://appoutlet.dev/de/services/usability-testing" />
+        <xhtml:link rel="alternate" hreflang="zh"
+            href="https://appoutlet.dev/zh/services/usability-testing" />
+        <xhtml:link rel="alternate" hreflang="fr"
+            href="https://appoutlet.dev/fr/services/usability-testing" />
+        <xhtml:link rel="alternate" hreflang="it"
+            href="https://appoutlet.dev/it/services/usability-testing" />
+        <xhtml:link rel="alternate" hreflang="ru"
+            href="https://appoutlet.dev/ru/services/usability-testing" />
+        <xhtml:link rel="alternate" hreflang="ja"
+            href="https://appoutlet.dev/ja/services/usability-testing" />
+        <xhtml:link rel="alternate" hreflang="x-default"
+            href="https://appoutlet.dev/services/usability-testing" />
+    </url>
+    <url>
         <loc>https://appoutlet.dev/services/social-media-advertising</loc>
         <lastmod>2026-04-23</lastmod>
         <changefreq>monthly</changefreq>
