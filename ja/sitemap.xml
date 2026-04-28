@@ -178,4 +178,30 @@
         <xhtml:link rel="alternate" hreflang="x-default"
             href="https://appoutlet.dev/services/social-media-advertising" />
     </url>
+    <url>
+        <loc>https://appoutlet.dev/services/web-design</loc>
+        <lastmod>2026-04-28</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="en"
+            href="https://appoutlet.dev/services/web-design" />
+        <xhtml:link rel="alternate" hreflang="pt"
+            href="https://appoutlet.dev/pt/services/web-design" />
+        <xhtml:link rel="alternate" hreflang="es"
+            href="https://appoutlet.dev/es/services/web-design" />
+        <xhtml:link rel="alternate" hreflang="de"
+            href="https://appoutlet.dev/de/services/web-design" />
+        <xhtml:link rel="alternate" hreflang="zh"
+            href="https://appoutlet.dev/zh/services/web-design" />
+        <xhtml:link rel="alternate" hreflang="fr"
+            href="https://appoutlet.dev/fr/services/web-design" />
+        <xhtml:link rel="alternate" hreflang="it"
+            href="https://appoutlet.dev/it/services/web-design" />
+        <xhtml:link rel="alternate" hreflang="ru"
+            href="https://appoutlet.dev/ru/services/web-design" />
+        <xhtml:link rel="alternate" hreflang="ja"
+            href="https://appoutlet.dev/ja/services/web-design" />
+        <xhtml:link rel="alternate" hreflang="x-default"
+            href="https://appoutlet.dev/services/web-design" />
+    </url>
 </urlset>
