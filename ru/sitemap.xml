@@ -50,6 +50,22 @@
         <xhtml:link rel="alternate" hreflang="x-default" href="https://appoutlet.dev/about" />
     </url>
     <url>
+        <loc>https://appoutlet.dev/projects</loc>
+        <lastmod>2026-06-29</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://appoutlet.dev/projects" />
+        <xhtml:link rel="alternate" hreflang="pt" href="https://appoutlet.dev/pt/projects" />
+        <xhtml:link rel="alternate" hreflang="es" href="https://appoutlet.dev/es/projects" />
+        <xhtml:link rel="alternate" hreflang="de" href="https://appoutlet.dev/de/projects" />
+        <xhtml:link rel="alternate" hreflang="zh" href="https://appoutlet.dev/zh/projects" />
+        <xhtml:link rel="alternate" hreflang="fr" href="https://appoutlet.dev/fr/projects" />
+        <xhtml:link rel="alternate" hreflang="it" href="https://appoutlet.dev/it/projects" />
+        <xhtml:link rel="alternate" hreflang="ru" href="https://appoutlet.dev/ru/projects" />
+        <xhtml:link rel="alternate" hreflang="ja" href="https://appoutlet.dev/ja/projects" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://appoutlet.dev/projects" />
+    </url>
+    <url>
         <loc>https://appoutlet.dev/services/app-development</loc>
         <lastmod>2026-04-24</lastmod>
         <changefreq>monthly</changefreq>
